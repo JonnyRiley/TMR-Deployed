@@ -10,7 +10,7 @@ const Nav = () => {
       <Link to="/menu">
         <button className="navButton">Menu</button>
       </Link>
-      <Link to="/gallery">
+      <Link to="/offers">
         <button className="navButton">Offers</button>
       </Link>
       <Link to="/products">

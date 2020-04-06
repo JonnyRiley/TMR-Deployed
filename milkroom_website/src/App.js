@@ -8,6 +8,8 @@ import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import { Router } from "@reach/router";
 import Menu from "./Components/Menu";
+import Offers from "./Components/Offers";
+import Products from "./Components/Products";
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
         <Router>
           <Slideshow path="/" />
           <Menu path="/menu" />
+          <Offers path="/offers" />
+          <Products path="/products" />
         </Router>
       </main>
     );

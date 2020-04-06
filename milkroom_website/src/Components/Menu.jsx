@@ -18,7 +18,7 @@ const properties = {
   }
 };
 
-const Slideshow = () => {
+const Menu = () => {
   return (
     <div className="slide-container">
       <Slide {...properties}>
@@ -49,4 +49,4 @@ const Slideshow = () => {
   );
 };
 
-export default Slideshow;
+export default Menu;
