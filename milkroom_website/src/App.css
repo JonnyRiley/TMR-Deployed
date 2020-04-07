@@ -5,7 +5,7 @@
 .slide-container {
   width: 900px;
   margin: auto;
-  height: 600px;
+  height: 630px;
   background-color: white;
 }
 
@@ -21,7 +21,7 @@ h3 {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 600px;
+  height: 630px;
   width: 900px;
 }
 
@@ -43,7 +43,7 @@ h3 {
 
 .each-fade .image-container img {
   width: 900px;
-  height: 500px;
+  height: 630px;
 }
 
 .each-fade h2 {

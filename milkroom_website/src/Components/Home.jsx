@@ -4,7 +4,7 @@ import slide1 from "../Components/images/IMG_1604.jpg";
 import slide2 from "../Components/images/IMG_4339.jpg";
 import slide3 from "../Components/images/IMG_55852.jpg";
 
-const slideImages = [slide1, slide2, slide3];
+const slideImages = [slide2, slide3, slide1];
 
 const properties = {
   duration: 5000,
@@ -18,7 +18,7 @@ const properties = {
   }
 };
 
-const Slideshow = () => {
+const Home = () => {
   return (
     <div className="slide-container">
       <Slide {...properties}>
@@ -49,4 +49,4 @@ const Slideshow = () => {
   );
 };
 
-export default Slideshow;
+export default Home;

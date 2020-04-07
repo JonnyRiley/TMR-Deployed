@@ -17,18 +17,82 @@ const Offers = () => {
     <main>
       <h1 className="Title">Products</h1>
       <div className="div1">
-        <img className="homeAlone" src={one} alt="HomeAloneOffer"></img>
-        <img className="shakeItUp" src={two} alt="ShakeItUpOffer"></img>
-        <img className="waffleWed" src={three} alt="WaffleWednesdayOffer"></img>
-        <img className="desserts" src={four} alt="DessertsOffer"></img>
-        <img className="homeAlone" src={five} alt="DessertsOffer"></img>
-        <img className="shakeItUp" src={six} alt="DessertsOffer"></img>
-        <img className="waffleWed" src={seven} alt="DessertsOffer"></img>
-        <img className="desserts" src={eight} alt="DessertsOffer"></img>
-        <img className="homeAlone" src={nine} alt="DessertsOffer"></img>
-        <img className="shakeItUp" src={ten} alt="DessertsOffer"></img>
-        <img className="waffleWed" src={eleven} alt="DessertsOffer"></img>
-        <img className="desserts" src={twelve} alt="DessertsOffer"></img>
+        <div>
+          <img className="homeAlone" src={one} alt="HomeAloneOffer"></img>
+          <ul>
+            <li>Choccy Milkshake!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={two} alt="ShakeItUpOffer"></img>
+          <ul>
+            <li>Breakfast Waffle!</li>
+          </ul>
+        </div>
+        <div>
+          <img
+            className="homeAlone"
+            src={three}
+            alt="WaffleWednesdayOffer"
+          ></img>
+          <ul>
+            <li>MilkyBar Waffle</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={four} alt="DessertsOffer"></img>
+          <ul>
+            <li>Mini Eggs Cookie Skillet</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={five} alt="DessertsOffer"></img>
+          <ul>
+            <li>Choccy Fondue!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={six} alt="DessertsOffer"></img>
+          <ul>
+            <li>Chocolate and Oreo Brownie</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={seven} alt="DessertsOffer"></img>
+          <ul>
+            <li>Mini Doughnuts</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={eight} alt="DessertsOffer"></img>
+          <ul>
+            <li> Strawberry cookiedough</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={nine} alt="DessertsOffer"></img>
+          <ul>
+            <li>Selection of cookies and brownies</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={ten} alt="DessertsOffer"></img>
+          <ul>
+            <li>Ferror Roché milkshake</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={eleven} alt="DessertsOffer"></img>
+          <ul>
+            <li>Strawberry and Banana Pancakes</li>
+          </ul>
+        </div>
+        <div>
+          <img className="homeAlone" src={twelve} alt="DessertsOffer"></img>
+          <ul>
+            <li>Oreo Waffle</li>
+          </ul>
+        </div>
       </div>
     </main>
   );
