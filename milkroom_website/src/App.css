@@ -1,3 +1,5 @@
+/* RGB(209,160,120) */
+
 .mainApp {
   background-color: white;
 }
@@ -172,9 +174,17 @@ h3 {
   display: flex;
 }
 
-.homeAlone {
-  height: 400px;
+.offers {
+  height: 420px;
   width: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.homeAlone {
+  height: 700px;
+  width: 600px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -217,4 +227,115 @@ h3 {
   display: flex;
   width: 100%;
   flex-direction: row-reverse;
+}
+.deliveryImg {
+  height: 420px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 25%;
+  margin-left: 180px;
+}
+.PhoneImg {
+  height: 420px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 25%;
+  margin-right: 180px;
+  float: right;
+}
+.deliveryHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deliveryText {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutImg {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.aboutImg1 {
+  height: 474px;
+  /* 383 */
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.about {
+  display: flex;
+  justify-content: center;
+}
+.aboutUsText {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+}
+.aboutH2 {
+  display: flex;
+  justify-content: center;
+}
+.aboutH2Title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+.NewsletterForm {
+  display: flex;
+  justify-content: center;
+}
+
+.Form {
+  border: black;
+  border-style: double;
+  height: 120px;
+}
+.formOption {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.contactUsForm {
+  height: 290px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+.formSubmit {
+  justify-content: center;
+  width: 100px;
+  display: flex;
+  float: right;
+}
+.formComment {
+  width: 250px;
+  height: 60px;
+  text-align: top;
+  padding-bottom: 20px;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

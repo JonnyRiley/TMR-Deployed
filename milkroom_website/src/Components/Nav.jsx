@@ -22,6 +22,9 @@ const Nav = () => {
       <Link to="/about">
         <button className="navButton">About Us</button>
       </Link>
+      <Link to="/orders">
+        <button className="navButton">Orders</button>
+      </Link>
     </nav>
   );
 };

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-// import Nav from "./Components/Nav";
-// import * as Api from "./Api";
 import "./Components/Home";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
@@ -11,6 +9,9 @@ import Menu from "./Components/Menu";
 import Offers from "./Components/Offers";
 import Products from "./Components/Products";
 import About from "./Components/About";
+import Delivery from "./Components/Delivery";
+import NewsletterForm from "./Components/Newsletter";
+import Orders from "./Components/Orders";
 
 class App extends Component {
   render() {
@@ -24,7 +25,10 @@ class App extends Component {
           <Offers path="/offers" />
           <Products path="/products" />
           <About path="/about" />
+          <Delivery path="/delivery" />
+          <Orders path="/orders" />
         </Router>
+        <NewsletterForm />
       </main>
     );
   }
