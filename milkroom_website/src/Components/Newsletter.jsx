@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 //import validator from "validator";
+import { Link } from "@reach/router";
 
 const NewsletterForm = () => {
   return (
@@ -24,6 +25,9 @@ const NewsletterForm = () => {
         <SocialIcon url="http://twitter.com/themilkroom" />
         <SocialIcon url="http://instagram.com/themilkroom" />
       </div>
+      <Link to="/terms&conditions">
+        <button className="TC">Terms and Conditions</button>
+      </Link>
     </main>
   );
 };

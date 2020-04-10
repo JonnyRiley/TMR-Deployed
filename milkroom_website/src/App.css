@@ -339,3 +339,20 @@ h3 {
   justify-content: center;
   text-align: center;
 }
+.ordersForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.TC {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+}
+.TCPage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

@@ -12,6 +12,7 @@ import About from "./Components/About";
 import Delivery from "./Components/Delivery";
 import NewsletterForm from "./Components/Newsletter";
 import Orders from "./Components/Orders";
+import TC from "./Components/TC";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           <About path="/about" />
           <Delivery path="/delivery" />
           <Orders path="/orders" />
+          <TC path="/terms&conditions" />
         </Router>
         <NewsletterForm />
       </main>
