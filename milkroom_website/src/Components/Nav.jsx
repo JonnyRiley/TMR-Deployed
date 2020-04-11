@@ -5,25 +5,25 @@ const Nav = () => {
   return (
     <nav className="navBar">
       <Link to="/">
-        <button className="navButton">Home</button>
+        <button className="navButton">HOME</button>
       </Link>
       <Link to="/menu">
-        <button className="navButton">Menu</button>
+        <button className="navButton">MENU</button>
       </Link>
       <Link to="/offers">
-        <button className="navButton">Offers</button>
+        <button className="navButton">OFFERS</button>
       </Link>
       <Link to="/products">
-        <button className="navButton">Products</button>
+        <button className="navButton">PRODUCTS</button>
       </Link>
       <Link to="/delivery">
-        <button className="navButton">Delivery</button>
+        <button className="navButton">DELIVERY</button>
       </Link>
       <Link to="/about">
-        <button className="navButton">About Us</button>
+        <button className="navButton">ABOUT US</button>
       </Link>
       <Link to="/orders">
-        <button className="navButton">Orders</button>
+        <button className="navButton">ORDERS</button>
       </Link>
     </nav>
   );

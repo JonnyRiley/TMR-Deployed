@@ -11,7 +11,6 @@ class DessertAdder extends Component {
   render() {
     const { Amount, amountDifference, disabled } = this.state;
     const { handleClick } = this;
-    const { dessert } = this.props;
     // if (err) return <ErrorPage err={err} />;
     return (
       <main className="button_Amount">
@@ -24,19 +23,21 @@ class DessertAdder extends Component {
               handleClick(-1);
             }}
           >
-            -1
+            -
           </button>
           <p className="DesertName">Amount: {Amount + amountDifference}</p>
+
+          <button
+            className="button_Amount"
+            disabled={disabled}
+            onClick={(e) => {
+              e.preventDefault();
+              handleClick(1);
+            }}
+          >
+            +
+          </button>
         </div>
-        <button
-          disabled={disabled}
-          onClick={(e) => {
-            e.preventDefault();
-            handleClick(1);
-          }}
-        >
-          +1
-        </button>
       </main>
     );
   }
