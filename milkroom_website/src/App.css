@@ -356,3 +356,73 @@ h3 {
   justify-content: center;
   text-align: center;
 }
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.desertTiles {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row;
+  /* width: 100px; */
+}
+.DesertIcons {
+  height: 120px;
+  width: 120px;
+  grid-area: one;
+  justify-content: center;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 50%;
+  margin-top: 15px;
+  background-color: lightgray;
+}
+
+#DesertGrid {
+  display: grid;
+  grid-template-rows: 1.5fr 0.5fr 1fr;
+  grid-template-areas: "one" "two" "three";
+  width: 200px;
+  border: black;
+  border-width: thick;
+  border: black;
+  /* border-styl; */
+}
+#DesertGrid:hover .button_Amount {
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  grid-area: three;
+}
+.button_Amount {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  visibility: hidden;
+  grid-area: three;
+}
+.DesertName {
+  width: 150px;
+  margin-left: 50px;
+}
+.incDiv {
+  width: 172px;
+}
+.desertTitle {
+  grid-area: two;
+  justify-content: center;
+  display: flex;
+}

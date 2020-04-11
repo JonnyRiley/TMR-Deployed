@@ -28,6 +28,9 @@ const NewsletterForm = () => {
       <Link to="/terms&conditions">
         <button className="TC">Terms and Conditions</button>
       </Link>
+      <Link to="/cookies">
+        <button className="Cookies">Cookie Policy</button>
+      </Link>
     </main>
   );
 };

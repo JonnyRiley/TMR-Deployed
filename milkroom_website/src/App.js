@@ -13,6 +13,7 @@ import Delivery from "./Components/Delivery";
 import NewsletterForm from "./Components/Newsletter";
 import Orders from "./Components/Orders";
 import TC from "./Components/TC";
+import Cookie from "./Components/Cookies";
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
           <Delivery path="/delivery" />
           <Orders path="/orders" />
           <TC path="/terms&conditions" />
+          <Cookie path="/cookies" />
         </Router>
         <NewsletterForm />
       </main>
