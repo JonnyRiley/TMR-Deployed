@@ -25,7 +25,7 @@ class DessertAdder extends Component {
           >
             -
           </button>
-          <p className="DesertName">Amount: {Amount + amountDifference}</p>
+          <p className="DesertName">x{Amount + amountDifference}</p>
 
           <button
             className="button_Amount"

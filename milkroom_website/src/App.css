@@ -212,6 +212,7 @@ h3 {
 .Title {
   justify-content: center;
   display: flex;
+  font-family: "Poppins", sans-serif;
 }
 
 .offers {
@@ -356,11 +357,13 @@ h3 {
 .aboutH2 {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 .aboutH2Title {
   display: flex;
   justify-content: center;
   margin-top: 0%;
+  font-family: "Poppins", sans-serif;
 }
 .NewsletterForm {
   display: flex;
@@ -482,22 +485,36 @@ h3 {
   display: flex;
   flex-direction: row;
   height: 30px;
-  width: 45px;
+  width: 30px;
   grid-area: three;
   text-align: center;
+  color: white;
+  background-color: black;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
 }
 .button_Amount {
   display: flex;
   flex-direction: row;
   height: 30px;
-  width: 45px;
+  width: 30px;
   visibility: hidden;
   grid-area: three;
   text-align: center;
+  color: white;
+  background-color: black;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
 }
 .DesertName {
   width: 80px;
   margin-left: 15px;
+  margin-right: 15px;
+  font-size: large;
+  color: black;
+  text-decoration: solid;
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
 }
 .incDiv {
   display: flex;
@@ -508,4 +525,6 @@ h3 {
   grid-area: two;
   justify-content: center;
   display: flex;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }

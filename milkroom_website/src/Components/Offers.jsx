@@ -8,7 +8,7 @@ import { Link } from "@reach/router";
 const Offers = () => {
   return (
     <main>
-      <h1 className="Title">Offers</h1>
+      <h1 className="Title">OUR DAILY OFFERS</h1>
       <div className="divOne">
         <img className="homeAlone" src={homeAlone} alt="HomeAloneOffer"></img>
         <ul>
