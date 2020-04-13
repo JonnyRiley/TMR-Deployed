@@ -3,12 +3,15 @@ import React from "react";
 import GiftVoucher from "../Components/images/GiftVoucher.jpeg";
 
 export default () => (
-  <Popup trigger={<button className="button"> Gift Voucher </button>} modal>
+  <Popup
+    trigger={<button className="navButtonOffers"> Gift Voucher </button>}
+    modal
+  >
     {(close) => (
       <div className="modal">
-        <a className="close" onClick={close}>
+        <button className="close" onClick={close}>
           &times;
-        </a>
+        </button>
         <h1 className="header">Gift Voucher</h1>
         <p className="content">
           Looking for the perfect gift? We can help you out at themilkroom.

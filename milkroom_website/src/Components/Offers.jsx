@@ -1,6 +1,6 @@
 import React from "react";
-import homeAlone from "../Components/images/IMG_1111.JPG";
-import shakeItUp from "../Components/images/IMG_1112.JPG";
+import shakeItUp from "../Components/images/IMG_1111.JPG";
+import homeAlone from "../Components/images/IMG_1112.JPG";
 import waffleWed from "../Components/images/IMG_1114.JPG";
 import desserts from "../Components/images/Desserts.jpg";
 import { Link } from "@reach/router";
@@ -79,7 +79,7 @@ const Offers = () => {
           alt="WaffleWednesdayOffer"
         ></img>
         <ul>
-          <h2 className="offersH2">WAFFLE WEDNESDAY DEAL</h2>
+          <h2 className="offersH2">WAFFLE WEDNESDAY</h2>
           <li className="offersLi">
             - ANY ORIGINAL WAFFLE FOR £4.50 ALL DAY LONG<br></br>- You choose
             your favourite flavour!<br></br>- Available in store, collection or

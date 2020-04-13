@@ -1,15 +1,13 @@
 import React, { Component } from "react";
-// import image from "../Components/images/1.jpg"
-// import ErrorPage from "./ErrorPage";
 
 class DessertAdder extends Component {
   state = {
+    disabled: false,
     Amount: 0,
     amountDifference: 0,
-    disabled: false,
   };
   render() {
-    const { Amount, amountDifference, disabled } = this.state;
+    const { disabled, Amount, amountDifference } = this.state;
     const { handleClick } = this;
     // if (err) return <ErrorPage err={err} />;
     return (
@@ -41,9 +39,9 @@ class DessertAdder extends Component {
       </main>
     );
   }
-
   handleClick = (inc_Amount) => {
-    const { disabled } = this.state;
+    // const { disabled } = this.state;
+
     this.setState((currentState) => {
       return {
         amountDifference: currentState.amountDifference + inc_Amount,

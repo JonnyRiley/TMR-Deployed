@@ -1,11 +1,13 @@
 import React from "react";
 import logo from "../Components/images/milkroom-logo.jpg";
+import { Link } from "@reach/router";
 
 const Header = () => {
   return (
     <header className="Header">
-      {/* <h1 className="MainHeader">theMilkroom</h1> */}
-      <img className="logo" src={logo} alt="Milkroom_Logo"></img>
+      <Link to="/">
+        <img className="logo" src={logo} alt="Milkroom_Logo"></img>
+      </Link>
     </header>
   );
 };

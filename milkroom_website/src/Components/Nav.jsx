@@ -4,9 +4,6 @@ import { Link } from "@reach/router";
 const Nav = () => {
   return (
     <nav className="navBar">
-      <Link to="/">
-        <button className="navButton">HOME</button>
-      </Link>
       <Link to="/menu">
         <button className="navButton">MENU</button>
       </Link>
