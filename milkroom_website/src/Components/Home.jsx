@@ -3,6 +3,7 @@ import { Slide } from "react-slideshow-image";
 import slide1 from "../Components/images/IMG_1604.jpg";
 import slide2 from "../Components/images/IMG_4339.jpg";
 import slide3 from "../Components/images/IMG_55852.jpg";
+import Filler from "./Filler";
 
 const slideImages = [slide2, slide3, slide1];
 
@@ -47,6 +48,10 @@ const Home = () => {
           </div>
         </Slide>
       </div>
+      <a className="TitleHome" href="http://instagram.com/themilkroom">
+        @themilkroom
+      </a>
+      <Filler />
     </main>
   );
 };

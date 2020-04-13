@@ -2,7 +2,7 @@ import React from "react";
 import shakeItUp from "../Components/images/IMG_1111.JPG";
 import homeAlone from "../Components/images/IMG_1112.JPG";
 import waffleWed from "../Components/images/IMG_1114.JPG";
-import desserts from "../Components/images/Desserts.jpg";
+import freakshake from "../Components/images/FreakshakeOffer.JPG";
 import { Link } from "@reach/router";
 
 const Offers = () => {
@@ -45,7 +45,7 @@ const Offers = () => {
         <ul>
           <h2 className="offersH2">SHAKE IT UP</h2>
           <li className="offersLi">
-            - 4 LARGE SHAKES FOR THE PRICE OF 4 REGULAR SHAKES<br></br> Yours
+            - 4 LARGE SHAKES FOR THE PRICE OF 4 REGULAR SHAKES<br></br>
             for £12.00<br></br>
             You choose your favourite flavours!
           </li>
@@ -81,8 +81,8 @@ const Offers = () => {
         <ul>
           <h2 className="offersH2">WAFFLE WEDNESDAY</h2>
           <li className="offersLi">
-            - ANY ORIGINAL WAFFLE FOR £4.50 ALL DAY LONG<br></br>- You choose
-            your favourite flavour!<br></br>- Available in store, collection or
+            - ANY HOMEMADE WAFFLE FOR £4.50 ALL DAY LONG<br></br> You choose
+            your favourite flavour!<br></br> Available in store, collection or
             via delivery every Wednesday
           </li>
           .
@@ -110,10 +110,25 @@ const Offers = () => {
         </ul>
       </div>
       <div className="divTwo">
-        <img className="homeAlone" src={desserts} alt="DessertsOffer"></img>
+        <img className="homeAlone1" src={freakshake} alt="DessertsOffer"></img>
         <ul>
-          <h2>milkroom Desserts</h2>
-          <li>Delivery Only</li>
+          <h2 className="offersH2">FREEKSHAKE FRIDAY</h2>
+          <li className="offersLi">
+            - Any regular freakshake for £4.95<br></br>All day long<br></br>Get
+            that Friday Feeling
+          </li>
+          <br></br>
+          <div className="navOffersDiv">
+            <Link to="/menu">
+              <button className="navButtonOffers">MENU</button>
+            </Link>
+          </div>
+          <li className="offersLiSmallPrintFreakshake">
+            This offer is only available in store and not available for delivery
+            or take out.<br></br> This offer is only available on a Friday from
+            10am -10pm and can only be used for regular freakshakes. No refund
+            are available for this offer.
+          </li>
         </ul>
       </div>
     </main>

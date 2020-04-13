@@ -66,7 +66,7 @@ h3 {
 }
 .navBar {
   width: 100%;
-  background-color: black;
+  background-color: white;
   color: white;
   font-size: medium;
   display: flex;
@@ -74,20 +74,20 @@ h3 {
   padding-top: 15px;
   text-decoration: none;
   justify-content: center;
-  text-decoration-color: black;
+  text-decoration-color: white;
 }
 
 .navButton {
   width: 100px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: medium;
   font-weight: 600;
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: white;
   border: none;
   outline: none;
 }
@@ -115,6 +115,41 @@ h3 {
 }
 .navButtonOffers1:hover {
   color: RGB(209, 160, 120);
+}
+.navButtonOffersParty {
+  width: 150px;
+  /* height: 50px; */
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: black;
+  margin-top: 20px;
+  margin-left: 240px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navButtonOffersParty:hover {
+  color: RGB(209, 160, 120);
+}
+.partyP {
+  font-weight: bold;
+  font-size: large;
+}
+.partyText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .navButtonOffers {
   width: 100px;
@@ -235,11 +270,27 @@ h3 {
   }
 }
 .Title {
+  margin-top: 40px;
   justify-content: center;
   display: flex;
   font-family: "Poppins", sans-serif;
 }
-
+.TitleHome {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-weight: bolder;
+}
+.TitleHome:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
 .offers {
   height: 420px;
   width: 400px;
@@ -268,6 +319,18 @@ h3 {
   font-style: italic;
   width: 90%;
 }
+.offersLiSmallPrintFreakshake {
+  text-decoration: none;
+  display: flex;
+  flex: end;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin-top: 170px;
+  font-size: small;
+  font-style: italic;
+  width: 90%;
+}
 .offersH2 {
   display: flex;
   justify-content: center;
@@ -275,9 +338,24 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
+.brunchTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  color: black;
+}
 .homeAlone {
   height: 700px;
   width: 632px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.homeAlone1 {
+  height: 700px;
+  width: 960px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -416,6 +494,11 @@ h3 {
   text-decoration: underline;
   color: black;
 }
+.aboutInput {
+  width: 256px;
+  font-size: 0.95em;
+  font-family: "Poppins", sans-serif;
+}
 .NewsletterForm {
   display: flex;
   justify-content: center;
@@ -447,6 +530,28 @@ h3 {
   padding-top: 1%;
   font-family: "Poppins", sans-serif;
 }
+.formButtonComment {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  font-family: "Poppins", sans-serif;
+  margin-right: 40px;
+}
+.formOption {
+  display: flex;
+  justify-content: left;
+  padding-top: 1%;
+  padding-left: 95px;
+  font-family: "Poppins", sans-serif;
+}
+.formInput {
+  background-color: black;
+  color: white;
+  width: auto;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  text-align: center;
+}
 .formSubmit {
   justify-content: center;
   width: 100px;
@@ -455,9 +560,11 @@ h3 {
 }
 .formComment {
   width: 250px;
-  height: 60px;
   text-align: top;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 0px;
+  font-size: 0.95em;
+  font-family: "Poppins", sans-serif;
 }
 .left {
   display: flex;

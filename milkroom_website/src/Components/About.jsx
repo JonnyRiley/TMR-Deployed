@@ -64,35 +64,45 @@ const About = () => {
       </div>{" "}
       <div className="about">
         <form className="contactUsForm">
-          <h2 className="aboutH2">Contact Us</h2>
+          <h2 className="aboutH2">CONTACT US</h2>
           <label className="formButton">
             Name:
-            <input type="text" name="name" placeholder="Name"></input>
+            <input
+              className="aboutInput"
+              type="text"
+              name="name"
+              placeholder=" Name"
+            ></input>
           </label>
           <br></br>
           <label className="formButton">
             Email:
-            <input type="text" name="email" placeholder="Email"></input>
+            <input
+              className="aboutInput"
+              type="text"
+              name="email"
+              placeholder=" Email"
+            ></input>
           </label>
           <br></br>
-          <label className="formButton">
-            Select option:
-            <select>
-              <option value="Party">Party Enquiry</option>
-              <option value="Table Booking">Table Booking</option>
-              <option value="Gift Voucher">Gift Voucher</option>
-              <option value="Table Booking">Table Booking</option>
-              <option value="Other">Other</option>
+          <label className="formOption">
+            Enquiry:
+            <select className="formInput">
+              <option value="Party">PARTY</option>
+              <option value="Table Booking">TABLE BOOKING</option>
+              <option value="Gift Voucher">GIFT VOUCHER</option>
+              {/* <option value="Table Booking">Table Booking</option> */}
+              <option value="Other">OTHER</option>
             </select>
           </label>
           <br></br>
-          <label className="formButton">
-            Your comment:
+          <label className="formButtonComment">
+            Comment:
             <input
               className="formComment"
               type="text"
               name="email"
-              // placeholder="Comment"
+              placeholder=" Comment"
             ></input>
           </label>
           <label className="formButton">

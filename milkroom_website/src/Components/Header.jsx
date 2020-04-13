@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Components/images/milkroom-logo.jpg";
+import logo from "../Components/images/Milk-Room-Final-logo.png";
 import { Link } from "@reach/router";
 
 const Header = () => {

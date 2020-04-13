@@ -3,6 +3,7 @@ import { Slide } from "react-slideshow-image";
 import slide1 from "../Components/images/Screenshot.png";
 import slide2 from "../Components/images/Screenshot1.png";
 import slide3 from "../Components/images/Screenshot2.png";
+import Filler from "./Filler";
 
 const slideImages = [slide1, slide2, slide3];
 
@@ -47,6 +48,7 @@ const Menu = () => {
           </div>
         </Slide>
       </div>
+      <Filler />
     </main>
   );
 };
