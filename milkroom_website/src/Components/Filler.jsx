@@ -1,12 +1,15 @@
 import React from "react";
-import giftCard from "../Components/images/giftCard.jpg";
 import shop2 from "../Components/images/shop2.JPG";
 import brunch from "../Components/images/brunch.JPG";
 import { Link } from "@reach/router";
+import SocialMedia from "./SocialMedia";
 
 const Filler = () => {
   return (
     <main>
+      <a className="TitleHome" href="http://instagram.com/themilkroom">
+        @themilkroom
+      </a>
       <div className="about">
         <img className="aboutImg1" src={brunch} alt="shop1"></img>
         <p className="aboutUsText">
@@ -39,6 +42,7 @@ const Filler = () => {
         </p>
         <img className="aboutImg" src={shop2} alt="shop2"></img>
       </div>
+      <SocialMedia />
     </main>
   );
 };

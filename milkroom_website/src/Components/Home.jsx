@@ -48,9 +48,7 @@ const Home = () => {
           </div>
         </Slide>
       </div>
-      <a className="TitleHome" href="http://instagram.com/themilkroom">
-        @themilkroom
-      </a>
+
       <Filler />
     </main>
   );

@@ -6,7 +6,6 @@ import staff from "../Components/images/staff.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 // import { MapContainer } from "./GoogleMaps";
-import Popup from "../Components/Popup";
 const About = () => {
   return (
     <main>
@@ -116,16 +115,6 @@ const About = () => {
         </form>
         <img className="aboutImg" src={staff} alt="staff"></img>
       </div>
-      {/* <iframe
-        title="fbook"
-        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemilkroomsouthport%2Fposts%2F2521262098192396&width=500"
-        width="500"
-        height="569"
-        scrolling="no"
-        frameborder="0"
-        allowTransparency="true"
-        allow="encrypted-media"
-      ></iframe> */}
     </main>
   );
 };

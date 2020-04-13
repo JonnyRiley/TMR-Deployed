@@ -1,10 +1,28 @@
 import React from "react";
+import { Link } from "@reach/router";
+import party from "./images/party.jpg";
 
 const Parties = () => {
   return (
     <main>
-      <h1 className="brunchTitle">IT'S PARTY TIME</h1>
+      <h1 className="partyTitleH1">HOSTING AN EVENT?</h1>
+      <div className="about">
+        <img className="partyIMG" src={party} alt="partyLayout"></img>
+        <p className="aboutUsText">
+          <h2 className="partyTitle">VENUE HIRE</h2>
+          Childrens Party<br></br>
+          <br></br>
+          Birthday Party<br></br>
+          <br></br>
+          Baby Shower<br></br>
+          <br></br>
+          Engagement Party<br></br>
+          <br></br>
+          Family get together<br></br>
+        </p>
+      </div>
       <p className="partyText">
+        <h2 className="brunchTitle">IT'S PARTY TIME</h2>
         For exclusive use from 6pm to 7.30pm any day Monday through to Thursday.{" "}
         <br></br>
         The package we can do includes:<br></br>
@@ -30,6 +48,11 @@ const Parties = () => {
         We might be able to accommodate different times/days depending on your
         booking.
       </p>
+      <div className="navOffersDiv">
+        <Link to="/about">
+          <button className="navButtonOffers1">ENQUIRE</button>
+        </Link>
+      </div>
     </main>
   );
 };
