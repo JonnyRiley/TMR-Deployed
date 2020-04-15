@@ -26,9 +26,9 @@ const SocialMedia = () => {
         ></iframe>
         <iframe
           title="Fbook2"
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemilkroomsouthport%2Fposts%2F2373677412950866&width=300&show_text=false&height=497&appId"
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemilkroomsouthport%2Fposts%2F2373677412950866&width=300&show_text=false&height=400&appId"
           width="300"
-          height="497"
+          height="400"
           scrolling="no"
           frameborder="0"
           allowTransparency="true"

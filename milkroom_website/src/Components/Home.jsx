@@ -26,6 +26,7 @@ const Home = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div
+              className="each-slideDiv"
               style={{
                 backgroundImage: `url(${slideImages[0]})`,
               }}

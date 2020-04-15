@@ -1,7 +1,7 @@
 /* RGB(209,160,120) */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins:wght@500&display=swap");
 .mainApp {
-  background-color: white;
+  background-color: black;
 }
 p {
   font-family: "Poppins", sans-serif;
@@ -11,12 +11,14 @@ p {
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
 }
 .slide-container {
   width: 900px;
   margin: auto;
   height: 630px;
-  background-color: white;
+  background-color: black;
 }
 
 h3 {
@@ -33,6 +35,7 @@ h3 {
   background-size: cover;
   height: 630px;
   width: 900px;
+  background-color: black;
 }
 
 .each-slide span {
@@ -66,33 +69,61 @@ h3 {
 }
 .navBar {
   width: 100%;
-  background-color: white;
+  background-color: black;
   color: white;
   font-size: medium;
   display: flex;
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
   text-decoration: none;
   justify-content: center;
   text-decoration-color: white;
+  border-top: black;
+  border-left: black;
+  border-top: black;
+  border-bottom: white;
+  border-width: 0.1em;
+  border-style: solid;
 }
 
 .navButton {
   width: 100px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: medium;
   font-weight: 600;
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: black;
   border: none;
   outline: none;
 }
 
 .navButton:hover {
+  color: RGB(209, 160, 120);
+}
+.navButtonPolicies {
+  width: 170px;
+  background-color: black;
+  color: white;
+  font-size: small;
+  font-weight: 150;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: black;
+  border: none;
+  outline: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 15px;
+}
+
+.navButtonPolicies:hover {
   color: RGB(209, 160, 120);
 }
 .navButtonOffers1 {
@@ -116,6 +147,46 @@ h3 {
 .navButtonOffers1:hover {
   color: RGB(209, 160, 120);
 }
+.navButtonNewsletter {
+  width: 120px;
+  /* height: 50px; */
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navButtonNewsletter:hover {
+  color: RGB(209, 160, 120);
+}
+.navButtonParty {
+  width: 120px;
+  /* height: 50px; */
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navButtonParty:hover {
+  color: RGB(209, 160, 120);
+}
 .navButtonOffersParty {
   width: 150px;
   /* height: 50px; */
@@ -133,8 +204,33 @@ h3 {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  border: white;
+  border-width: 1em;
 }
 .navButtonOffersParty:hover {
+  color: RGB(209, 160, 120);
+}
+.navButtonFooter {
+  width: 150px;
+  /* height: 50px; */
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: white;
+  border-width: 0.15em;
+  border-style: solid;
+}
+.navButtonFooter:hover {
   color: RGB(209, 160, 120);
 }
 .partyP {
@@ -148,8 +244,9 @@ h3 {
   text-align: center;
   flex-direction: column;
   margin-top: 0px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: auto;
+  background-color: white;
+  color: black;
 }
 .navButtonOffers {
   width: 100px;
@@ -174,13 +271,18 @@ h3 {
 .navOffersDiv {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 .Header {
   display: flex;
   justify-content: center;
-  color: white;
+  /* background-color: black; */
   font-size: x-large;
   width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .MenuImg {
@@ -189,19 +291,20 @@ h3 {
   display: flex;
   justify-content: center;
 }
-.MainHeader {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 .logo {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: white;
+  border-style: solid;
+  border-width: 0.05em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -269,11 +372,42 @@ h3 {
     height: 280px;
   }
 }
-.Title {
-  margin-top: 40px;
+.TitleAbout {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: center;
   display: flex;
   font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+}
+.Title {
+  margin-top: 0px;
+
+  justify-content: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+}
+.TitleDelivery {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+}
+.TitleFooter {
+  margin-top: 0px;
+  justify-content: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: black;
 }
 .TitleHome {
   margin-top: 40px;
@@ -282,9 +416,9 @@ h3 {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
-  color: black;
+  color: white;
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: RGB(209, 160, 120);
   font-weight: bolder;
 }
 .TitleHome:hover {
@@ -393,11 +527,13 @@ h3 {
   display: flex;
   width: 100%;
   flex-direction: row;
+  background-color: white;
 }
 .divTwo {
   display: flex;
   width: 100%;
   flex-direction: row-reverse;
+  background-color: white;
 }
 .deliveryImg {
   height: 420px;
@@ -421,11 +557,15 @@ h3 {
 .deliveryHolder {
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 .deliveryText {
   display: flex;
   justify-content: center;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .aboutImg {
@@ -447,6 +587,7 @@ h3 {
 .about {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 .aboutUsText {
   height: 420px;
@@ -484,6 +625,18 @@ h3 {
   justify-content: center;
   margin-top: 0%;
   font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+}
+.NewsletterH1 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
 }
 .aboutH4 {
   margin-bottom: 8px;
@@ -500,15 +653,26 @@ h3 {
   font-size: 0.95em;
   font-family: "Poppins", sans-serif;
 }
+.newsletterInput {
+  width: 300px;
+  height: 30px;
+  font-size: 0.95em;
+  font-family: "Poppins", sans-serif;
+  margin-right: 25px;
+  margin-top: 10px;
+}
 .NewsletterForm {
   display: flex;
   justify-content: center;
+  background-color: white;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .Form {
-  border: black;
-  border-style: double;
-  height: 120px;
+  height: 400px;
+  background-color: white;
 }
 .formOption {
   padding-left: 20px;
@@ -516,6 +680,12 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+.orderInput {
+  width: 30%;
+}
+.orderInputPhone {
+  width: 31%;
 }
 .contactUsForm {
   width: 50%;
@@ -530,6 +700,16 @@ h3 {
   justify-content: center;
   padding-top: 1%;
   font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+.formButtonNewsletter {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  margin-top: 4px;
+  padding-right: 5px;
+  font-family: "Poppins", sans-serif;
+  height: 30px;
 }
 .formButtonComment {
   display: flex;
@@ -581,6 +761,11 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+.ordersDiv {
+  background-color: white;
 }
 .ordersLabel {
   display: flex;
@@ -588,6 +773,18 @@ h3 {
   flex-direction: row;
   margin-top: 20px;
   font-weight: 400;
+  color: black;
+  background-color: white;
+}
+.ordersLabel1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-right: 38px;
+  font-weight: 400;
+  color: black;
+  background-color: white;
 }
 .TC {
   display: flex;
@@ -633,17 +830,21 @@ h3 {
   border-radius: 50%;
   margin-top: 15px;
   background-color: lightgray;
+  transition: transform 0.2s;
 }
-
+/* .DesertIcons:hover {
+  transform: scale(1.1);
+} */
 #DesertGrid {
   display: grid;
-  grid-template-rows: 1.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1.5fr 0.5fr 0.25fr;
   grid-template-areas: "one" "two" "three";
   width: 200px;
-  border: black;
-  border-width: thick;
-  border: black;
-  /* border-styl; */
+  background-color: white;
+  border: lightgray;
+  border-width: 0.15em;
+  border-style: groove;
+  transition: transform 0.2s;
 }
 #DesertGrid:hover .button_Amount {
   visibility: visible;
@@ -657,6 +858,9 @@ h3 {
   background-color: black;
   font-size: large;
   font-family: "Poppins", sans-serif;
+}
+#DesertGrid:hover .DesertIcons {
+  transform: scale(1.1);
 }
 .button_Amount {
   display: flex;
@@ -730,8 +934,49 @@ h3 {
 .partyTitleH1 {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   color: black;
+  background-color: white;
+}
+
+.footerColumn {
+  display: flex;
+  justify-content: center;
+  border-bottom: white;
+  border-width: 0.15em;
+  border-style: solid;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: center;
+  border-bottom: white;
+  border-width: 0.15em;
+  border-style: solid;
+  flex-direction: row;
+  width: 100%;
+}
+.Icons {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.Policies {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 40%;
+}
+.deliveryBackground {
+  background-color: black;
+}
+.divSubmit {
+  display: flex;
+  justify-content: center;
 }

@@ -4,8 +4,8 @@ import Telephone from "../Components/images/phone_icon.png";
 
 const Delivery = () => {
   return (
-    <main>
-      <h1 className="Title">WE DELIVER</h1>
+    <main className="deliveryBackground">
+      <h1 className="TitleDelivery">WE DELIVER</h1>
       <p className="deliveryText">Place your order with</p>
       <div className="deliveryHolder">
         <a href="https://deliveroo.co.uk/menu/southport/birkdale/the-milk-room#">

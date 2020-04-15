@@ -14,13 +14,12 @@ import doubleChocCookie from "../Components/images/choc-cookie.png";
 import whiteCookie from "../Components/images/white-cookie.png";
 class Orders extends Component {
   state = {
-    amountDifference: 0,
     boxSetAmount: "/4",
     total: 0,
   };
   render() {
     return (
-      <main>
+      <main className="ordersDiv">
         <h1 className="Title">Orders</h1>
         <h2 className="aboutH2Title">Desert Boxes</h2>
         <p className="centeredP">
@@ -29,10 +28,12 @@ class Orders extends Component {
         <h4 className="aboutH2Title">
           Choose your favourite flavours and create your very own dessert box!
         </h4>
+
         <form className="ordersForm">
           <label className="ordersLabel">
             Step One: Select your size
             <select
+              className="formInput"
               onChange={(e) =>
                 this.handleChange(e.target.value, "boxSetAmount")
               }
@@ -157,11 +158,14 @@ class Orders extends Component {
               <p className="desertTitle">White Chocolate Chip Cookie</p>
             </div>
           </div>
-          <p>{this.state.boxSetAmount}</p>
+          <p>
+            {this.state.total}
+            {this.state.boxSetAmount}
+          </p>
           <label className="ordersLabel">
             Step Three: Delivery or Collection
-            <select>
-              <option value="Collection">Collection(Free)</option>
+            <select className="formInput">
+              <option value="Collection">Collection - Free</option>
               <option value="Delivery">Delivery - £2.50</option>
             </select>
           </label>
@@ -182,26 +186,53 @@ class Orders extends Component {
             ></input>
             Accept
           </label>
-          <label className="formOption">
+          <label className="ordersLabel">
             Name:
-            <input type="text" name="name" placeholder="Name" />
+            <input
+              className="orderInput"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
           </label>
-          <label className="formOption">
+          <label className="ordersLabel1">
             Telephone:
             <input
+              className="orderInputPhone"
               type="text"
               name="phoneNumber"
               placeholder="Telephone Number"
             />
           </label>
-          <input type="submit" value="Place Order" disabled="true" />
+          <div className="divSubmit">
+            <button
+              className="navButtonParty"
+              type="submit"
+              value="Place Order"
+              disabled="true"
+            >
+              SUBMIT
+            </button>
+          </div>
         </form>
-        <Popup />
+
+        {/* <Popup /> */}
       </main>
     );
   }
   handleChange = (text, key) => {
+    console.log(text, key);
+
     this.setState({ [key]: text });
   };
+  // componentDidUpdate(prevProps, prevState) {
+  //   const { total } = this.state;
+  //   if (total !== prevState.total)
+  //     this.setState((currentState) => {
+  //       return {
+  //         total: currentState.total,
+  //       };
+  //     });
+  // }
 }
 export default Orders;

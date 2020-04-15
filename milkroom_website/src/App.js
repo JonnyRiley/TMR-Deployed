@@ -15,6 +15,7 @@ import Orders from "./Components/Orders";
 import TC from "./Components/TC";
 import Cookie from "./Components/Cookies";
 import Parties from "./Components/Parties";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   render() {
@@ -33,8 +34,10 @@ class App extends Component {
           <TC path="/terms&conditions" />
           <Cookie path="/cookies" />
           <Parties path="/parties" />
+          <NewsletterForm path="/newsletter" />
         </Router>
-        <NewsletterForm />
+        <Footer />
+        {/* <NewsletterForm /> */}
       </main>
     );
   }

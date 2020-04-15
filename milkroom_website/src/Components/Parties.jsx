@@ -50,7 +50,7 @@ const Parties = () => {
       </p>
       <div className="navOffersDiv">
         <Link to="/about">
-          <button className="navButtonOffers1">ENQUIRE</button>
+          <button className="navButtonParty">ENQUIRE</button>
         </Link>
       </div>
     </main>

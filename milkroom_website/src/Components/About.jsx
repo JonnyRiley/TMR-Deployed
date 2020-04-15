@@ -9,7 +9,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <main>
-      <h1 className="Title">ABOUT US</h1>
+      <h1 className="TitleAbout">ABOUT US</h1>
       <div className="about">
         <img className="aboutImg" src={shop3} alt="shop1"></img>
 

@@ -35,7 +35,6 @@ export default () => (
           persmission and no replacement will be provided in these
           circumstances.
         </p>
-        {/* <img src={GiftVoucher} alt="giftVoucher"></img> */}
       </div>
     )}
   </Popup>
