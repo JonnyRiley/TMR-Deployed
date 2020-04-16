@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as Api from "../Api";
+import { Link } from "@reach/router";
 
 // import ErrorPage from "./ErrorPage";
 class ItemAdder extends Component {
@@ -12,42 +13,49 @@ class ItemAdder extends Component {
     // const { err } = this.state;
     // if (err) return <ErrorPage err={err} />;
     return (
-      <form onSubmit={this.handleSubmit} className="NewsletterForm">
-        <label
-          required
-          onChange={(e) => this.handleChange(e.target.value, "username")}
-          htmlFor="username"
-          className="formButtonNewsletter"
-        >
-          Name:
-        </label>
-        <input
-          className="newsletterInput"
-          type="text"
-          name="name"
-          placeholder="Name"
-        />
+      <main>
+        <form onSubmit={this.handleSubmit} className="NewsletterForm">
+          <label
+            required
+            onChange={(e) => this.handleChange(e.target.value, "username")}
+            htmlFor="username"
+            className="formButtonNewsletter"
+          >
+            Name:
+            <input
+              className="newsletterInput"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+          </label>
 
-        <label
-          onChange={(e) => this.handleChange(e.target.value, "email")}
-          htmlFor="email"
-          className="formButtonNewsletter"
-        >
-          Email:
-        </label>
-        <input
-          className="newsletterInput"
-          type="text"
-          name="email"
-          placeholder="Email"
-        />
-
-        <input
-          className="navButtonNewsletter"
-          type="submit"
-          value="Subscribe"
-        />
-      </form>
+          <label
+            onChange={(e) => this.handleChange(e.target.value, "email")}
+            htmlFor="email"
+            className="formButtonNewsletter"
+          >
+            Email:
+            <input
+              className="newsletterInput"
+              type="text"
+              name="email"
+              placeholder="Email"
+            />
+          </label>
+          <input
+            className="navButtonNewsletter"
+            type="submit"
+            value="Subscribe"
+            // onClick={(e) => {prompt}}
+          />
+        </form>
+        <div className="newsletterPolicy">
+          <Link to="/privacy">
+            <button className="navButtonPolicies">Privacy Policy</button>
+          </Link>
+        </div>
+      </main>
     );
   }
   handleChange = (text, key) => {
@@ -62,14 +70,18 @@ class ItemAdder extends Component {
         this.setState({ err });
       })
       .then((newlyPostedItem) => {
+        alert("Thanks For signing up to themilkroom's newsletter!");
+
+        console.log(newlyPostedItem, "newlyPostedItem");
         addItem(newlyPostedItem);
       });
   };
   addItem = (newItem) => {
     this.setState((state) => {
       console.log(newItem, "newItem");
-      return { username: [newItem, ...state.username] };
+      return { user: [newItem] };
     });
   };
 }
+
 export default ItemAdder;
