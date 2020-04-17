@@ -9,6 +9,7 @@ class DessertAdder extends Component {
   };
   render() {
     const { amountDifference, disabled, Amount } = this.state;
+
     const { handleClick } = this;
 
     // if (err) return <ErrorPage err={err} />;
@@ -46,7 +47,6 @@ class DessertAdder extends Component {
     this.setState((currentState) => {
       return {
         amountDifference: currentState.amountDifference + inc_Amount,
-        total: currentState.total + inc_Amount,
       };
     });
   };

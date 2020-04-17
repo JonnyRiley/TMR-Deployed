@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Popup from "../Components/Popup";
+import stepOne from "../Components/images/themilkroom.png";
 import DesertAdder from "./DessertBox";
 import brownie from "../Components/images/brownie.png";
 import terrys from "../Components/images/terryschoc-brownie.png";
@@ -20,18 +20,20 @@ class Orders extends Component {
   render() {
     return (
       <main className="ordersDiv">
-        <h1 className="Title">Orders</h1>
-        <h2 className="aboutH2Title">Desert Boxes</h2>
-        <p className="centeredP">
+        <h1 className="DesertTitleH1">DESERT BOXES</h1>
+        {/* <h2 className="aboutH2Title">Desert Boxes</h2> */}
+        <h2 className="desertH2Title">
           We hand-make all our desserts freshly in store for you to enjoy.
-        </p>
-        <h4 className="aboutH2Title">
+        </h2>
+        <h3 className="desertH2Title">
           Choose your favourite flavours and create your very own dessert box!
-        </h4>
-
+        </h3>
+        {/* <div className="orderFlex">
+          <img className="stepOne" src={stepOne} alt="stepOne"></img>
+        </div> */}
         <form className="ordersForm">
           <label className="ordersLabel">
-            Step One: Select your size
+            Select your size
             <select
               className="formInput"
               onChange={(e) =>
@@ -43,10 +45,13 @@ class Orders extends Component {
               <option value="/6">Box of 6 - £14</option>
             </select>
           </label>
+          <div className="orderFlex">
+            <img className="stepOne" src={stepOne} alt="stepOne"></img>
+          </div>
           <label className="ordersLabel">Step Two: Select your flavours</label>
           <div className="desertTiles">
             <div id="DesertGrid">
-              <DesertAdder total={this.state.total} />
+              <DesertAdder />
               <img
                 className="DesertIcons"
                 src={brownie}
@@ -162,6 +167,9 @@ class Orders extends Component {
             {this.state.total}
             {this.state.boxSetAmount}
           </p>
+          <div className="orderFlex">
+            <img className="stepOne" src={stepOne} alt="stepOne"></img>
+          </div>
           <label className="ordersLabel">
             Step Three: Delivery or Collection
             <select className="formInput">
@@ -215,24 +223,12 @@ class Orders extends Component {
             </button>
           </div>
         </form>
-
-        {/* <Popup /> */}
       </main>
     );
   }
   handleChange = (text, key) => {
     console.log(text, key);
-
     this.setState({ [key]: text });
   };
-  // componentDidUpdate(prevProps, prevState) {
-  //   const { total } = this.state;
-  //   if (total !== prevState.total)
-  //     this.setState((currentState) => {
-  //       return {
-  //         total: currentState.total,
-  //       };
-  //     });
-  // }
 }
 export default Orders;

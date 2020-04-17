@@ -28,9 +28,15 @@ const Footer = () => {
         </div>
         <div className="footerRow">
           <div className="Icons">
-            <SocialIcon url="http://facebook.com/themilkroomsouthport/" />
-            <SocialIcon url="http://twitter.com/themilkroom" />
-            <SocialIcon url="http://instagram.com/themilkroom" />
+            <SocialIcon
+              className="Icon"
+              url="http://facebook.com/themilkroomsouthport/"
+            />
+            <SocialIcon className="Icon" url="http://twitter.com/themilkroom" />
+            <SocialIcon
+              className="Icon"
+              url="http://instagram.com/themilkroom"
+            />
           </div>
           <div className="Policies">
             <Link to="/terms&conditions">

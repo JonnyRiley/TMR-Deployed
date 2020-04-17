@@ -62,7 +62,7 @@ const About = () => {
         </p>
       </div>{" "}
       <div className="about">
-        <form className="contactUsForm">
+        <form className="aboutUsText">
           <h2 className="aboutH2">CONTACT US</h2>
           <label className="formButton">
             Name:
@@ -104,9 +104,9 @@ const About = () => {
               placeholder=" Comment"
             ></input>
           </label>
-          <label className="formButton">
+          <label className="formSubmitButton">
             <input
-              className="navButtonOffers"
+              className="navButtonAbout"
               type="submit"
               value="Submit"
               disabled="true"
