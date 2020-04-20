@@ -7,11 +7,11 @@ import { Link } from "@reach/router";
 
 const Offers = () => {
   return (
-    <main>
+    <main className="offerMain">
       <h1 className="Title">OUR DAILY OFFERS</h1>
       <div className="divOne">
         <img className="homeAlone" src={homeAlone} alt="HomeAloneOffer"></img>
-        <ul>
+        <ul className="OffersUL">
           <h2 className="offersH2">HOME ALONE</h2>
           <li className="offersLi">
             Take advantage of this amazing delivery deal!<br></br>- 1 LARGE
@@ -42,7 +42,7 @@ const Offers = () => {
       </div>
       <div className="divTwo">
         <img className="homeAlone" src={shakeItUp} alt="ShakeItUpOffer"></img>
-        <ul>
+        <ul className="OffersUL">
           <h2 className="offersH2">SHAKE IT UP</h2>
           <li className="offersLi">
             - 4 LARGE SHAKES FOR THE PRICE OF 4 REGULAR SHAKES<br></br>
@@ -78,14 +78,13 @@ const Offers = () => {
           src={waffleWed}
           alt="WaffleWednesdayOffer"
         ></img>
-        <ul>
+        <ul className="OffersUL">
           <h2 className="offersH2">WAFFLE WEDNESDAY</h2>
           <li className="offersLi">
             - ANY HOMEMADE WAFFLE FOR £4.50 ALL DAY LONG<br></br> You choose
             your favourite flavour!<br></br> Available in store, collection or
             via delivery every Wednesday
           </li>
-          .
           <div className="navOffersDiv">
             <Link to="/menu">
               <button className="navButtonOffers">MENU</button>
@@ -111,7 +110,7 @@ const Offers = () => {
       </div>
       <div className="divTwo">
         <img className="homeAlone1" src={freakshake} alt="DessertsOffer"></img>
-        <ul>
+        <ul className="OffersUL">
           <h2 className="offersH2">FREEKSHAKE FRIDAY</h2>
           <li className="offersLi">
             - Any regular freakshake for £4.95<br></br>All day long<br></br>Get

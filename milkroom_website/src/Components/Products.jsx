@@ -14,7 +14,7 @@ import twelve from "../Components/images/12.jpg";
 
 const Products = () => {
   return (
-    <main>
+    <main className="Products">
       <h1 className="Title">Products</h1>
       <div className="div1">
         <div>

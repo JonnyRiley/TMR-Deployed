@@ -36,12 +36,14 @@ const About = () => {
           191 Liverpool Road<br></br>
           Birkdale<br></br>
           PR8 4NZ
-          <button
-            className="navButtonOffers1"
-            href="https://www.google.co.uk/maps/place/The+Milk+Room/@53.62187,-3.014419,17z/data=!3m1!4b1!4m5!3m4!1s0x487b3eae36cb798d:0x99370a02fb21d87a!8m2!3d53.6218668!4d-3.0122303"
-          >
-            DIRECTIONS
-          </button>
+          <div className="aboutFlex">
+            <button
+              className="navButtonOffers1"
+              href="https://www.google.co.uk/maps/place/The+Milk+Room/@53.62187,-3.014419,17z/data=!3m1!4b1!4m5!3m4!1s0x487b3eae36cb798d:0x99370a02fb21d87a!8m2!3d53.6218668!4d-3.0122303"
+            >
+              DIRECTIONS
+            </button>
+          </div>
         </p>
 
         <img className="aboutImg" src={shop2} alt="shop2"></img>
@@ -106,7 +108,7 @@ const About = () => {
           </label>
           <label className="formSubmitButton">
             <input
-              className="navButtonAbout"
+              className="navButtonSubmitContact"
               type="submit"
               value="Submit"
               disabled="true"

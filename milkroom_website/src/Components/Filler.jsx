@@ -6,7 +6,7 @@ import SocialMedia from "./SocialMedia";
 
 const Filler = () => {
   return (
-    <main>
+    <main className="fillerMain">
       <a className="TitleHome" href="http://instagram.com/themilkroom">
         @themilkroom
       </a>
@@ -18,7 +18,7 @@ const Filler = () => {
           your brunch favourites at themilkroom.<br></br>
           <br></br> Why not try our popular Breakfast Waffle!
           <Link to="/about">
-            <button className="navButtonOffers1">ENQUIRE</button>
+            <button className="navButtonEnquireFiller">ENQUIRE</button>
           </Link>
         </p>
       </div>
