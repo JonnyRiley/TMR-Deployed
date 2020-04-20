@@ -3,13 +3,12 @@ import React, { Component } from "react";
 class DessertAdder extends Component {
   state = {
     amountDifference: 0,
-    disabled: false,
     Amount: 0,
-    total: 0,
+    disabled: false,
   };
   render() {
-    const { amountDifference, disabled, Amount } = this.state;
-
+    const { amountDifference, Amount, disabled } = this.state;
+    const { handleTotal, boxSetAmount } = this.props;
     const { handleClick } = this;
 
     // if (err) return <ErrorPage err={err} />;
@@ -22,29 +21,40 @@ class DessertAdder extends Component {
             onClick={(e) => {
               e.preventDefault();
               handleClick(-1);
+              handleTotal(-1);
             }}
           >
             -
           </button>
           <p className="DesertName">x{Amount + amountDifference}</p>
-
           <button
             className="button_Amount"
             disabled={disabled}
             onClick={(e) => {
               e.preventDefault();
               handleClick(1);
+              handleTotal(1);
             }}
           >
             +
           </button>
         </div>
+        {/* <p className="hidden">{total}</p> */}
       </main>
     );
   }
+
   handleClick = (inc_Amount) => {
-    // const { disabled } = this.state;
+    // const { amountDifference } = this.state;
+    const { boxSetAmount, total } = this.props;
+
     this.setState((currentState) => {
+      if (total === boxSetAmount - 1) {
+        return {
+          amountDifference: currentState.amountDifference + inc_Amount,
+          disabled: true,
+        };
+      }
       return {
         amountDifference: currentState.amountDifference + inc_Amount,
       };

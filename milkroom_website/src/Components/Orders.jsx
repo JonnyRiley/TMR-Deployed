@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import stepOne from "../Components/images/themilkroom.png";
+import stepOne from "../Components/images/stepOne.png";
 import DesertAdder from "./DessertBox";
 import brownie from "../Components/images/brownie.png";
 import terrys from "../Components/images/terryschoc-brownie.png";
@@ -14,7 +14,7 @@ import doubleChocCookie from "../Components/images/choc-cookie.png";
 import whiteCookie from "../Components/images/white-cookie.png";
 class Orders extends Component {
   state = {
-    boxSetAmount: "/4",
+    boxSetAmount: 4,
     total: 0,
   };
   render() {
@@ -40,9 +40,9 @@ class Orders extends Component {
                 this.handleChange(e.target.value, "boxSetAmount")
               }
             >
-              <option value="/4">Box of 4 - £10</option>
-              <option value="/5">Box of 5 - £12</option>
-              <option value="/6">Box of 6 - £14</option>
+              <option value={4}>Box of 4 - £10</option>
+              <option value={5}>Box of 5 - £12</option>
+              <option value={6}>Box of 6 - £14</option>
             </select>
           </label>
           <div className="orderFlex">
@@ -51,7 +51,11 @@ class Orders extends Component {
           <label className="ordersLabel">Step Two: Select your flavours</label>
           <div className="desertTiles">
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                boxSetAmount={this.state.boxSetAmount}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={brownie}
@@ -60,7 +64,10 @@ class Orders extends Component {
               <p className="desertTitle">Chocolate Brownie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={terrys}
@@ -69,7 +76,10 @@ class Orders extends Component {
               <p className="desertTitle">Terry’s Chocolate Orange Brownie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={KinderBrownie}
@@ -78,7 +88,10 @@ class Orders extends Component {
               <p className="desertTitle">Kinder Bueno Chocolate Brownie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={fudgeBrownie}
@@ -89,7 +102,10 @@ class Orders extends Component {
           </div>
           <div className="desertTiles">
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={crispyMM}
@@ -98,7 +114,10 @@ class Orders extends Component {
               <p className="desertTitle">Crispy M&M Brownie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={lotusBrownie}
@@ -107,7 +126,10 @@ class Orders extends Component {
               <p className="desertTitle">Lotus Biscoff Brownie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={lotusSlice}
@@ -116,7 +138,10 @@ class Orders extends Component {
               <p className="desertTitle">Lotus Biscoff Slice</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={oreoDonut}
@@ -127,7 +152,10 @@ class Orders extends Component {
           </div>
           <div className="desertTiles">
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={milkCookie}
@@ -136,7 +164,10 @@ class Orders extends Component {
               <p className="desertTitle">Milk Chocolate Chip Cookie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={doubleChocCookie}
@@ -145,7 +176,10 @@ class Orders extends Component {
               <p className="desertTitle">Double Chocolate Chip Cookie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={whiteCookie}
@@ -154,7 +188,10 @@ class Orders extends Component {
               <p className="desertTitle">White Chocolate Chip Cookie</p>
             </div>
             <div id="DesertGrid">
-              <DesertAdder />
+              <DesertAdder
+                total={this.state.total}
+                handleTotal={this.handleTotal}
+              />
               <img
                 className="DesertIcons"
                 src={whiteCookie}
@@ -164,8 +201,8 @@ class Orders extends Component {
             </div>
           </div>
           <p>
-            {this.state.total}
-            {this.state.boxSetAmount}
+            {this.handleOrder()}
+            {/* {this.state.total}/{this.state.boxSetAmount} */}
           </p>
           <div className="orderFlex">
             <img className="stepOne" src={stepOne} alt="stepOne"></img>
@@ -230,5 +267,23 @@ class Orders extends Component {
     console.log(text, key);
     this.setState({ [key]: text });
   };
+  handleTotal = (inc_amount) => {
+    const { boxSetAmount } = this.state;
+    this.setState((currentState) => {
+      if (currentState.total <= boxSetAmount)
+        return {
+          total: currentState.total + inc_amount,
+        };
+    });
+  };
+  handleOrder() {
+    const { boxSetAmount, total } = this.state;
+    if (total === boxSetAmount) {
+      return <p>You're all set!</p>;
+      // } else if (){
+    } else {
+      return <p>You need {boxSetAmount - total} more!</p>;
+    }
+  }
 }
 export default Orders;
