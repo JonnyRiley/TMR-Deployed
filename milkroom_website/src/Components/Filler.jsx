@@ -1,6 +1,7 @@
 import React from "react";
 import shop2 from "../Components/images/shop2.JPG";
 import brunch from "../Components/images/brunch.JPG";
+import halloween from "../Components/images/halloweenFreaksake.jpg";
 import { Link } from "@reach/router";
 import SocialMedia from "./SocialMedia";
 
@@ -41,6 +42,19 @@ const Filler = () => {
           </Link>
         </p>
         <img className="aboutImg" src={shop2} alt="shop2"></img>
+      </div>
+      <div className="about">
+        <img className="aboutImg1" src={halloween} alt="halloween"></img>
+        <p className="aboutUsText">
+          <h2 className="brunchTitle">CHECK OUT OUR SEASONAL PRODUCTS</h2>
+          Be sure to keep up to date with our social media accounts
+          <br></br>so that you don't miss out on our crazy seasonal products.
+          <Link to="/seasonalProducts">
+            <button className="navButtonEnquireFiller">
+              Seasonal Products
+            </button>
+          </Link>
+        </p>
       </div>
       <SocialMedia />
     </main>

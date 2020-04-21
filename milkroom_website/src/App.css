@@ -999,6 +999,7 @@ h3 {
   }
   .TitleFooter {
     margin-top: 0px;
+    padding-top: 10px;
     justify-content: center;
     display: flex;
     font-family: "Poppins", sans-serif;
@@ -1333,6 +1334,7 @@ h3 {
 }
 .TitleFooter {
   margin-top: 0px;
+  padding-top: 20px;
   justify-content: center;
   display: flex;
   font-family: "Poppins", sans-serif;

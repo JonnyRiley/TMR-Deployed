@@ -17,6 +17,7 @@ import Cookie from "./Components/Cookies";
 import Parties from "./Components/Parties";
 import Footer from "./Components/Footer";
 import FAQ from "./Components/FAQ";
+import SeasonalProds from "./Components/SeasonalProducts";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
           <Parties path="/parties" />
           <NewsletterForm path="/newsletter" />
           <FAQ path="/faq" />
+          <SeasonalProds path="/seasonalProducts" />
         </Router>
         <Footer />
         {/* <NewsletterForm /> */}
