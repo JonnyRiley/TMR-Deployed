@@ -68,6 +68,25 @@ h3 {
   margin: 0;
   background: #adceed;
 }
+.footerBar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  margin-top: 20px;
+  text-decoration: none;
+  justify-content: center;
+  text-decoration-color: white;
+  border-top: black;
+  border-left: black;
+  border-top: black;
+  border-bottom: white;
+  border-width: 0.1em;
+  border-style: solid;
+}
 .navBar {
   width: 100%;
   background-color: black;
@@ -89,10 +108,12 @@ h3 {
 }
 
 .navButton {
-  width: 100px;
+  width: 130px;
   background-color: black;
   color: white;
   font-size: medium;
+  /* padding-left: 60px;
+  padding-right: 50px; */
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -271,6 +292,42 @@ h3 {
   background-color: white;
   color: black;
 }
+.PartyIMG {
+  height: 33%;
+  width: 33.3%;
+  display: flex;
+  flex-direction: row;
+}
+.PartyIMGDiv {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.FAQMain {
+  background-color: white;
+}
+.FAQH1 {
+  background-color: white;
+  color: black;
+  font-size: 60px;
+  font-weight: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+}
+.FAQ {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  font-size: inherit;
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  flex-direction: row;
+}
 .navButtonOffers {
   width: 100px;
   /* height: 50px; */
@@ -352,8 +409,8 @@ h3 {
 
 .logo {
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   display: flex;
   justify-content: center;
   padding-bottom: 0px;

@@ -12,13 +12,10 @@ import oreoDonut from "../Components/images/oreo-donut.png";
 import milkCookie from "../Components/images/milkcookie.png";
 import doubleChocCookie from "../Components/images/choc-cookie.png";
 import whiteCookie from "../Components/images/white-cookie.png";
-import lotusDonut from "../Components/images/lotus-donut.png";
 class Orders extends Component {
   state = {
     boxSetAmount: 4,
     total: 0,
-    minusDisabled: true,
-    plusDisabled: false,
   };
   render() {
     return (
@@ -55,8 +52,6 @@ class Orders extends Component {
           <div className="desertTiles">
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
                 boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
@@ -70,10 +65,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -85,10 +77,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -100,10 +89,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -117,10 +103,7 @@ class Orders extends Component {
           <div className="desertTiles">
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -132,10 +115,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -147,10 +127,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -162,10 +139,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -179,10 +153,7 @@ class Orders extends Component {
           <div className="desertTiles">
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -194,10 +165,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -209,10 +177,7 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
@@ -224,21 +189,18 @@ class Orders extends Component {
             </div>
             <div id="DesertGrid">
               <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
                 total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
                 handleTotal={this.handleTotal}
               />
               <img
                 className="DesertIcons"
-                src={lotusDonut}
+                src={whiteCookie}
                 alt="dessert_Icon"
               ></img>
-              <p className="desertTitle">Lotus Biscoff Donut</p>
+              <p className="desertTitle">White Chocolate Chip Cookie</p>
             </div>
           </div>
-          <p className="orderTotal">
+          <p>
             {this.handleOrder()}
             {/* {this.state.total}/{this.state.boxSetAmount} */}
           </p>
@@ -306,45 +268,12 @@ class Orders extends Component {
     this.setState({ [key]: text });
   };
   handleTotal = (inc_amount) => {
-    console.log(inc_amount);
     const { boxSetAmount } = this.state;
     this.setState((currentState) => {
-      if (currentState.total === boxSetAmount - 1) {
+      if (currentState.total <= boxSetAmount)
         return {
           total: currentState.total + inc_amount,
-          plusDisabled: true,
-          minusDisabled: false,
         };
-      } else if (this.state.total > 0 && this.state.total < boxSetAmount) {
-        return {
-          total: this.state.total + inc_amount,
-          plusDisabled: false,
-          minusDisabled: false,
-        };
-      } else if (this.state.total === 0 - 1) {
-        return {
-          total: currentState.total + inc_amount,
-          minusDisabled: true,
-          plusDisabled: false,
-        };
-      } else
-        return {
-          total: this.state.total + inc_amount,
-          minusDisabled: false,
-          plusDisabled: false,
-        };
-      // if (currentState.total < boxSetAmount && currentState.total > 0) {
-      //   return {
-      //     total: currentState.total + inc_amount,
-      //   };
-      // } else if (
-      //   currentState.total === boxSetAmount ||
-      //   currentState.total < 0
-      // ) {
-      //   return {
-      //     disabled: true,
-      //   };
-      // }
     });
   };
   handleOrder() {
@@ -358,3 +287,71 @@ class Orders extends Component {
   }
 }
 export default Orders;
+
+
+
+import React, { Component } from "react";
+
+class DessertAdder extends Component {
+  state = {
+    amountDifference: 0,
+    Amount: 0,
+    disabled: false,
+  };
+  render() {
+    const { amountDifference, Amount, disabled } = this.state;
+    const { handleTotal, boxSetAmount } = this.props;
+    const { handleClick } = this;
+
+    // if (err) return <ErrorPage err={err} />;
+    return (
+      <main className="button_Amount">
+        <div className="incDiv">
+          <button
+            disabled={disabled}
+            className="button_Amount"
+            onClick={(e) => {
+              e.preventDefault();
+              handleClick(-1);
+              handleTotal(-1);
+            }}
+          >
+            -
+          </button>
+          <p className="DesertName">x{Amount + amountDifference}</p>
+          <button
+            className="button_Amount"
+            disabled={disabled}
+            onClick={(e) => {
+              e.preventDefault();
+              handleClick(1);
+              handleTotal(1);
+            }}
+          >
+            +
+          </button>
+        </div>
+        {/* <p className="hidden">{total}</p> */}
+      </main>
+    );
+  }
+
+  handleClick = (inc_Amount) => {
+    // const { amountDifference } = this.state;
+    const { boxSetAmount, total } = this.props;
+
+    this.setState((currentState) => {
+      if (total === boxSetAmount - 1) {
+        return {
+          amountDifference: currentState.amountDifference + inc_Amount,
+          disabled: true,
+        };
+      }
+      return {
+        amountDifference: currentState.amountDifference + inc_Amount,
+      };
+    });
+  };
+}
+
+export default DessertAdder;

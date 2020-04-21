@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <main>
       <div className="footerDiv">
-        <nav className="navBar">
+        <nav className="footerBar">
           <Link to="/parties">
             <button className="navButton">EVENTS</button>
           </Link>

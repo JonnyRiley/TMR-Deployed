@@ -16,6 +16,7 @@ import TC from "./Components/TC";
 import Cookie from "./Components/Cookies";
 import Parties from "./Components/Parties";
 import Footer from "./Components/Footer";
+import FAQ from "./Components/FAQ";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
           <Cookie path="/cookies" />
           <Parties path="/parties" />
           <NewsletterForm path="/newsletter" />
+          <FAQ path="/faq" />
         </Router>
         <Footer />
         {/* <NewsletterForm /> */}

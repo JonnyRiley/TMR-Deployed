@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "@reach/router";
 import party from "./images/party.jpg";
-
+import party1 from "./images/partySetup.jpg";
+import party2 from "./images/partyCustomers2.jpg";
+import party3 from "./images/partyCustomers3.jpg";
 const Parties = () => {
   return (
     <main>
@@ -52,6 +54,11 @@ const Parties = () => {
         <Link to="/about">
           <button className="navButtonParty">ENQUIRE</button>
         </Link>
+      </div>
+      <div className="PartyIMGDiv">
+        <img className="PartyIMG" src={party1} alt="customers Partying"></img>
+        <img className="PartyIMG" src={party2} alt="customers Partying"></img>
+        <img className="PartyIMG" src={party3} alt="customers Partying"></img>
       </div>
     </main>
   );
