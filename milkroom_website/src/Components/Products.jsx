@@ -39,7 +39,17 @@ import funkyFreak from "../Components/images/Prods.jsx/freakshakeChoccy.jpg";
 import prod22 from "../Components/images/Prods.jsx/prod22.jpg";
 import sixteen from "../Components/images/largeChocFreakshake.jpg";
 import seventeen from "../Components/images/oreoBrownie.jpg";
-
+import MM from "../Components/images/Prods.jsx/CrispyMM.jpg";
+import Donuts from "../Components/images/Prods.jsx/donuts.jpg";
+import Kinder from "../Components/images/Prods.jsx/kinderBueno.jpg";
+import LotusBrownie from "../Components/images/Prods.jsx/lotusBrownie.jpg";
+import Cookies from "../Components/images/Prods.jsx/cookies.jpg";
+import Pancake from "../Components/images/Prods.jsx/pancake.jpg";
+import MMWaffle from "../Components/images/Prods.jsx/MMWaffle.jpg";
+import StrawWaffle from "../Components/images/Prods.jsx/strawberryWaffle.jpg";
+import WhiteCDough from "../Components/images/Prods.jsx/whiteCDough.jpg";
+import StrawPancakes from "../Components/images/Prods.jsx/StrawPancakes.jpg";
+import stackWaffles from "../Components/images/Prods.jsx/stackWaffles.jpg";
 const Products = () => {
   return (
     <main className="Products">
@@ -164,6 +174,19 @@ const Products = () => {
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
         </div>
+        <div>
+          <img className="offers" src={MMWaffle} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Strawberry and Banana Pancakes</li>
+          </ul>
+        </div>
+
+        <div>
+          <img className="offers" src={stackWaffles} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Strawberry and Banana Pancakes</li>
+          </ul>
+        </div>
       </div>
       {/* WAFFLES END */}
       <h2 className="ProductsH2">PANCAKES</h2>
@@ -186,9 +209,8 @@ const Products = () => {
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
         </div>
-
         <div>
-          <img className="offers" src={prod20} alt="DessertsOffer"></img>
+          <img className="offers" src={Pancake} alt="DessertsOffer"></img>
           <ul className="ProductUL">
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
@@ -199,9 +221,15 @@ const Products = () => {
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
         </div>
+        <div>
+          <img className="offers" src={StrawPancakes} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Strawberry and Banana Pancakes</li>
+          </ul>
+        </div>
       </div>
       {/* PANCAKES END */}
-      <h2 className="ProductsH2">SMOOTHIES</h2>
+      <h2 className="ProductsH2">HEALTHY TREATS</h2>
       <div className="div1">
         <div>
           <img className="offers" src={thirteen} alt="DessertsOffer"></img>
@@ -253,14 +281,12 @@ const Products = () => {
             <li className="ProductName"> Strawberry cookiedough</li>
           </ul>
         </div>
-
         <div>
           <img className="offers" src={seventeen} alt="DessertsOffer"></img>
           <ul className="ProductUL">
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
         </div>
-
         <div>
           <img className="offers" src={prod3} alt="DessertsOffer"></img>
           <ul className="ProductUL">
@@ -273,7 +299,6 @@ const Products = () => {
             <li className="ProductName">Strawberry and Banana Pancakes</li>
           </ul>
         </div>
-
         <div>
           <img className="offers" src={four} alt="DessertsOffer"></img>
           <ul className="ProductUL">
@@ -288,6 +313,42 @@ const Products = () => {
         </div>
         <div>
           <img className="offers" src={five} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Choccy Fondue!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="offers" src={MM} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Choccy Fondue!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="offers" src={Donuts} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Choccy Fondue!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="offers" src={Kinder} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Choccy Fondue!</li>
+          </ul>
+        </div>
+        {/* <div>
+          <img className="offers" src={WhiteCDough} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Strawberry and Banana Pancakes</li>
+          </ul>
+        </div> */}{" "}
+        <div>
+          <img className="offers" src={Cookies} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Choccy Fondue!</li>
+          </ul>
+        </div>
+        <div>
+          <img className="offers" src={LotusBrownie} alt="DessertsOffer"></img>
           <ul className="ProductUL">
             <li className="ProductName">Choccy Fondue!</li>
           </ul>

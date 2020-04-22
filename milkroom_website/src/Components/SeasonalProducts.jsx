@@ -5,7 +5,7 @@ import three from "../Components/images/sundaes.jpg";
 import four from "../Components/images/creamEggBrownie.jpg";
 import five from "../Components/images/funkyFreakshake.jpg";
 import six from "../Components/images/halloween-shake.jpg";
-import seven from "../Components/images/hallooween-shakes.jpg";
+import DBox from "../Components/images/seasonalDBox.jpg";
 import eight from "../Components/images/sundaes.jpg";
 import mini from "../Components/images/7.jpg";
 import purple from "../Components/images/purpleShake.jpg";
@@ -62,6 +62,12 @@ const SeasonalProds = () => {
         </div>
         <div>
           <img className="offers" src={mini} alt="DessertsOffer"></img>
+          <ul className="ProductUL">
+            <li className="ProductName">Mini Doughnuts</li>
+          </ul>
+        </div>
+        <div>
+          <img className="offers" src={DBox} alt="DessertsOffer"></img>
           <ul className="ProductUL">
             <li className="ProductName">Mini Doughnuts</li>
           </ul>

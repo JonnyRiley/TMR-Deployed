@@ -374,6 +374,7 @@ h3 {
   padding-bottom: 0px;
   margin-bottom: 0px;
   flex-direction: column;
+  text-decoration: underline;
 }
 .navButtonOffers {
   width: 100px;
@@ -3489,6 +3490,7 @@ element.style {
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 0px;
+  margin-bottom: 35px;
   border-top: black;
   border-bottom: black;
   border-left: white;
