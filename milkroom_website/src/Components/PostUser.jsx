@@ -43,12 +43,16 @@ class ItemAdder extends Component {
               placeholder="Email"
             />
           </label>
-          <input
-            className="navButtonNewsletter"
-            type="submit"
-            value="Subscribe"
-            // onClick={(e) => {prompt}}
-          />
+          <div className="newsletterFlex">
+            <button
+              className="navButtonNewsletter"
+              type="submit"
+
+              // onClick={(e) => {prompt}}
+            >
+              Subscribe
+            </button>
+          </div>
         </form>
         <div className="newsletterPolicy">
           <Link to="/privacy">

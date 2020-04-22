@@ -23,7 +23,7 @@ class Orders extends Component {
   render() {
     return (
       <main className="ordersDiv">
-        <h1 className="DesertTitleH1">DESERT BOXES</h1>
+        <h1 className="ProductsTitle">DESERT BOXES</h1>
         {/* <h2 className="aboutH2Title">Desert Boxes</h2> */}
         <h2 className="desertH2Title">
           We hand-make all our desserts freshly in store for you to enjoy.

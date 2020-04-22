@@ -3,7 +3,11 @@ import React from "react";
 import { Link } from "@reach/router";
 export default () => (
   <Popup
-    trigger={<button className="navButtonOffers"> Gift Voucher </button>}
+    trigger={
+      <div className="popupDiv">
+        <button className="navButtonOffersParty">GIFT VOUCHER</button>
+      </div>
+    }
     modal
   >
     {(close) => (
@@ -16,9 +20,11 @@ export default () => (
           Looking for the perfect gift? We can help you out at themilkroom.
           Order your gift card in-store or over the phone. Gift cards can be
           collected in store or posted.
-          <Link to="/">
-            <p className="navButtonOffers">CONTACT US</p>
-          </Link>
+          <div className="popupDiv">
+            <Link to="/about">
+              <button className="navButtonContact">CONTACT US</button>
+            </Link>
+          </div>
         </p>
         <h2 className="header">Terms and Conditions</h2>
         <p className="content">

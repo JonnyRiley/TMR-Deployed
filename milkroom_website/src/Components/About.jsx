@@ -9,7 +9,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <main>
-      <h1 className="TitleAbout">ABOUT US</h1>
+      <h1 className="ProductsTitle">ABOUT US</h1>
       <div className="about">
         <img className="aboutImg" src={shop3} alt="shop1"></img>
 
@@ -37,12 +37,12 @@ const About = () => {
           Birkdale<br></br>
           PR8 4NZ
           <div className="aboutFlex">
-            <button
+            <a
               className="navButtonOffers1"
               href="https://www.google.co.uk/maps/place/The+Milk+Room/@53.62187,-3.014419,17z/data=!3m1!4b1!4m5!3m4!1s0x487b3eae36cb798d:0x99370a02fb21d87a!8m2!3d53.6218668!4d-3.0122303"
             >
               DIRECTIONS
-            </button>
+            </a>
           </div>
         </p>
 

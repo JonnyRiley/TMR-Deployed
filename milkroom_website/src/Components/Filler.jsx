@@ -2,8 +2,10 @@ import React from "react";
 import shop2 from "../Components/images/shop2.JPG";
 import brunch from "../Components/images/brunch.JPG";
 import halloween from "../Components/images/halloweenFreaksake.jpg";
+import giftCard from "../Components/images/giftCard1.jpg";
 import { Link } from "@reach/router";
 import SocialMedia from "./SocialMedia";
+import Popup from "./Popup";
 
 const Filler = () => {
   return (
@@ -46,16 +48,27 @@ const Filler = () => {
       <div className="about">
         <img className="aboutImg1" src={halloween} alt="halloween"></img>
         <p className="aboutUsText">
-          <h2 className="brunchTitle">CHECK OUT OUR SEASONAL PRODUCTS</h2>
+          <h2 className="brunchTitle">SEASONAL TREATS</h2>
           Be sure to keep up to date with our social media accounts
           <br></br>so that you don't miss out on our crazy seasonal products.
+          <br></br>
           <Link to="/seasonalProducts">
-            <button className="navButtonEnquireFiller">
-              Seasonal Products
-            </button>
+            <button className="navButtonOffersParty">SEASONAL TREATS</button>
           </Link>
         </p>
       </div>
+      <div className="about">
+        <p className="aboutUsTextSecondP">
+          <h3 className="brunchTitle">Gift Voucher!</h3>
+          <br></br>
+          <br></br>Looking for the perfect gift?<br></br> We can help you out at
+          themilkroom.<br></br>Gift cards can be collected in store or posted.
+          <br></br>
+          <Popup />
+        </p>
+        <img className="aboutImg1" src={giftCard} alt="shop1"></img>
+      </div>
+
       <SocialMedia />
     </main>
   );
