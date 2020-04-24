@@ -23,279 +23,297 @@ class Orders extends Component {
   render() {
     return (
       <main className="ordersDiv">
-        <h1 className="ProductsTitle">DESERT BOXES</h1>
+        <h1 className="ProductsTitle">DESSERT BOXES</h1>
         {/* <h2 className="aboutH2Title">Desert Boxes</h2> */}
-        <h2 className="desertH2Title">
-          We hand-make all our desserts freshly in store for you to enjoy.
-        </h2>
-        <h3 className="desertH2Title">
-          Choose your favourite flavours and create your very own dessert box!
-        </h3>
-        {/* <div className="orderFlex">
+        <form className="ordersForm">
+          <div className="stepOneForm">
+            <h2 className="ProductsH2">
+              STEP ONE: SELECT YOUR DESSERT BOX SIZE
+            </h2>
+
+            <h2 className="ordersH2Title">
+              We hand-make all our desserts freshly in store for you to enjoy.
+            </h2>
+            <h3 className="desertH2Title">
+              Choose your favourite flavours and create your very own dessert
+              box!
+            </h3>
+            {/* <div className="orderFlex">
           <img className="stepOne" src={stepOne} alt="stepOne"></img>
         </div> */}
-        <form className="ordersForm">
-          <label className="ordersLabel">
-            Select your size
-            <select
-              className="formInput"
-              onChange={(e) =>
-                this.handleChange(e.target.value, "boxSetAmount")
-              }
-            >
-              <option value={4}>Box of 4 - £10</option>
-              <option value={5}>Box of 5 - £12</option>
-              <option value={6}>Box of 6 - £14</option>
-            </select>
-          </label>
-          <div className="orderFlex">
-            <img className="stepOne" src={stepOne} alt="stepOne"></img>
+            {/* <form className="ordersForm"> */}
+            <label className="ordersLabel">
+              SELECT YOUR SIZE
+              <select
+                className="formInput"
+                onChange={(e) =>
+                  this.handleChange(e.target.value, "boxSetAmount")
+                }
+              >
+                <option value={4}>Box of 4 - £10.00</option>
+                <option value={5}>Box of 5 - £12.00</option>
+                <option value={6}>Box of 6 - £14.00</option>
+              </select>
+            </label>
           </div>
-          <label className="ordersLabel">Step Two: Select your flavours</label>
-          <div className="desertTiles">
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={brownie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Chocolate Brownie</p>
+          {/* <div className="orderFlex"> */}
+          {/* <img className="stepOne" src={stepOne} alt="stepOne"></img> */}
+          {/* </div> */}
+          <div className="stepTwoForm">
+            <h2 className="ProductsH2">STEP TWO: SELECT YOUR FLAVOURS</h2>
+            {/* <label className="ordersLabel">Step Two: Select your flavours</label> */}
+            <div className="desertTiles">
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={brownie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Chocolate Brownie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={terrys}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Terry’s Chocolate Orange Brownie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={KinderBrownie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Kinder Bueno Chocolate Brownie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={fudgeBrownie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Chocolate Fudge Brownie</p>
+              </div>
             </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={terrys}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Terry’s Chocolate Orange Brownie</p>
+            <div className="desertTiles">
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={crispyMM}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Crispy M&M Brownie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={lotusBrownie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Lotus Biscoff Brownie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={lotusSlice}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Lotus Biscoff Slice</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={oreoDonut}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Chocolate filled Oreo Donut</p>
+              </div>
             </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={KinderBrownie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Kinder Bueno Chocolate Brownie</p>
+            <div className="desertTiles">
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={milkCookie}
+                  alt="desert_Icon"
+                ></img>
+                <p className="desertTitle">Milk Chocolate Chip Cookie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={doubleChocCookie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Double Chocolate Chip Cookie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={whiteCookie}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">White Chocolate Chip Cookie</p>
+              </div>
+              <div id="DesertGrid">
+                <DesertAdder
+                  minusDisabled={this.state.minusDisabled}
+                  plusDisabled={this.state.plusDisabled}
+                  total={this.state.total}
+                  boxSetAmount={this.state.boxSetAmount}
+                  handleTotal={this.handleTotal}
+                />
+                <img
+                  className="DesertIcons"
+                  src={lotusDonut}
+                  alt="dessert_Icon"
+                ></img>
+                <p className="desertTitle">Lotus Biscoff Donut</p>
+              </div>
             </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={fudgeBrownie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Chocolate Fudge Brownie</p>
+            <p className="orderTotal">
+              {this.handleOrder()}
+              {/* {this.state.total}/{this.state.boxSetAmount} */}
+            </p>
+            <div className="orderFlex">
+              {/* <img className="stepOne" src={stepOne} alt="stepOne"></img> */}
             </div>
           </div>
-          <div className="desertTiles">
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={crispyMM}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Crispy M&M Brownie</p>
-            </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={lotusBrownie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Lotus Biscoff Brownie</p>
-            </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={lotusSlice}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Lotus Biscoff Slice</p>
-            </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={oreoDonut}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Chocolate filled Oreo Donut</p>
-            </div>
+          <div className="stepOneForm">
+            <h2 className="ProductsH2">STEP THREE: DELIVERY OPTIONS</h2>
+            <label className="ordersLabel">
+              {/* Step Three: Delivery or Collection */}
+              <select className="formInput">
+                <option value="Collection">Collection - Free</option>
+                <option value="Delivery">Delivery - £2.50</option>
+              </select>
+            </label>
+            <p className="centeredP">
+              PLEASE NOTE THAT ALL ORDERS MUST BE PLACES AT LEAST 24 HOURS
+              BEFORE YOU WANT TO RECEIVE YOUR ORDER THIS IS DUE TO ALL PRODUCTS
+              BEING MADE FRESH IN STORE. YOUR ORDER WILL ONLY BE CONFIRMED ONCE
+              A MEMBER OF STAFF CONTACTS YOU TO TAKE PAYMENT OVER THE PHONE
+            </p>
+            <label className="ordersLabel" for="Confirm">
+              {" "}
+              <input
+                className="ordersInput"
+                type="radio"
+                name="Confirm"
+                value="Confirm"
+                required
+              ></input>
+              ACCEPT
+            </label>
           </div>
-          <div className="desertTiles">
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
+          <div className="stepOneForm">
+            <h2 className="ProductsH2">STEP FOUR: YOUR DETAILS</h2>
+            <label className="ordersLabelName">
+              NAME:
+              <input
+                className="orderInput"
+                type="text"
+                name="name"
+                placeholder="Name"
               />
-              <img
-                className="DesertIcons"
-                src={milkCookie}
-                alt="desert_Icon"
-              ></img>
-              <p className="desertTitle">Milk Chocolate Chip Cookie</p>
-            </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
+            </label>
+            <label className="ordersLabel1">
+              TELEPHONE:
+              <input
+                className="orderInputPhone"
+                type="text"
+                name="phoneNumber"
+                placeholder="Telephone Number"
               />
-              <img
-                className="DesertIcons"
-                src={doubleChocCookie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Double Chocolate Chip Cookie</p>
+            </label>
+
+            <div className="divSubmit">
+              <button
+                className="navButtonParty"
+                type="submit"
+                value="Place Order"
+                disabled="true"
+              >
+                SUBMIT
+              </button>
             </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={whiteCookie}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">White Chocolate Chip Cookie</p>
-            </div>
-            <div id="DesertGrid">
-              <DesertAdder
-                minusDisabled={this.state.minusDisabled}
-                plusDisabled={this.state.plusDisabled}
-                total={this.state.total}
-                boxSetAmount={this.state.boxSetAmount}
-                handleTotal={this.handleTotal}
-              />
-              <img
-                className="DesertIcons"
-                src={lotusDonut}
-                alt="dessert_Icon"
-              ></img>
-              <p className="desertTitle">Lotus Biscoff Donut</p>
-            </div>
-          </div>
-          <p className="orderTotal">
-            {this.handleOrder()}
-            {/* {this.state.total}/{this.state.boxSetAmount} */}
-          </p>
-          <div className="orderFlex">
-            <img className="stepOne" src={stepOne} alt="stepOne"></img>
-          </div>
-          <label className="ordersLabel">
-            Step Three: Delivery or Collection
-            <select className="formInput">
-              <option value="Collection">Collection - Free</option>
-              <option value="Delivery">Delivery - £2.50</option>
-            </select>
-          </label>
-          <p className="centeredP">
-            PLEASE NOTE THAT ALL ORDERS MUST BE PLACES AT LEAST 24 HOURS BEFORE
-            YOU WANT TO RECEIVE YOUR ORDER this is due to all products being
-            made fresh in store. YOUR ORDER WILL ONLY BE CONFIRMED ONCE A MEMBER
-            OF STAFF CONTACTS YOU TO TAKE PAYMENT OVER THE PHONE
-          </p>
-          <label className="ordersLabel" for="Confirm">
-            {" "}
-            <input
-              className="ordersInput"
-              type="radio"
-              name="Confirm"
-              value="Confirm"
-              required="true"
-            ></input>
-            Accept
-          </label>
-          <label className="ordersLabel">
-            Name:
-            <input
-              className="orderInput"
-              type="text"
-              name="name"
-              placeholder="Name"
-            />
-          </label>
-          <label className="ordersLabel1">
-            Telephone:
-            <input
-              className="orderInputPhone"
-              type="text"
-              name="phoneNumber"
-              placeholder="Telephone Number"
-            />
-          </label>
-          <div className="divSubmit">
-            <button
-              className="navButtonParty"
-              type="submit"
-              value="Place Order"
-              disabled="true"
-            >
-              SUBMIT
-            </button>
           </div>
         </form>
       </main>
@@ -315,45 +333,53 @@ class Orders extends Component {
           plusDisabled: true,
           minusDisabled: false,
         };
-      } else if (this.state.total > 0 && this.state.total < boxSetAmount) {
-        return {
-          total: this.state.total + inc_amount,
-          plusDisabled: false,
-          minusDisabled: false,
-        };
-      } else if (this.state.total === 0 - 1) {
-        return {
-          total: currentState.total + inc_amount,
-          minusDisabled: true,
-          plusDisabled: false,
-        };
-      } else
-        return {
-          total: this.state.total + inc_amount,
-          minusDisabled: false,
-          plusDisabled: false,
-        };
-      // if (currentState.total < boxSetAmount && currentState.total > 0) {
+      }
+      return {
+        total: currentState.total + inc_amount,
+        plusDisabled: false,
+        minusDisabled: false,
+      };
+      // if (currentState.total === boxSetAmount - 1) {
       //   return {
       //     total: currentState.total + inc_amount,
+      //     plusDisabled: true,
+      //     minusDisabled: false,
       //   };
-      // } else if (
-      //   currentState.total === boxSetAmount ||
-      //   currentState.total < 0
-      // ) {
+      // } else if (this.state.total > 0 && this.state.total < boxSetAmount) {
       //   return {
-      //     disabled: true,
+      //     total: this.state.total + inc_amount,
+      //     plusDisabled: false,
+      //     minusDisabled: false,
       //   };
-      // }
+      // } else if (this.state.total === 0 - 1) {
+      //   return {
+      //     total: currentState.total + inc_amount,
+      //     minusDisabled: true,
+      //     plusDisabled: false,
+      //   };
+      // } else
+      //   return {
+      //     total: this.state.total + inc_amount,
+      //     minusDisabled: false,
+      //     plusDisabled: false,
+      //   };
     });
   };
   handleOrder() {
     const { boxSetAmount, total } = this.state;
     if (total === boxSetAmount) {
-      return <p>You're all set!</p>;
+      return (
+        <div className="handleOrderDiv">
+          <p className="handleOrder">You're all set!</p>
+        </div>
+      );
       // } else if (){
     } else {
-      return <p>You need {boxSetAmount - total} more!</p>;
+      return (
+        <div className="handleOrderDiv">
+          <p className="handleOrder">YOU NEED {boxSetAmount - total} MORE!</p>
+        </div>
+      );
     }
   }
 }

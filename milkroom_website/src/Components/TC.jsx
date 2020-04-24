@@ -4,116 +4,138 @@ const TC = () => {
   return (
     <main className="TCPage">
       <p className="TC">
-        <h1>Terms and Conditions</h1>
-        The Milk Room Southport Limited - Privacy This Privacy Statement sets
-        our data processing practices carried out by The Milk Room. We retain
-        small levels of personal data and customer photographs. and use personal
-        data to help us promote our business and the service and products we
-        supply. We will always make sure that your information is protected and
-        treated securely. Any information that you give will be held in
-        accordance with: Data Protection Act 1998 As of 25 May 2018, the new
-        data protection legislation introduced under the General Data Protection
-        Regulation (GDPR) and Data Protection Bill. Information we collect We
-        collect limited personal information from our customers from this
-        website through the use of online forms and every time you email us your
-        details. We also collect customer photographs taken in store with verbal
-        consent given. In addition, we receive information about our own staff
-        and people who apply to work for us. Information about people who use
-        our website Customer photographs – no full names are printed on the phot
-        Information about our own staff through the use of names and pictures.
-        Security We are strongly committed to data security and we take
-        reasonable and appropriate steps to protect your personal information
-        from unauthorised access, loss, misuse, alteration or corruption. We
-        have put in place physical, electronic, and managerial procedures to
-        safeguard and secure the information you provide to us. Only authorised
-        employees and our website developer under strict controls will have
-        access to your personal information. Information about people who we use
-        on our website  Please note that this statement does not cover links
-        within this website to other websites. When you browse through the
-        information on this website, it does not store or capture your personal
-        information. We do log your IP address (as it is automatically
-        recognised by the web server) but this is only so you can download this
-        website onto your device rather than for any tracking purpose; it is not
-        used for any other purpose. We will only collect personal information
-        provided by you, such as: Email alerts sign up email and postal
-        addresses for any party bookings or product delivery information
-        preferred means of communication if stated on your feedback form on
-        website Cookies Please be aware that some systems on our website require
-        the use of cookies, but we will always state if this is the case. We
-        will never collect and store information about you without your
-        permission. How we will use your personal information Personal
-        information about you can be used for the following purposes: in our
-        day-to-day work in store to send you our newsletter where you have
-        requested it; to respond to any queries you may have; to improve the
-        quality and safety our business This may include any personal
-        information that you choose to share with us, but we will treat this as
-        confidential and protect it accordingly. We will never include your
-        personal information in any social media post, publications, with staff
-        or any other organisation. Information about people who use our services
-        and consent. Where personally identifiable information is collected we
-        will ensure that we have your consent to keep it and we will be clear on
-        how we intend to use your information, eg if you are signing up to
-        emails, placing a dessert box order. We ensure that where consent is
-        required it will be freely given, Due to the nature of the business,
-        often a lot of pictures are taken in store both by customers and staff.
-        If staff members take a photo of the customer, they will always verbally
-        ask for consent. This equates to photos on social media, website and any
-        publications. CCTV always operates in store and will highlight this
-        verbal interaction before the picture is taken. At any point, if such
-        individual no longer consents please contact a member of the team and
-        all photos/ data will be removed indefinitely. Personally identifiable
-        information: This data/ photo includes where it will be stored, details
-        on security and for how long it will be kept. We will comply with
-        current data protection legislation at all times. Personal information
-        may be collected with your consent through: in our day-to-day work in
-        store to send you our newsletter where you have requested it; to respond
-        to any queries you may have; to improve the quality and safety our
-        business Personal data received from other sources On occasion we will
-        receive information from the families, friends who want to place and
-        order or booking on an individual’s behalf. We use this data to complete
-        this purchases or enquiry. Where it is practically possible, we will
-        make sure that we have your consent to use information that is about
-        you. We will only process your personal data where there is a lawful
-        basis to do so under current data protection legislation. Publishing
-        information In most circumstances we anonymise our data to ensure that a
-        person cannot be identified, unless this has been otherwise agreed and
-        consent has been given. Information about our own staff and the people
-        applying to work with us  We need to process personal data about our own
-        staff (and people applying to work for us) so that we can carry out our
-        role and meet our legal and contractual responsibilities as an employer.
-        The personal data that we process includes information about racial or
-        ethnic origin, religion, disability, gender and sexuality. We use this
-        information to check we are promoting and ensuring diversity in our
-        workforce and to make sure we are complying with equalities legislation.
-        Our employees decide whether or not to share this monitoring data with
-        us, and can choose to withdraw their consent for this at any time.
-        Employees who wish to withdraw their consent for us to process this data
-        can let us know. Other personal data that we are required to process
-        includes information on qualifications and experience, pay and
-        performance, contact details and bank details. We check that people who
-        work for us are fit and suitable for their roles. This may include
-        asking people to undertake Disclosure and Barring Service (DBS) checks.
-        We have a legal obligation to comply with the Freedom of Information Act
-        2000 and this may include the requirement to disclose some information
-        about our employees – especially those in senior or public facing roles.
-        We also publish some information about our staff, including the names
-        and work contact details of people in some roles. How we share
-        information with other organisations We only share personal information
-        with other organisations where it is lawful to so and in accordance with
-        our Information Governance Policy. Information is shared in order to
-        fulfil our remit which is to pass on your experiences of care to help
-        improve them on your behalf. Correcting or deleting your personal data
-        If you know that we are holding your personal data and believe that it
-        may be wrong, or if you want it to be deleted or for us to stop using
-        it, you have a right to request that it can be deleted or amended.
-        Please make your objection in writing to hello@themilkroom.co.uk Or send
-        it by post to: 191 Liverpool Road, Southport, PR8 4NZ. Your rights Your
-        right to access information about you If you think we may hold personal
-        data relating to you and want to see it please write
-        to hello@themilkroom.co.uk Complaints about how we look after or use
-        your information If you feel that we have not met our responsibilities
-        under data protection legislation, you have a right to request an
-        independent assessment from the Information Commissioner's Office (ICO).
+        <h1 className="ProductsTitle">TERMS AND CONDITIONS</h1>
+        These terms and conditions tell you how The Milk Room Southport Limited
+        website is managed and how you are protected when you are using our
+        site. If you do not agree with these terms, you should leave the site
+        immediately.<br></br>
+        <br></br>
+        <p className="FAQBold">Using our site</p>
+        <br></br>
+        <br></br>
+        This ‘The Milk Room’ website is maintained for your personal use and
+        viewing. Access and use by you of this site constitutes acceptance by
+        you of our Terms and Conditions, which take effect from the date of
+        first use.<br></br>
+        <br></br>
+        <p className="FAQBold">Copyright</p>
+        <br></br>
+        <br></br>
+        The material featured on this site is subject to copyright protection
+        unless otherwise indicated.<br></br>
+        <br></br>
+        The Milk Room website's copyright protected material may be reproduced
+        free of charge in any format or medium for research, private study or
+        for internal circulation within an organisation. This is subject to the
+        material being reproduced accurately and not used in a misleading
+        context.<br></br>
+        <br></br>
+        Where any of The Milk Room website's copyright items from this site are
+        being republished or copied to others, the source of the material must
+        be identified, and the copyright status acknowledged.<br></br>
+        <br></br>
+        Permission to reproduce The Milk Room website's protected material does
+        not extend to any material on this site that is identified as being the
+        copyright of a third party. Authorisation to reproduce such material
+        must be obtained from the business Directors of The Milk Room Southport
+        Limited. <br></br>
+        <br></br>
+        <p className="FAQBold">Using our logo</p>
+        <br></br>
+        <br></br>
+        We don't allow external organisations to use our logo – this includes
+        any organisation we have partnered with on work. The only exceptions may
+        be if consent has been granted by The Milk Room Southport Limited. In
+        these cases, we may give permission for our logo to be used.<br></br>
+        <br></br>
+        Our policy on the use of the logo is designed to prevent the public from
+        being misled. <br></br>
+        <br></br>
+        <p className="FAQBold">Disclaimer</p>
+        <br></br>
+        <br></br>
+        This website and material relating to The Milk Room Southport,
+        information, products and services (or to third party information,
+        products and services), is provided 'as is', without any representation
+        or endorsement made and without warranty of any kind whether express or
+        implied, including but not limited to the implied warranties of
+        satisfactory quality, fitness for a particular purpose,
+        non-infringement, compatibility, security and accuracy.<br></br>
+        <br></br>
+        We do not warrant that the functions in the material contained on this
+        site will be uninterrupted or error free, that defects will be
+        corrected, or that this site or the server that makes it available are
+        free of viruses or represent the full functionality, accuracy, or
+        reliability of the materials.<br></br>
+        <br></br>
+        In no event will we be liable for any loss or damage including, without
+        limitation, indirect or consequential loss or damage, or any loss or
+        damages whatsoever arising from use or loss of use of, data or profits
+        arising out of or in connection with the use of this website.<br></br>
+        <br></br>
+        <p className="FAQBold">Virus protection</p>
+        <br></br>
+        <br></br>
+        We make every effort to check and test material at all stages of
+        production. It is always wise for you to run an anti-virus program on
+        all material downloaded from the Internet.<br></br>
+        <br></br>
+        We cannot accept any responsibility for any loss, disruption or damage
+        to your data or computer system which may occur whilst using material
+        derived from this website.<br></br>
+        <br></br>
+        You may not use the website or access it for any purpose, and/or to
+        upload any content or data, which involves the transmission or other
+        making available of any computer code, file, or program that is harmful
+        or invasive or is intended to damage or hijack the operation of, or to
+        monitor the use of, any hardware, software, or equipment. <br></br>
+        <br></br>
+        <p className="FAQBold">Links from your website to ours</p>
+        <br></br>
+        <br></br>
+        You are welcome to link to this website. However, please ensure you
+        comply with the following <br></br>
+        <br></br>conditions: You must not imply in any way that this The Milk
+        Room website endorses your organisation.<br></br>
+        <br></br>
+        You may not use any version of The Milk Room logo or used photographs
+        without written agreement from us.<br></br>
+        <br></br>
+        It is your responsibility to ensure deep-links to this The Milk Room
+        Southport website are kept updated. We will not notify you if we move
+        content.<br></br>
+        <br></br>
+        <p className="FAQBold">Links from our website to yours</p>
+        <br></br>
+        <br></br>
+        At this time this website only links to organisations that fit the
+        following criteria:<br></br>
+        <br></br>
+        Listing and linking of external websites should not be taken as
+        endorsement of any kind.<br></br>
+        External websites must have a clear aim, be highly relevant to The Milk
+        Room Southport audience and must contain quality content.<br></br>
+        <br></br>
+        Any links we add to our site must be directly relevant to specific
+        sections or pages of this The Milk Room website.<br></br>
+        <br></br>
+        We reserve the right to refuse or include links to any website.<br></br>
+        <br></br>
+        Links must be directly relevant to specific sections or pages of The
+        Milk Room website.<br></br>
+        Sites for which there are grounds for doubting the accuracy of the
+        content will be excluded. A site may be excluded if the professional
+        reputation of the site owner is unknown and/or there are grounds for
+        doubting the accuracy of the content or suspecting critical bias.
+        <br></br>
+        Sites that push particular agenda or interests that might run counter to
+        our business will be removed. <br></br>
+        Private sector sites that promote company products or services will not
+        normally be included.<br></br>
+        <br></br>
+        Although we will endeavour to maintain links to other websites, we
+        cannot guarantee that these links will work all the time and we have no
+        control over the availability or reliability of linked pages.
       </p>
     </main>
   );

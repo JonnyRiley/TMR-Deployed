@@ -20,56 +20,56 @@ const SeasonalProds = () => {
         <div>
           <img className="offers" src={twelve} alt="ShakeItUpOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Breakfast Waffle!</li>
+            <li className="ProductName">HALLOWEEN SPOOKY SHAKES</li>
           </ul>
         </div>
 
         <div>
           <img className="offers" src={four} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Mini Eggs Cookie Skillet</li>
+            <li className="ProductName">CREAM EGG BROWNIES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={five} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">MALTEASTER FREAKSHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={six} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Chocolate and Oreo Brownie</li>
+            <li className="ProductName">BLUE VS RED SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={two} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Mini Doughnuts</li>
+            <li className="ProductName">CREAM EGG/MINI EGG BROWNIES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={one} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName"> Strawberry cookiedough</li>
+            <li className="ProductName">CHOCOLATE EASTER BOWLS</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={purple} alt="ShakeItUpOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Breakfast Waffle!</li>
+            <li className="ProductName">PARMA VIOLETS SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={mini} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Mini Doughnuts</li>
+            <li className="ProductName">WHITE CHOCOLATE DUTCH PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={DBox} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Mini Doughnuts</li>
+            <li className="ProductName">CHRISTMAS DESSERT BOX</li>
           </ul>
         </div>
       </div>

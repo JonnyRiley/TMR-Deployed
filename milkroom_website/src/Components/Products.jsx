@@ -4,7 +4,7 @@ import two from "../Components/images/2.jpg";
 import three from "../Components/images/3.jpg";
 import four from "../Components/images/4.jpg";
 import five from "../Components/images/5.jpg";
-import six from "../Components/images/6.jpg";
+import Tango from "../Components/images//Prods.jsx/tango-Ice.jpg";
 import seven from "../Components/images/7.jpg";
 import eight from "../Components/images/8.jpg";
 import candy from "../Components/images/candy.jpg";
@@ -59,73 +59,75 @@ const Products = () => {
         <div>
           <img className="offers" src={ten} alt="homeAloneOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Milkshake!</li>
+            <li className="ProductName">HAZELNUT HAPPINESS SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={one} alt="homeAloneOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Milkshake!</li>
+            <li className="ProductName">CHOCOLATE BROWNIE SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod12} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">OUT OF THIS WORLD SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod2} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">SWEET 'N' SALTY SWIRL SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod6} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">TWISTER SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod7} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">TANGO ICE-BLAST SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod9} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">GLORIOUS GUYLIAN SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod14} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">CRISPY ROLL SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod15} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">WHITE TWIX SHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={candy} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Selection of cookies and brownies</li>
+            <li className="ProductName">CRAZY CANDY EXTREME FREAKSHAKE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={sixteen} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Ferror Roché milkshake</li>
+            <li className="ProductName">
+              PEANUT BUTTER & SALTED CARAMEL FREAKSHAKE
+            </li>
           </ul>
         </div>
         <div>
           <img className="offers" src={funkyFreak} alt="homeAloneOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Milkshake!</li>
+            <li className="ProductName">OREO & BROWNIE FREAKSHAKE</li>
           </ul>
         </div>
       </div>
@@ -135,56 +137,58 @@ const Products = () => {
         <div>
           <img className="offers" src={twelve} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Oreo Waffle</li>
+            <li className="ProductName">OREO WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod5} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">STICKY BANOFFEE WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={three} alt="WaffleWednesdayOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">MilkyBar Waffle</li>
+            <li className="ProductName">
+              KINDER BUENO WHITE & MILKYBAR WAFFLE
+            </li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod1} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">BERRY WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod10} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">MILKWAY WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={two} alt="ShakeItUpOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Breakfast Waffle!</li>
+            <li className="ProductName">BREAKFAST WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod17} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">GALAXY CARAMEL WAFFLE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={MMWaffle} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">CRISPY M&M WAFFLE</li>
           </ul>
         </div>
 
         <div>
           <img className="offers" src={stackWaffles} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">WAFFLE STACK</li>
           </ul>
         </div>
       </div>
@@ -194,47 +198,47 @@ const Products = () => {
         <div>
           <img className="offers" src={prod18} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">OREO PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={eleven} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">STRAWBERRY & BANANA PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod11} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">SALTED CARAMEL PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={Pancake} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">MARS BAR PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod21} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">KINDER BUENO WHITE PANCAKES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={StrawPancakes} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">GREEK YOGHURT PANCAKES</li>
           </ul>
         </div>
       </div>
       {/* PANCAKES END */}
-      <h2 className="ProductsH2">HEALTHY TREATS</h2>
+      <h2 className="ProductsH2">FEEL-GOOD</h2>
       <div className="div1">
         <div>
           <img className="offers" src={thirteen} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Ferror Roché milkshake</li>
+            <li className="ProductName">GREEN CLEANSE SMOOTHIE</li>
           </ul>
         </div>
         <div>
@@ -244,31 +248,31 @@ const Products = () => {
             alt="WaffleWednesdayOffer"
           ></img>
           <ul className="ProductUL">
-            <li className="ProductName">MilkyBar Waffle</li>
+            <li className="ProductName">SUMMER SENSATION SMOOTHIE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod13} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">CARAMEL ICED LATTE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod16} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">RASPBERRY HEAVEN SMOOTHIE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod22} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">BREAKFAST POT</li>
           </ul>
         </div>
         <div>
-          <img className="offers" src={prod19} alt="DessertsOffer"></img>
+          <img className="offers" src={Tango} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">TANGO ICE BLAST</li>
           </ul>
           {/* SMOOTHIES END */}
         </div>{" "}
@@ -278,79 +282,75 @@ const Products = () => {
         <div>
           <img className="offers" src={eight} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName"> Strawberry cookiedough</li>
+            <li className="ProductName">
+              MILK CHOCOLATE COOKIE DOUGH & STRAWBERRIES
+            </li>
           </ul>
         </div>
         <div>
           <img className="offers" src={seventeen} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">OREO BROWNIE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod3} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">OREO/ KINDER BUENO SUNDAE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod4} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">HOT CHOCOLATE FONDUE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={four} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Mini Eggs Cookie Skillet</li>
+            <li className="ProductName">S'MORES COOKIE SKILLET</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={prod8} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
+            <li className="ProductName">LOTUS BISCOFF SUNDAE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={five} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">CHOCOLATE BROWNIE SUNDAE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={MM} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">CRISPY M&M BROWNIE</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={Donuts} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">SELECTION OF DONUTS</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={Kinder} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">KINDER BUENO WHITE BROWNIE</li>
           </ul>
         </div>
-        {/* <div>
-          <img className="offers" src={WhiteCDough} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">Strawberry and Banana Pancakes</li>
-          </ul>
-        </div> */}{" "}
         <div>
           <img className="offers" src={Cookies} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">DARK/MILK CHOCOLATE COOKIES</li>
           </ul>
         </div>
         <div>
           <img className="offers" src={LotusBrownie} alt="DessertsOffer"></img>
           <ul className="ProductUL">
-            <li className="ProductName">Choccy Fondue!</li>
+            <li className="ProductName">LOTUS BISCOFF/FUDGE BROWNIE</li>
           </ul>
         </div>
       </div>

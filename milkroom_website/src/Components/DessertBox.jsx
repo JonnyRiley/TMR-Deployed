@@ -4,23 +4,24 @@ class DessertAdder extends Component {
   state = {
     amountDifference: 0,
     Amount: 0,
+    disabledMinus: true,
   };
   render() {
     const {
       handleTotal,
-      boxSetAmount,
-      minusDisabled,
+      // boxSetAmount,
+      // minusDisabled,
       plusDisabled,
     } = this.props;
     const { handleClick } = this;
-    const { amountDifference, Amount } = this.state;
+    const { amountDifference, Amount, disabledMinus } = this.state;
     // if (err) return <ErrorPage err={err} />;
     // if (amountDifference >= 0) {
     return (
       <main className="button_Amount">
         <div className="incDiv">
           <button
-            disabled={minusDisabled}
+            disabled={disabledMinus}
             className="button_Amount"
             onClick={(e) => {
               e.preventDefault();
@@ -49,11 +50,18 @@ class DessertAdder extends Component {
   }
 
   handleClick = (inc_Amount) => {
-    // const { amountDifference } = this.state;
+    const { amountDifference } = this.state;
     // const { boxSetAmount, total } = this.props;
     this.setState((currentState) => {
+      if (amountDifference === 0) {
+        return {
+          amountDifference: currentState.amountDifference + inc_Amount,
+          disabledMinus: true,
+        };
+      }
       return {
         amountDifference: currentState.amountDifference + inc_Amount,
+        disabledMinus: false,
       };
     });
   };

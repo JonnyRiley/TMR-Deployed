@@ -18,6 +18,7 @@ import Parties from "./Components/Parties";
 import Footer from "./Components/Footer";
 import FAQ from "./Components/FAQ";
 import SeasonalProds from "./Components/SeasonalProducts";
+import Privacy from "./Components/Privacy";
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
           <Delivery path="/delivery" />
           <Orders path="/orders" />
           <TC path="/terms&conditions" />
+          <Privacy path="/privacy" />
           <Cookie path="/cookies" />
           <Parties path="/parties" />
           <NewsletterForm path="/newsletter" />
