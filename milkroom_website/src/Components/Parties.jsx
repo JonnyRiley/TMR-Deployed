@@ -42,7 +42,7 @@ const Parties = () => {
         <br></br>- We will decorate with balloons and will be playing party
         music of your choice. <br></br>
         <br></br>- Party games (if desired) <br></br>
-        <br></br>Minimum number of children 8, maximum 20 <br></br>
+        <br></br>Minimum number of children 10, maximum 20 <br></br>
         <br></br>
         <p className="partyP">£12 per child</p>
         <br></br>

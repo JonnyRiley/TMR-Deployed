@@ -1,7 +1,7 @@
 import React from "react";
 import shakeItUp from "../Components/images/IMG_1111.JPG";
-import homeAlone from "../Components/images/IMG_1112.JPG";
-import waffleWed from "../Components/images/IMG_1114.JPG";
+import waffleWed from "../Components/images/IMG_1112.JPG";
+import homeAlone from "../Components/images/IMG_1114.JPG";
 import freakshake from "../Components/images/FreakshakeOffer.JPG";
 import { Link } from "@reach/router";
 

@@ -3,6 +3,7 @@ import shop from "../Components/images/shop.png";
 import shop2 from "../Components/images/shop2.JPG";
 import shop3 from "../Components/images/shop3.JPG";
 import staff from "../Components/images/staff.JPG";
+import phpForm from "../Components/Contact.php";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 // import { MapContainer } from "./GoogleMaps";
@@ -64,7 +65,7 @@ const About = () => {
         </p>
       </div>{" "}
       <div className="about">
-        <form className="aboutUsText">
+        <form action={phpForm} method="post" className="aboutUsText">
           <h2 className="aboutH2">CONTACT US</h2>
           <label className="formButton">
             Name:
@@ -86,7 +87,7 @@ const About = () => {
             ></input>
           </label>
           <br></br>
-          <label className="formOption">
+          <label className="formOption" value="enquiry">
             Enquiry:
             <select className="formInput">
               <option value="Party">PARTY</option>
@@ -97,12 +98,12 @@ const About = () => {
             </select>
           </label>
           <br></br>
-          <label className="formButtonComment">
+          <label className="formButtonComment" value="comments">
             Comment:
             <input
               className="formComment"
               type="text"
-              name="email"
+              name="Enquiry Comment"
               placeholder=" Comment"
             ></input>
           </label>
@@ -111,7 +112,7 @@ const About = () => {
               className="navButtonSubmitContact"
               type="submit"
               value="Submit"
-              disabled="true"
+              // disabled="true"
             />
           </label>
         </form>

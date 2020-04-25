@@ -135,6 +135,26 @@ h3 {
 .navButton:hover {
   color: RGB(209, 160, 120);
 }
+.navFooter {
+  width: 135px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  /* padding-left: 60px;
+  padding-right: 50px; */
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: black;
+  border: none;
+  outline: none;
+}
+
+.navFooter:hover {
+  color: RGB(209, 160, 120);
+}
 .navButtonPolicies {
   width: 170px;
   background-color: black;
@@ -505,12 +525,15 @@ h3 {
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
   .divTwo .homeAlone {
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-left: 15%;
+    flex-direction: row;
   }
   .offerMain .divOne {
     display: flex;
@@ -519,15 +542,19 @@ h3 {
     background-color: white;
     flex-direction: column;
   }
+
   .divOne .homeAlone {
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-left: 15%;
+    flex-direction: row;
   }
   .OffersUL {
     height: 500px;
+    padding-left: 0px;
   }
   .divTwo .offersLiSmallPrint {
     text-decoration: none;
@@ -1006,7 +1033,6 @@ h3 {
     border: none;
     outline: none;
   }
-
   .navButton:hover {
     color: RGB(209, 160, 120);
   }
@@ -1146,6 +1172,31 @@ h3 {
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 414px) {
+  .about .aboutImg1 {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+/* @media only screen and (max-width: 596px) {
+  .navBar .navButton {
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    border: none;
+    outline: none;
+  }
+} */
 @media only screen and (max-width: 620px) {
   /* .about .aboutImg1 {
     height: 270px;
@@ -1328,6 +1379,7 @@ h3 {
     height: fit-content;
   }
 }
+
 .TitleAbout {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -2405,28 +2457,30 @@ element.style {
 }
 @media only screen and (max-width: 1000px) {
   .divOne .homeAlone {
-    height: 450px;
+    height: 600px;
     width: 70%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 120px;
+    padding-left: 15%;
+    flex-direction: row;
   }
   .divTwo .homeAlone {
-    height: 450px;
+    height: 600px;
     width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 125px;
+    padding-left: 15%;
+    flex-direction: row;
   }
   .divTwo .homeAlone1 {
-    height: 460px;
+    height: 550px;
     width: 70%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 120px;
+    padding-left: 15%;
   }
   .offersLiSmallPrint {
     text-decoration: none;
@@ -2683,7 +2737,7 @@ element.style {
     background: #adceed;
   }
 }
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   .navBar .navButton {
     width: 8px;
     background-color: black;
@@ -2700,7 +2754,7 @@ element.style {
     border: none;
     outline: none;
   }
-}
+} */
 /* here */
 @media only screen and (max-width: 768px) {
   .navButton {
@@ -2975,20 +3029,20 @@ element.style {
     padding-left: 0px;
   }
   .divTwo .homeAlone {
-    height: 450px;
-    width: 100%;
+    height: 400px;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 0px;
+    padding-left: 15%;
   }
   .divTwo .homeAlone1 {
-    height: 460px;
-    width: 100%;
+    height: 400px;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 0px;
+    padding-left: 15%;
   }
   .divTwo .offersLiSmallPrint {
     text-decoration: none;
@@ -3549,7 +3603,7 @@ element.style {
   font-size: 30px;
   padding-top: 2px;
   padding-bottom: 2px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 35px;
   border-top: black;
   border-bottom: black;
@@ -3560,4 +3614,109 @@ element.style {
 }
 .Products {
   background-color: white;
+}
+@media only screen and (max-width: 414px) {
+  .footerBar .navFooter {
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    border: none;
+    outline: none;
+  }
+}
+/* @media only screen and (max-width: 836px) {
+  .navBar .navButton {
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    border: none;
+    outline: none;
+  }
+} */
+/* @media only screen and (max-width: 740px) {
+  .navBar .navButton {
+    width: 95px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    border: none;
+    outline: none;
+  }
+} */
+
+@media only screen and (max-width: 508px) {
+  .divOne .homeAlone {
+    height: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .divOne .homeAlone {
+    height: 330px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    flex-direction: row;
+  }
+
+  .divTwo .homeAlone {
+    height: 330px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    flex-direction: row;
+  }
+  .divTwo .homeAlone1 {
+    height: 330px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .footerBar .navFooter {
+    width: 75px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    border: none;
+    outline: none;
+  }
 }

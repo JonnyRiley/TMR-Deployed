@@ -59,7 +59,7 @@ const Filler = () => {
       </div>
       <div className="about">
         <p className="aboutUsTextSecondP">
-          <h3 className="brunchTitle">Gift Voucher!</h3>
+          <h3 className="brunchTitle">GIFT VOUCHER!</h3>
           <br></br>
           <br></br>Looking for the perfect gift?<br></br> We can help you out at
           themilkroom.<br></br>Gift cards can be collected in store or posted.

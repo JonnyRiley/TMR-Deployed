@@ -8,16 +8,16 @@ const Footer = () => {
       <div className="footerDiv">
         <nav className="footerBar">
           <Link to="/parties">
-            <button className="navButton">EVENTS</button>
+            <button className="navFooter">EVENTS</button>
           </Link>
           <Link to="/faq">
-            <button className="navButton">FAQ</button>
+            <button className="navFooter">FAQ</button>
           </Link>
           <Link to="/about">
-            <button className="navButton">ABOUT US</button>
+            <button className="navFooter">ABOUT US</button>
           </Link>
           <Link to="/orders">
-            <button className="navButton">ORDERS</button>
+            <button className="navFooter">ORDERS</button>
           </Link>
         </nav>
         <h1 className="TitleFooter">NEWSLETTER SIGNUP</h1>
