@@ -52,7 +52,7 @@ const About = () => {
       <div className="about">
         <img className="aboutImg1" src={shop} alt="shop3"></img>
         <p className="aboutUsText">
-          <h4 className="aboutH4">OPENING HOURS:</h4>
+          <h4 className="aboutH4">OPENING HOURS</h4>
           <br></br>
           Monday: 10:00 - 18:00<br></br> Tuesday: 10:00 - 18:00 <br></br>
           Wednesday: 10:00 - 18:00<br></br>Thursday: 10:00 - 18:00<br></br>
@@ -111,7 +111,7 @@ const About = () => {
             <input
               className="navButtonSubmitContact"
               type="submit"
-              value="Submit"
+              value="SUBMIT"
               // disabled="true"
             />
           </label>

@@ -35,7 +35,6 @@ const Filler = () => {
       <div className="about">
         <p className="aboutUsTextSecondP">
           <h3 className="brunchTitle">IT'S PARTY TIME</h3>
-          <br></br>
           Are you looking to host a party?<br></br>
           We have the perfect venue for you and have specialised packages for
           your event<br></br>
@@ -60,8 +59,7 @@ const Filler = () => {
       <div className="about">
         <p className="aboutUsTextSecondP">
           <h3 className="brunchTitle">GIFT VOUCHER!</h3>
-          <br></br>
-          <br></br>Looking for the perfect gift?<br></br> We can help you out at
+          Looking for the perfect gift?<br></br> We can help you out at
           themilkroom.<br></br>Gift cards can be collected in store or posted.
           <br></br>
           <Popup />
