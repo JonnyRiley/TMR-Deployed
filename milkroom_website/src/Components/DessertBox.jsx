@@ -53,7 +53,7 @@ class DessertAdder extends Component {
     const { amountDifference } = this.state;
     // const { boxSetAmount, total } = this.props;
     this.setState((currentState) => {
-      if (amountDifference === 0) {
+      if (amountDifference === 1) {
         return {
           amountDifference: currentState.amountDifference + inc_Amount,
           disabledMinus: true,

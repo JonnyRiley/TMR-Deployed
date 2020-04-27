@@ -333,7 +333,12 @@ class Orders extends Component {
           plusDisabled: true,
           minusDisabled: false,
         };
-      }
+      } else if (currentState.total < boxSetAmount - 1)
+        return {
+          total: currentState.total + inc_amount,
+          plusDisabled: false,
+          minusDisabled: false,
+        };
       return {
         total: currentState.total + inc_amount,
         plusDisabled: false,
