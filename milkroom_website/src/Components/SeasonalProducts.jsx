@@ -1,12 +1,10 @@
 import React from "react";
 import one from "../Components/images/creamEggEaster.jpg";
 import two from "../Components/images/seasonalBrownie.jpg";
-import three from "../Components/images/sundaes.jpg";
 import four from "../Components/images/creamEggBrownie.jpg";
 import five from "../Components/images/funkyFreakshake.jpg";
 import six from "../Components/images/halloween-shake.jpg";
 import DBox from "../Components/images/seasonalDBox.jpg";
-import eight from "../Components/images/sundaes.jpg";
 import mini from "../Components/images/7.jpg";
 import purple from "../Components/images/purpleShake.jpg";
 

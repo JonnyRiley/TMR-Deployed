@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as Api from "../Api";
 import { Link } from "@reach/router";
+// import validator from "validator";
 
 // import ErrorPage from "./ErrorPage";
 class ItemAdder extends Component {
@@ -16,7 +17,6 @@ class ItemAdder extends Component {
       <main>
         <form onSubmit={this.handleSubmit} className="NewsletterForm">
           <label
-            required
             onChange={(e) => this.handleChange(e.target.value, "username")}
             htmlFor="username"
             className="formButtonNewsletter"
@@ -27,6 +27,7 @@ class ItemAdder extends Component {
               type="text"
               name="name"
               placeholder="Name"
+              required
             />
           </label>
 
@@ -37,6 +38,7 @@ class ItemAdder extends Component {
           >
             Email:
             <input
+              required
               className="newsletterInput"
               type="text"
               name="email"
@@ -48,9 +50,10 @@ class ItemAdder extends Component {
               className="navButtonNewsletter"
               type="submit"
 
+              // disabled={!validator.isEmail("email")}
               // onClick={(e) => {prompt}}
             >
-              Subscribe
+              SUBSCRIBE
             </button>
           </div>
         </form>

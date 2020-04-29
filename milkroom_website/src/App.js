@@ -19,6 +19,7 @@ import Footer from "./Components/Footer";
 import FAQ from "./Components/FAQ";
 import SeasonalProds from "./Components/SeasonalProducts";
 import Privacy from "./Components/Privacy";
+import ErrorPage from "./Components/ErrorPage";
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
           <NewsletterForm path="/newsletter" />
           <FAQ path="/faq" />
           <SeasonalProds path="/seasonalProducts" />
+          <ErrorPage default />
         </Router>
         <Footer />
         {/* <NewsletterForm /> */}

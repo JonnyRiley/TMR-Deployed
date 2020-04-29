@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import stepOne from "../Components/images/stepOne.png";
 import DesertAdder from "./DessertBox";
 import brownie from "../Components/images/brownie.png";
 import terrys from "../Components/images/terryschoc-brownie.png";

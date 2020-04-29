@@ -5,7 +5,6 @@ import three from "../Components/images/3.jpg";
 import four from "../Components/images/4.jpg";
 import five from "../Components/images/5.jpg";
 import Tango from "../Components/images//Prods.jsx/tango-Ice.jpg";
-import seven from "../Components/images/7.jpg";
 import eight from "../Components/images/8.jpg";
 import candy from "../Components/images/candy.jpg";
 import ten from "../Components/images/10.jpg";
@@ -31,8 +30,6 @@ import prod15 from "../Components/images/Prods.jsx/prod15.JPG";
 import prod16 from "../Components/images/Prods.jsx/prod16.JPG";
 import prod17 from "../Components/images/Prods.jsx/prod17.JPG";
 import prod18 from "../Components/images/Prods.jsx/prod18.JPG";
-import prod19 from "../Components/images/Prods.jsx/prod19.JPG";
-import prod20 from "../Components/images/Prods.jsx/prod20.JPG";
 import prod21 from "../Components/images/Prods.jsx/prod21.JPG";
 import funkyFreak from "../Components/images/Prods.jsx/freakshakeChoccy.jpg";
 
@@ -46,8 +43,6 @@ import LotusBrownie from "../Components/images/Prods.jsx/lotusBrownie.jpg";
 import Cookies from "../Components/images/Prods.jsx/cookies.jpg";
 import Pancake from "../Components/images/Prods.jsx/pancake.jpg";
 import MMWaffle from "../Components/images/Prods.jsx/MMWaffle.jpg";
-import StrawWaffle from "../Components/images/Prods.jsx/strawberryWaffle.jpg";
-import WhiteCDough from "../Components/images/Prods.jsx/whiteCDough.jpg";
 import StrawPancakes from "../Components/images/Prods.jsx/StrawPancakes.jpg";
 import stackWaffles from "../Components/images/Prods.jsx/stackWaffles.jpg";
 const Products = () => {

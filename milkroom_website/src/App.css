@@ -42,6 +42,7 @@
     padding-left: 15%;
     padding-right: 15%;
   }
+
   .about .aboutH2 {
     display: flex;
     justify-content: center;
@@ -439,7 +440,43 @@ h3 {
 .navButton:hover {
   color: RGB(209, 160, 120);
 }
-
+.Error404 {
+  height: 50%;
+  width: 40%;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.ErrorP {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-decoration: white;
+  text-emphasis-style: none;
+  color: black;
+  text-decoration: white;
+}
+.errorPageFlex {
+  color: black;
+  background-color: white;
+  /* display: flex; */
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  flex-direction: row;
+}
+.errorPage {
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  flex-direction: column;
+}
+.errorPageMain {
+  color: black;
+  text-align: center;
+  background-color: white;
+}
 .navFooter {
   width: 135px;
   background-color: black;
@@ -1049,7 +1086,7 @@ h3 {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 900px;
+    height: 750px;
   }
   .aboutUsTextSecondP {
     height: 420px;
@@ -1197,6 +1234,14 @@ h3 {
     margin-right: 25px;
     text-decoration: none;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
   }
 }
 @media only screen and (max-width: 740px) {
@@ -4484,5 +4529,128 @@ element.style {
     padding-left: 155px;
     font-family: "Poppins", sans-serif;
     font-size: large;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .PartyIMGDiv {
+    display: flex;
+    flex-direction: COLUMN;
+    background-color: white;
+  }
+  .PartyIMG {
+    height: 450px;
+    width: 80%;
+    display: flex;
+    flex-direction: COLUMN;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0%;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .PartyIMG {
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: COLUMN;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0%;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .PartyIMG {
+    height: 240px;
+    width: 80%;
+    display: flex;
+    flex-direction: COLUMN;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 0%;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .ProductsTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 70px;
+    text-align: center;
+  }
+  .FAQ {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .FAQBold {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    padding-left: 10%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    text-decoration: underline;
+  }
+  .brunchTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    color: black;
+  }
+  .navButtonParty {
+    width: 200px;
+    /* height: 50px; */
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border: black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .partyP {
+    font-weight: bolder;
+    font-size: 45px;
+  }
+  .partyText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 0px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-size: xx-large;
   }
 }
