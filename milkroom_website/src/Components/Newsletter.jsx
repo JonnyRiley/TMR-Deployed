@@ -1,6 +1,6 @@
 import React from "react";
 
-import ItemAdder from "./PostUser";
+import ItemAdder from "./PostUser1";
 
 const NewsletterForm = () => {
   return (

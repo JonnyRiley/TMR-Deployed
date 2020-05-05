@@ -7,16 +7,10 @@ class DessertAdder extends Component {
     disabledMinus: true,
   };
   render() {
-    const {
-      handleTotal,
-      // boxSetAmount,
-      // minusDisabled,
-      plusDisabled,
-    } = this.props;
+    const { handleTotal, plusDisabled } = this.props;
     const { handleClick } = this;
     const { amountDifference, Amount, disabledMinus } = this.state;
     // if (err) return <ErrorPage err={err} />;
-    // if (amountDifference >= 0) {
     return (
       <main className="button_Amount">
         <div className="incDiv">
@@ -44,14 +38,12 @@ class DessertAdder extends Component {
             +
           </button>
         </div>
-        {/* <p className="hidden">{total}</p> */}
       </main>
     );
   }
 
   handleClick = (inc_Amount) => {
     const { amountDifference } = this.state;
-    // const { boxSetAmount, total } = this.props;
     this.setState((currentState) => {
       if (amountDifference === 1) {
         return {

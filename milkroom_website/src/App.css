@@ -1,7 +1,7 @@
 /* RGB(209,160,120) */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 1560px) {
   .navBar .navButton {
     width: 240px;
     background-color: black;
@@ -153,6 +153,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
   .footerBar .navFooter {
     width: 250px;
     background-color: black;
@@ -271,6 +272,9 @@ ul {
   font-family: "Poppins", sans-serif;
   color: black;
   background-color: white;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media only screen and (max-width: 1490px) {
@@ -4582,6 +4586,13 @@ element.style {
     background-color: white;
     font-size: 70px;
     text-align: center;
+  }
+  .aboutImg {
+    height: 700px;
+    width: 50%;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
   }
   .FAQ {
     display: flex;

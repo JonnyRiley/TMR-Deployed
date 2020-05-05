@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import DesertAdder from "./DessertBox";
 import brownie from "../Components/images/brownie.png";
-import terrys from "../Components/images/terryschoc-brownie.png";
+import Terrys from "../Components/images/terryschoc-brownie.png";
 import KinderBrownie from "../Components/images/kinderBueno-brownie.png";
 import fudgeBrownie from "../Components/images/fudge-bwonie.png";
 import crispyMM from "../Components/images/m&m brownie.png";
@@ -19,11 +19,11 @@ class Orders extends Component {
     minusDisabled: true,
     plusDisabled: false,
   };
+
   render() {
     return (
       <main className="ordersDiv">
         <h1 className="ProductsTitle">DESSERT BOXES</h1>
-        {/* <h2 className="aboutH2Title">Desert Boxes</h2> */}
         <form className="ordersForm">
           <div className="stepOneForm">
             <h2 className="ProductsH2">
@@ -37,10 +37,6 @@ class Orders extends Component {
               Choose your favourite flavours and create your very own dessert
               box!
             </h3>
-            {/* <div className="orderFlex">
-          <img className="stepOne" src={stepOne} alt="stepOne"></img>
-        </div> */}
-            {/* <form className="ordersForm"> */}
             <label className="ordersLabel">
               SELECT YOUR SIZE
               <select
@@ -55,12 +51,11 @@ class Orders extends Component {
               </select>
             </label>
           </div>
-          {/* <div className="orderFlex"> */}
-          {/* <img className="stepOne" src={stepOne} alt="stepOne"></img> */}
-          {/* </div> */}
           <div className="stepTwoForm">
-            <h2 className="ProductsH2">STEP TWO: SELECT YOUR FLAVOURS</h2>
-            {/* <label className="ordersLabel">Step Two: Select your flavours</label> */}
+            <h2 className="ProductsH2">
+              STEP TWO: SELECT {this.state.boxSetAmount} FLAVOURS
+            </h2>
+
             <div className="desertTiles">
               <div id="DesertGrid">
                 <DesertAdder
@@ -87,7 +82,7 @@ class Orders extends Component {
                 />
                 <img
                   className="DesertIcons"
-                  src={terrys}
+                  src={Terrys}
                   alt="dessert_Icon"
                 ></img>
                 <p className="desertTitle">Terry’s Chocolate Orange Brownie</p>
@@ -247,28 +242,23 @@ class Orders extends Component {
                 <p className="desertTitle">Lotus Biscoff Donut</p>
               </div>
             </div>
-            <p className="orderTotal">
-              {this.handleOrder()}
-              {/* {this.state.total}/{this.state.boxSetAmount} */}
-            </p>
-            <div className="orderFlex">
-              {/* <img className="stepOne" src={stepOne} alt="stepOne"></img> */}
-            </div>
+            <p className="orderTotal">{this.handleOrder()}</p>
+            <div className="orderFlex"></div>
           </div>
           <div className="stepOneForm">
             <h2 className="ProductsH2">STEP THREE: DELIVERY OPTIONS</h2>
             <label className="ordersLabel">
-              {/* Step Three: Delivery or Collection */}
               <select className="formInput">
                 <option value="Collection">Collection - Free</option>
                 <option value="Delivery">Delivery - £2.50</option>
               </select>
             </label>
             <p className="centeredP">
-              PLEASE NOTE THAT ALL ORDERS MUST BE PLACES AT LEAST 24 HOURS
+              PLEASE NOTE THAT ALL ORDERS MUST BE PLACED AT LEAST 24 HOURS
               BEFORE YOU WANT TO RECEIVE YOUR ORDER THIS IS DUE TO ALL PRODUCTS
-              BEING MADE FRESH IN STORE. YOUR ORDER WILL ONLY BE CONFIRMED ONCE
-              A MEMBER OF STAFF CONTACTS YOU TO TAKE PAYMENT OVER THE PHONE
+              BEING MADE FRESH IN STORE.<br></br> YOUR ORDER WILL ONLY BE
+              CONFIRMED ONCE A MEMBER OF STAFF CONTACTS YOU TO TAKE PAYMENT OVER
+              THE PHONE
             </p>
             <label className="ordersLabel" for="Confirm">
               {" "}
@@ -343,30 +333,6 @@ class Orders extends Component {
         plusDisabled: false,
         minusDisabled: false,
       };
-      // if (currentState.total === boxSetAmount - 1) {
-      //   return {
-      //     total: currentState.total + inc_amount,
-      //     plusDisabled: true,
-      //     minusDisabled: false,
-      //   };
-      // } else if (this.state.total > 0 && this.state.total < boxSetAmount) {
-      //   return {
-      //     total: this.state.total + inc_amount,
-      //     plusDisabled: false,
-      //     minusDisabled: false,
-      //   };
-      // } else if (this.state.total === 0 - 1) {
-      //   return {
-      //     total: currentState.total + inc_amount,
-      //     minusDisabled: true,
-      //     plusDisabled: false,
-      //   };
-      // } else
-      //   return {
-      //     total: this.state.total + inc_amount,
-      //     minusDisabled: false,
-      //     plusDisabled: false,
-      //   };
     });
   };
   handleOrder() {
@@ -374,14 +340,15 @@ class Orders extends Component {
     if (total === boxSetAmount) {
       return (
         <div className="handleOrderDiv">
-          <p className="handleOrder">You're all set!</p>
+          <p className="handleOrder">YOU'RE ALL SET!</p>
         </div>
       );
-      // } else if (){
     } else {
       return (
         <div className="handleOrderDiv">
-          <p className="handleOrder">YOU NEED {boxSetAmount - total} MORE!</p>
+          <p className="handleOrder">
+            SELECT {boxSetAmount - total} MORE DESSERTS!
+          </p>
         </div>
       );
     }

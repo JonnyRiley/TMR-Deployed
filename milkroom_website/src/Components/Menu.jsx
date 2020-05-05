@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import { Slide } from "react-slideshow-image";
 import slide1 from "../Components/images/Screenshot.png";
 import slide2 from "../Components/images/Screenshot1.png";
 import slide3 from "../Components/images/Screenshot2.png";
 import Filler from "./Filler";
+import IsLoading from "./IsLoading";
 
 const slideImages = [slide1, slide2, slide3];
 
@@ -19,38 +20,48 @@ const properties = {
   },
 };
 
-const Menu = () => {
-  return (
-    <main>
-      <div className="slide-container">
-        <Slide {...properties}>
-          <div className="each-slide">
-            <div
-              style={{
-                backgroundImage: `url(${slideImages[0]})`,
-              }}
-            >
-              {/* <span>Slide 1</span> */}
+class Menu extends Component {
+  state = {
+    loading: true,
+  };
+  render() {
+    const { loading } = this.state;
+    if (loading) return <IsLoading loading={this.state.loading} />;
+    return (
+      <main>
+        <div className="slide-container">
+          <Slide {...properties}>
+            <div className="each-slide">
+              <div
+                style={{
+                  backgroundImage: `url(${slideImages[0]})`,
+                }}
+              >
+                {/* <span>Slide 1</span> */}
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
-              {/* <span>Slide 2</span> */}
+            <div className="each-slide">
+              <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
+                {/* <span>Slide 2</span> */}
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div
-              className="rotated"
-              style={{ backgroundImage: `url(${slideImages[2]})` }}
-            >
-              {/* <span>Slide 3</span> */}
+            <div className="each-slide">
+              <div
+                className="rotated"
+                style={{ backgroundImage: `url(${slideImages[2]})` }}
+              >
+                {/* <span>Slide 3</span> */}
+              </div>
             </div>
-          </div>
-        </Slide>
-      </div>
-      <Filler />
-    </main>
-  );
-};
+          </Slide>
+        </div>
+        <Filler />
+      </main>
+    );
+  }
 
+  componentDidMount() {
+    this.setState({ loading: false });
+  }
+}
 export default Menu;

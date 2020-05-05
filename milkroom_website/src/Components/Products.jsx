@@ -32,7 +32,6 @@ import prod17 from "../Components/images/Prods.jsx/prod17.JPG";
 import prod18 from "../Components/images/Prods.jsx/prod18.JPG";
 import prod21 from "../Components/images/Prods.jsx/prod21.JPG";
 import funkyFreak from "../Components/images/Prods.jsx/freakshakeChoccy.jpg";
-
 import prod22 from "../Components/images/Prods.jsx/prod22.jpg";
 import sixteen from "../Components/images/largeChocFreakshake.jpg";
 import seventeen from "../Components/images/oreoBrownie.jpg";
@@ -49,304 +48,331 @@ const Products = () => {
   return (
     <main className="Products">
       <h1 className="ProductsTitle">PRODUCTS</h1>
-      <h2 className="ProductsH2">MILKSHAKES</h2>
-      <div className="div1">
-        <div>
-          <img className="offers" src={ten} alt="homeAloneOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">HAZELNUT HAPPINESS SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={one} alt="homeAloneOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CHOCOLATE BROWNIE SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod12} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OUT OF THIS WORLD SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod2} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">SWEET 'N' SALTY SWIRL SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod6} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">TWISTER SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod7} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">TANGO ICE-BLAST SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod9} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">GLORIOUS GUYLIAN SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod14} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CRISPY ROLL SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod15} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">WHITE TWIX SHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={candy} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CRAZY CANDY EXTREME FREAKSHAKE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={sixteen} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">
-              PEANUT BUTTER & SALTED CARAMEL FREAKSHAKE
-            </li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={funkyFreak} alt="homeAloneOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OREO & BROWNIE FREAKSHAKE</li>
-          </ul>
+      <div className="stepOneForm">
+        <h2 className="ProductsH2">MILKSHAKES</h2>
+        <div className="div1">
+          <div>
+            <img className="offers" src={ten} alt="homeAloneOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">HAZELNUT HAPPINESS SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={one} alt="homeAloneOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CHOCOLATE BROWNIE SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod12} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OUT OF THIS WORLD SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod2} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">SWEET 'N' SALTY SWIRL SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod6} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">TWISTER SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod7} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">TANGO ICE-BLAST SHAKE</li>
+            </ul>
+          </div>
+
+          <div>
+            <img className="offers" src={prod9} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">GLORIOUS GUYLIAN SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod14} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CRISPY ROLL SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod15} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">WHITE TWIX SHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={candy} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CRAZY CANDY EXTREME FREAKSHAKE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={sixteen} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">
+                PEANUT BUTTER & SALTED CARAMEL FREAKSHAKE
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={funkyFreak} alt="homeAloneOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OREO & BROWNIE FREAKSHAKE</li>
+            </ul>
+          </div>
         </div>
       </div>
       {/* MILKSHAKE END */}
-      <h2 className="ProductsH2">WAFFLES</h2>
-      <div className="div1">
-        <div>
-          <img className="offers" src={twelve} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OREO WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod5} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">STICKY BANOFFEE WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={three} alt="WaffleWednesdayOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">
-              KINDER BUENO WHITE & MILKYBAR WAFFLE
-            </li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod1} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">BERRY WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod10} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">MILKWAY WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={two} alt="ShakeItUpOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">BREAKFAST WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod17} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">GALAXY CARAMEL WAFFLE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={MMWaffle} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CRISPY M&M WAFFLE</li>
-          </ul>
-        </div>
+      <div className="stepOneForm">
+        <h2 className="ProductsH2">WAFFLES</h2>
+        <div className="div1">
+          <div>
+            <img className="offers" src={twelve} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OREO WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod5} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">STICKY BANOFFEE WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img
+              className="offers"
+              src={three}
+              alt="WaffleWednesdayOffer"
+            ></img>
+            <ul className="ProductUL">
+              <li className="ProductName">
+                KINDER BUENO WHITE & MILKYBAR WAFFLE
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod1} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">BERRY WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod10} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">MILKWAY WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={two} alt="ShakeItUpOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">BREAKFAST WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod17} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">GALAXY CARAMEL WAFFLE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={MMWaffle} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CRISPY M&M WAFFLE</li>
+            </ul>
+          </div>
 
-        <div>
-          <img className="offers" src={stackWaffles} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">WAFFLE STACK</li>
-          </ul>
+          <div>
+            <img
+              className="offers"
+              src={stackWaffles}
+              alt="DessertsOffer"
+            ></img>
+            <ul className="ProductUL">
+              <li className="ProductName">WAFFLE STACK</li>
+            </ul>
+          </div>
         </div>
       </div>
       {/* WAFFLES END */}
-      <h2 className="ProductsH2">PANCAKES</h2>
-      <div className="div1">
-        <div>
-          <img className="offers" src={prod18} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OREO PANCAKES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={eleven} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">STRAWBERRY & BANANA PANCAKES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod11} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">SALTED CARAMEL PANCAKES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={Pancake} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">MARS BAR PANCAKES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod21} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">KINDER BUENO WHITE PANCAKES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={StrawPancakes} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">GREEK YOGHURT PANCAKES</li>
-          </ul>
+      <div className="stepOneForm">
+        <h2 className="ProductsH2">PANCAKES</h2>
+        <div className="div1">
+          <div>
+            <img className="offers" src={prod18} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OREO PANCAKES</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={eleven} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">STRAWBERRY & BANANA PANCAKES</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod11} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">SALTED CARAMEL PANCAKES</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={Pancake} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">MARS BAR PANCAKES</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod21} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">KINDER BUENO WHITE PANCAKES</li>
+            </ul>
+          </div>
+          <div>
+            <img
+              className="offers"
+              src={StrawPancakes}
+              alt="DessertsOffer"
+            ></img>
+            <ul className="ProductUL">
+              <li className="ProductName">GREEK YOGHURT PANCAKES</li>
+            </ul>
+          </div>
         </div>
       </div>
       {/* PANCAKES END */}
-      <h2 className="ProductsH2">FEEL-GOOD</h2>
-      <div className="div1">
-        <div>
-          <img className="offers" src={thirteen} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">GREEN CLEANSE SMOOTHIE</li>
-          </ul>
-        </div>
-        <div>
-          <img
-            className="offers"
-            src={fourteen}
-            alt="WaffleWednesdayOffer"
-          ></img>
-          <ul className="ProductUL">
-            <li className="ProductName">SUMMER SENSATION SMOOTHIE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod13} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CARAMEL ICED LATTE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod16} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">RASPBERRY HEAVEN SMOOTHIE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod22} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">BREAKFAST POT</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={Tango} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">TANGO ICE BLAST</li>
-          </ul>
+      <div className="stepOneForm">
+        <h2 className="ProductsH2">FEEL-GOOD</h2>
+        <div className="div1">
+          <div>
+            <img className="offers" src={thirteen} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">GREEN CLEANSE SMOOTHIE</li>
+            </ul>
+          </div>
+          <div>
+            <img
+              className="offers"
+              src={fourteen}
+              alt="WaffleWednesdayOffer"
+            ></img>
+            <ul className="ProductUL">
+              <li className="ProductName">SUMMER SENSATION SMOOTHIE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod13} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CARAMEL ICED LATTE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod16} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">RASPBERRY HEAVEN SMOOTHIE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod22} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">BREAKFAST POT</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={Tango} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">TANGO ICE BLAST</li>
+            </ul>
+          </div>
           {/* SMOOTHIES END */}
         </div>{" "}
       </div>
-      <h2 className="ProductsH2">DESSERTS</h2>
-      <div className="div1">
-        <div>
-          <img className="offers" src={eight} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">
-              MILK CHOCOLATE COOKIE DOUGH & STRAWBERRIES
-            </li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={seventeen} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OREO BROWNIE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod3} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">OREO/ KINDER BUENO SUNDAE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod4} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">HOT CHOCOLATE FONDUE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={four} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">S'MORES COOKIE SKILLET</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={prod8} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">LOTUS BISCOFF SUNDAE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={five} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CHOCOLATE BROWNIE SUNDAE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={MM} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">CRISPY M&M BROWNIE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={Donuts} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">SELECTION OF DONUTS</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={Kinder} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">KINDER BUENO WHITE BROWNIE</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={Cookies} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">DARK/MILK CHOCOLATE COOKIES</li>
-          </ul>
-        </div>
-        <div>
-          <img className="offers" src={LotusBrownie} alt="DessertsOffer"></img>
-          <ul className="ProductUL">
-            <li className="ProductName">LOTUS BISCOFF/FUDGE BROWNIE</li>
-          </ul>
+      <div className="stepOneForm">
+        <h2 className="ProductsH2">DESSERTS</h2>
+        <div className="div1">
+          <div>
+            <img className="offers" src={eight} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">
+                MILK CHOCOLATE COOKIE DOUGH & STRAWBERRIES
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={seventeen} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OREO BROWNIE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod3} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">OREO/ KINDER BUENO SUNDAE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod4} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">HOT CHOCOLATE FONDUE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={four} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">S'MORES COOKIE SKILLET</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={prod8} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">LOTUS BISCOFF SUNDAE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={five} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CHOCOLATE BROWNIE SUNDAE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={MM} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">CRISPY M&M BROWNIE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={Donuts} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">SELECTION OF DONUTS</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={Kinder} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">KINDER BUENO WHITE BROWNIE</li>
+            </ul>
+          </div>
+          <div>
+            <img className="offers" src={Cookies} alt="DessertsOffer"></img>
+            <ul className="ProductUL">
+              <li className="ProductName">DARK/MILK CHOCOLATE COOKIES</li>
+            </ul>
+          </div>
+          <div>
+            <img
+              className="offers"
+              src={LotusBrownie}
+              alt="DessertsOffer"
+            ></img>
+            <ul className="ProductUL">
+              <li className="ProductName">LOTUS BISCOFF/FUDGE BROWNIE</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
