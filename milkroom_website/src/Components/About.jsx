@@ -2,10 +2,9 @@ import React from "react";
 import shop from "../Components/images/shop.png";
 import shop2 from "../Components/images/shop2.JPG";
 import shop3 from "../Components/images/shop3.JPG";
-import staff from "../Components/images/staff.JPG";
-import phpForm from "../Components/Contact.php";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import ContactForm from "./ContactForm";
 // import { MapContainer } from "./GoogleMaps";
 const About = () => {
   return (
@@ -63,61 +62,8 @@ const About = () => {
             <FontAwesomeIcon icon={faPhone} /> 01704 829457
           </a>
         </p>
-      </div>{" "}
-      <div className="about">
-        <form action={phpForm} method="post" className="aboutUsText">
-          <h2 className="aboutH2">CONTACT US</h2>
-          <label className="formButton">
-            Name:
-            <input
-              className="aboutInput"
-              type="text"
-              name="name"
-              placeholder=" Name"
-            ></input>
-          </label>
-          <br></br>
-          <label className="formButton">
-            Email:
-            <input
-              className="aboutInput"
-              type="text"
-              name="email"
-              placeholder=" Email"
-            ></input>
-          </label>
-          <br></br>
-          <label className="formOption" value="enquiry">
-            Enquiry:
-            <select className="formInput">
-              <option value="Party">PARTY</option>
-              <option value="Table Booking">TABLE BOOKING</option>
-              <option value="Gift Voucher">GIFT VOUCHER</option>
-              {/* <option value="Table Booking">Table Booking</option> */}
-              <option value="Other">OTHER</option>
-            </select>
-          </label>
-          <br></br>
-          <label className="formButtonComment" value="comments">
-            Comment:
-            <input
-              className="formComment"
-              type="text"
-              name="Enquiry Comment"
-              placeholder=" Comment"
-            ></input>
-          </label>
-          <label className="formSubmitButton">
-            <input
-              className="navButtonSubmitContact"
-              type="submit"
-              value="SUBMIT"
-              // disabled="true"
-            />
-          </label>
-        </form>
-        <img className="aboutImg" src={staff} alt="staff"></img>
       </div>
+      <ContactForm />
     </main>
   );
 };

@@ -1,5 +1,12 @@
 /* RGB(209,160,120) */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+.errorMsg {
+  font-size: 16px;
+  color: red;
+  font-family: "Poppins", "sans-serif";
+  display: flex;
+  justify-content: center;
+}
 
 @media only screen and (min-width: 1560px) {
   .navBar .navButton {
@@ -835,7 +842,16 @@ h3 {
   border-style: solid;
   border-width: 0.05em;
 }
+.logo:hover {
+  opacity: 80%;
+}
 
+.copyRightP {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 @media only screen and (max-width: 1000px) {
   .about .aboutUsText {
     height: 420px;
@@ -2181,6 +2197,35 @@ h3 {
   height: 300px;
   width: 100%;
 }
+.eventBlurb {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: auto;
+}
+.eventText {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  font-size: auto;
+}
 .aboutUsText {
   height: 420px;
   width: 100%;
@@ -2188,6 +2233,7 @@ h3 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
   margin-top: 0px;
   margin-left: 25px;
   margin-right: 25px;
@@ -2198,6 +2244,7 @@ h3 {
   height: 420px;
   width: 100%;
   display: flex;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
   text-align: center;
   flex-direction: column;
@@ -2279,6 +2326,7 @@ h3 {
   font-size: 0.95em;
   font-family: "Poppins", sans-serif;
   margin-right: 25px;
+  margin-left: 6px;
   margin-top: 10px;
 }
 .NewsletterForm {

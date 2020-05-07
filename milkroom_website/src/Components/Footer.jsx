@@ -25,6 +25,8 @@ const Footer = () => {
           <Link to="/newsletter">
             <button className="navButtonFooter">SUBSCRIBE</button>
           </Link>
+
+          <p className="copyRightP">© themilkroom ALL RIGHTS RESERVED</p>
         </div>
         <div className="footerRow">
           <div className="Icons">

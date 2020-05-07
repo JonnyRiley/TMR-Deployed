@@ -12,7 +12,11 @@ const Parties = () => {
         <img className="partyIMG" src={party} alt="partyLayout"></img>
         <p className="aboutUsText">
           <h2 className="partyTitle">VENUE HIRE</h2>
-          Childrens Party<br></br>
+          Are you looking to host a party?<br></br> We have the perfect venue
+          for you and have specialised<br></br> packages for your event...
+          <br></br>
+          <br></br>Childrens Party
+          <br></br>
           <br></br>
           Birthday Party<br></br>
           <br></br>

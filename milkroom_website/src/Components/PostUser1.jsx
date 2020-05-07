@@ -22,11 +22,11 @@ export default class ItemAdder extends React.Component {
     let emailError = "";
 
     if (!this.state.username) {
-      usernameError = "name cannot be blank";
+      usernameError = "Cannot be blank";
     }
 
     if (!this.state.email.includes("@")) {
-      emailError = "invalid email";
+      emailError = "Invalid email";
     }
 
     if (emailError || usernameError) {
@@ -70,9 +70,7 @@ export default class ItemAdder extends React.Component {
               onChange={(e) => this.handleChange(e.target.value, "username")}
             />
           </label>
-          <div style={{ fontSize: 12, color: "red" }}>
-            {this.state.usernameError}
-          </div>
+          <div className="errorMsg">{this.state.usernameError}</div>
         </div>
         <div>
           <label htmlFor="email" className="formButtonNewsletter">
@@ -85,9 +83,7 @@ export default class ItemAdder extends React.Component {
               onChange={(e) => this.handleChange(e.target.value, "email")}
             />
           </label>
-          <div style={{ fontSize: 12, color: "red" }}>
-            {this.state.emailError}
-          </div>
+          <div className="errorMsg">{this.state.emailError}</div>
         </div>
 
         <div className="newsletterFlex">
