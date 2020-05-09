@@ -7,7 +7,7 @@ class DessertAdder extends Component {
     disabledMinus: true,
   };
   render() {
-    const { handleTotal, plusDisabled } = this.props;
+    const { handlePlus, handleMinus, handleTotal, plusDisabled } = this.props;
     const { handleClick } = this;
     const { amountDifference, Amount, disabledMinus } = this.state;
     // if (err) return <ErrorPage err={err} />;
@@ -20,7 +20,8 @@ class DessertAdder extends Component {
             onClick={(e) => {
               e.preventDefault();
               handleClick(-1);
-              handleTotal(-1);
+              handleMinus(amountDifference, this.props.value);
+              handleTotal(-1, this.props.value);
             }}
           >
             -
@@ -32,7 +33,8 @@ class DessertAdder extends Component {
             onClick={(e) => {
               e.preventDefault();
               handleClick(1);
-              handleTotal(1);
+              handlePlus(amountDifference, this.props.value);
+              handleTotal(1, this.props.value);
             }}
           >
             +

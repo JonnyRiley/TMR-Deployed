@@ -12,31 +12,54 @@ import milkCookie from "../Components/images/milkcookie.png";
 import doubleChocCookie from "../Components/images/choc-cookie.png";
 import whiteCookie from "../Components/images/white-cookie.png";
 import lotusDonut from "../Components/images/lotus-donut.png";
+import OrderForm from "./OrderForm.php";
 class Orders extends Component {
   state = {
     boxSetAmount: 4,
     total: 0,
     minusDisabled: true,
     plusDisabled: false,
+    brownie: 0,
+    terrysChocBrownie: 0,
+    brownieKinderBuenoBrownie: 0,
+    fudgeBrownie: 0,
+    crispyMMBrownie: 0,
+    lotusBiscoffBrownie: 0,
+    lotusBiscoffSlice: 0,
+    oreoDonut: 0,
+    milkCookie: 0,
+    doubleChocCookie: 0,
+    whiteCookie: 0,
+    lotusDonut: 0,
+    name: "",
+    telephone: "",
   };
 
   render() {
     return (
       <main className="ordersDiv">
         <h1 className="ProductsTitle">DESSERT BOXES</h1>
-        <form className="ordersForm">
+        <h2 className="ordersH2">
+          At the milkroom our passion is desserts. We decided to make it easy
+          for you to order all of our popular desserts online. Your dessert box
+          can have 4, 5 or 6 items and you choose what products you want inside.
+          To make sure your order is secure we take payment over the phone, once
+          you have selected your items a member of the team will call you at
+          your convenience. Your dessert box can be delivered to you or
+          collected in store - the choice is yours. We hope you enjoy!
+        </h2>
+        <form action={OrderForm} className="ordersForm">
           <div className="stepOneForm">
-            <h2 className="ProductsH2">
+            <h3 className="ProductsH2">
               STEP ONE: SELECT YOUR DESSERT BOX SIZE
-            </h2>
-
-            <h2 className="ordersH2Title">
+            </h3>
+            <h4 className="ordersH2Title">
               We hand-make all our desserts freshly in store for you to enjoy.
-            </h2>
-            <h3 className="desertH2Title">
+            </h4>
+            <h5 className="desertH2Title">
               Choose your favourite flavours and create your very own dessert
               box!
-            </h3>
+            </h5>
             <label className="ordersLabel">
               SELECT YOUR SIZE
               <select
@@ -57,13 +80,16 @@ class Orders extends Component {
             </h2>
 
             <div className="desertTiles">
-              <div id="DesertGrid">
+              <div id="DesertGrid" value="brownie">
                 <DesertAdder
                   minusDisabled={this.state.minusDisabled}
                   plusDisabled={this.state.plusDisabled}
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="brownie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -79,6 +105,10 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  handleOrderItems={this.handleOrderItems}
+                  value="terrysChocBrownie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -94,6 +124,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="kinderBuenoBrownie "
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -109,6 +142,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="fudgeBrownie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -126,6 +162,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="CrispyMMBrownie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -141,6 +180,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="lotusBiscoffBrownie "
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -156,6 +198,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="lotusBiscoffSlice "
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -171,6 +216,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="oreoDonut"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -188,6 +236,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="milkCookie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -203,6 +254,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="doubleChocCookie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -218,6 +272,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="whiteCookie"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -233,6 +290,9 @@ class Orders extends Component {
                   total={this.state.total}
                   boxSetAmount={this.state.boxSetAmount}
                   handleTotal={this.handleTotal}
+                  value="lotusDonut"
+                  handlePlus={this.handlePlus}
+                  handleMinus={this.handleMinus}
                 />
                 <img
                   className="DesertIcons"
@@ -277,19 +337,25 @@ class Orders extends Component {
             <label className="ordersLabelName">
               NAME:
               <input
+                required
                 className="orderInput"
                 type="text"
                 name="name"
                 placeholder="Name"
+                // value="name"
+                onChange={(e) => this.handleChange(e.target.value, "name")}
               />
             </label>
             <label className="ordersLabel1">
               TELEPHONE:
               <input
+                required
                 className="orderInputPhone"
                 type="text"
                 name="phoneNumber"
                 placeholder="Telephone Number"
+                // value="telephone"
+                onChange={(e) => this.handleChange(e.target.value, "telephone")}
               />
             </label>
 
@@ -298,7 +364,7 @@ class Orders extends Component {
                 className="navButtonParty"
                 type="submit"
                 value="Place Order"
-                disabled="true"
+                // disabled="true"
               >
                 SUBMIT
               </button>
@@ -312,8 +378,8 @@ class Orders extends Component {
     console.log(text, key);
     this.setState({ [key]: text });
   };
-  handleTotal = (inc_amount) => {
-    console.log(inc_amount);
+  handleTotal = (inc_amount, value) => {
+    console.log(inc_amount, value, "INC AMNT", "VALUE");
     const { boxSetAmount } = this.state;
     this.setState((currentState) => {
       if (currentState.total === boxSetAmount - 1) {
@@ -335,6 +401,7 @@ class Orders extends Component {
       };
     });
   };
+
   handleOrder() {
     const { boxSetAmount, total } = this.state;
     if (total === boxSetAmount) {
@@ -353,5 +420,15 @@ class Orders extends Component {
       );
     }
   }
+  handlePlus = (inc_Amount, value) => {
+    console.log(inc_Amount, value, "VALUE");
+
+    this.setState({ [value]: inc_Amount + 1 });
+  };
+  handleMinus = (inc_Amount, value) => {
+    console.log(value, "VALUE");
+
+    this.setState({ [value]: inc_Amount - 1 });
+  };
 }
 export default Orders;

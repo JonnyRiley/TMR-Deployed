@@ -2268,6 +2268,20 @@ h3 {
   color: black;
   background-color: white;
 }
+.ordersH2 {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: medium;
+  text-align: center;
+  font-weight: 300;
+}
 .ordersH2Title {
   display: flex;
   justify-content: center;
@@ -2587,6 +2601,8 @@ h3 {
   background-color: black;
   font-size: large;
   font-family: "Poppins", sans-serif;
+
+  margin: 0px 0px 0px 0px;
 }
 #DesertGrid:hover .DesertIcons {
   transform: scale(1.1);
@@ -2601,7 +2617,7 @@ h3 {
   text-align: center;
   color: white;
   background-color: black;
-  font-size: large;
+  font-size: x-large;
   font-family: "Poppins", sans-serif;
 }
 .DesertName {
