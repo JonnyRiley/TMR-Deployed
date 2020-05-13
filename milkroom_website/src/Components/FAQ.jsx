@@ -29,7 +29,8 @@ const FAQ = () => {
         seriously. Although we offer nut free options, The Milk Room is not a
         nut-free environment. Due to our menu and our use of shared cooking and
         prep areas, we cannot guarantee that our restaurant environment or any
-        menu item will be completely free of nuts. <br></br> <br></br>
+        menu item will be completely free of nuts. We have a Full Allergen Chart
+        available in store. <br></br> <br></br>
         <p className="FAQBold">CAN I GET MY FOOD DELIVERED?</p> <br></br>
         Yes! We deliver seven days a week. You can order via DELIVEROO or
         TELEPHONE orders – 01704 829547 <br></br> <br></br>

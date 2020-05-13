@@ -6,7 +6,8 @@ import slide1 from "../Components/images/IMG_4339.jpg";
 import slide3 from "../Components/images/HPWaffle1.jpg";
 import Filler from "./Filler";
 import IsLoading from "./IsLoading";
-
+import CookieConsent from "react-cookie-consent";
+import { Link } from "@reach/router";
 const slideImages = [slide1, slide3, slide2];
 
 const properties = {
@@ -57,6 +58,29 @@ class Home extends Component {
         </div>
 
         <Filler />
+        <CookieConsent
+          location="bottom"
+          buttonText="Allow"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "black" }}
+          buttonStyle={{
+            background: "RGB(209,160,120)",
+            color: "white",
+            fontSize: "13px",
+          }}
+          expires={150}
+        >
+          This website uses cookies to enhance the user experience.{" "}
+          <span
+            style={{
+              font: "Poppins",
+              fontSize: "20px",
+            }}
+          >
+            For more information see our{" "}
+            <Link to="/cookies">cookie policy</Link>
+          </span>
+        </CookieConsent>
       </main>
     );
   }
