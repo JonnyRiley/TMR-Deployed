@@ -46,7 +46,7 @@ const Offers = () => {
             required
             className="formComment"
             type="text"
-            name="Enquiry Comment"
+            name="comments"
             placeholder=" Comment"
           ></input>
         </label>
