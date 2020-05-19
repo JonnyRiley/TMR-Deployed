@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="../src/Components/images/Milk-Room-Final-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -11,10 +11,33 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
+    <title>themilkroom</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <form name="contactUs" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="option" name="enquiry" />
+      <textarea name="comments"></textarea>
+    </form>
+    <form name="dessertBoxes" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fname" />
+      <input type="option" name="boxSetAmount" />
+      <input type="number" name="brownie" />
+      <input type="number" name="terrysChocBrownie" />
+      <input type="number" name="kinderBuenoBrownie" />
+      <input type="number" name="fudgeBrownie" />
+      <input type="number" name="crispyMMBrownie" />
+      <input type="number" name="lotusBiscoffBrownie" />
+      <input type="number" name="lotusBiscoffSlice" />
+      <input type="number" name="oreoDonut" />
+      <input type="number" name="milkCookie" />
+      <input type="number" name="doubleChocCookie" />
+      <input type="number" name="whiteCookie" />
+      <input type="number" name="lotusDonut" />
+      <input type="option" name="deliveryMethod" />
+      <input type="tel" name="telephone" />
+    </form>
     <div id="root"></div>
   </body>
 </html>

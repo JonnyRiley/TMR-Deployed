@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae0672f2.chunk.css",
-    "main.js": "/static/js/main.b489f770.chunk.js",
-    "main.js.map": "/static/js/main.b489f770.chunk.js.map",
+    "main.css": "/static/css/main.2c2a92d9.chunk.css",
+    "main.js": "/static/js/main.76707389.chunk.js",
+    "main.js.map": "/static/js/main.76707389.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d002d84a.js",
     "runtime-main.js.map": "/static/js/runtime-main.d002d84a.js.map",
     "static/css/2.5ffa1744.chunk.css": "/static/css/2.5ffa1744.chunk.css",
-    "static/js/2.ccaa4411.chunk.js": "/static/js/2.ccaa4411.chunk.js",
-    "static/js/2.ccaa4411.chunk.js.map": "/static/js/2.ccaa4411.chunk.js.map",
+    "static/js/2.3b1dcc38.chunk.js": "/static/js/2.3b1dcc38.chunk.js",
+    "static/js/2.3b1dcc38.chunk.js.map": "/static/js/2.3b1dcc38.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2dcca19d7069065c7a68b5af0bcbf64d.js": "/precache-manifest.2dcca19d7069065c7a68b5af0bcbf64d.js",
+    "precache-manifest.80934e4a645e4922526d13c7a2cb75bb.js": "/precache-manifest.80934e4a645e4922526d13c7a2cb75bb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5ffa1744.chunk.css.map": "/static/css/2.5ffa1744.chunk.css.map",
-    "static/css/main.ae0672f2.chunk.css.map": "/static/css/main.ae0672f2.chunk.css.map",
-    "static/js/2.ccaa4411.chunk.js.LICENSE.txt": "/static/js/2.ccaa4411.chunk.js.LICENSE.txt",
+    "static/css/main.2c2a92d9.chunk.css.map": "/static/css/main.2c2a92d9.chunk.css.map",
+    "static/js/2.3b1dcc38.chunk.js.LICENSE.txt": "/static/js/2.3b1dcc38.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.53e7f817.jpg",
     "static/media/10.jpg": "/static/media/10.0e22ddce.jpg",
     "static/media/11.jpg": "/static/media/11.664e9033.jpg",
@@ -24,7 +24,6 @@
     "static/media/5.jpg": "/static/media/5.16958b7e.jpg",
     "static/media/7.jpg": "/static/media/7.35976602.jpg",
     "static/media/8.jpg": "/static/media/8.d10fa567.jpg",
-    "static/media/Contact.php": "/static/media/Contact.5ed890fc.php",
     "static/media/CrispyMM.jpg": "/static/media/CrispyMM.35dcd509.jpg",
     "static/media/Error404.jpg": "/static/media/Error404.369625e5.jpg",
     "static/media/FreakshakeOffer.JPG": "/static/media/FreakshakeOffer.a2c50986.JPG",
@@ -111,8 +110,8 @@
   "entrypoints": [
     "static/js/runtime-main.d002d84a.js",
     "static/css/2.5ffa1744.chunk.css",
-    "static/js/2.ccaa4411.chunk.js",
-    "static/css/main.ae0672f2.chunk.css",
-    "static/js/main.b489f770.chunk.js"
+    "static/js/2.3b1dcc38.chunk.js",
+    "static/css/main.2c2a92d9.chunk.css",
+    "static/js/main.76707389.chunk.js"
   ]
 }
