@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c77b722be899a5705c3a2fb9f06cd34",
+    "revision": "bcb5b1086ba210aeab2b5d87276994b0",
     "url": "/index.html"
   },
   {
-    "revision": "bc4b212eed4c90896aec",
+    "revision": "82c0c9784b1b1cb5e046",
     "url": "/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "9d70e2159fcc675894b0",
+    "revision": "80f13bae5cba0e97520b",
     "url": "/static/css/main.2c2a92d9.chunk.css"
   },
   {
-    "revision": "bc4b212eed4c90896aec",
-    "url": "/static/js/2.3b1dcc38.chunk.js"
+    "revision": "82c0c9784b1b1cb5e046",
+    "url": "/static/js/2.1d1677af.chunk.js"
   },
   {
     "revision": "ae006ca4528a597ac5e33d9cd2e5b468",
-    "url": "/static/js/2.3b1dcc38.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1d1677af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d70e2159fcc675894b0",
-    "url": "/static/js/main.76707389.chunk.js"
+    "revision": "80f13bae5cba0e97520b",
+    "url": "/static/js/main.40f58fac.chunk.js"
   },
   {
     "revision": "cc9a6076e700812938fa",
@@ -106,10 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7e3041bae130cf086272c6e8881e945",
     "url": "/static/media/Milk-Room-Final-logo.d7e3041b.png"
-  },
-  {
-    "revision": "375d3ecc55e4298c75dff3d573ccf67d",
-    "url": "/static/media/OrderForm.375d3ecc.php"
   },
   {
     "revision": "f66175b4e63eb4ea488619e5503e7dba",
