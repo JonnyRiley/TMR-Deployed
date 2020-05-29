@@ -35,7 +35,7 @@ const Offers = () => {
             <br></br>This offer does not include our standard delivery charge.
             Available on Deliveroo and telephone orders (01704 829547) This
             offer is only available on Friday/ Saturday 6pm -10pm and can only
-            be used on items listed from themilkroom menu. No refund are
+            be used on items listed from themilkroom menu. No refunds are
             available for this offer.
           </li>
         </ul>
@@ -63,12 +63,12 @@ const Offers = () => {
             </a>
           </div>
           <li className="offersLiSmallPrint">
-            Small print This offer is not available for Indulgent milkshakes and
-            is for standard milkshakes only. This offer does not include our
-            standard delivery charge. Available on Deliveroo and telephone
-            orders (01704 829547) This offer is only available on Friday/
-            Saturday 6pm -10pm and can only be used on items listed from
-            themilkroom menu. No refund are available for this offer.
+            This offer is not available for Indulgent milkshakes and is for
+            standard milkshakes only. This offer does not include our standard
+            delivery charge. Available on Deliveroo and telephone orders (01704
+            829547) This offer is only available on Friday/ Saturday 6pm -10pm
+            and can only be used on items listed from themilkroom menu. No
+            refunds are available for this offer.
           </li>
         </ul>
       </div>
@@ -104,7 +104,7 @@ const Offers = () => {
             on Deliveroo and telephone orders (01704 829547) This offer is only
             available on Wednesday – delivery is available from 10am -2pm. This
             offer can only be used on items listed from themilkroom menu. No
-            refund are available for this offer.
+            refunds are available for this offer.
           </li>
         </ul>
       </div>

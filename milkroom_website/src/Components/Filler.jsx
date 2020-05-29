@@ -20,8 +20,8 @@ const Filler = () => {
           Catching up with friends and family has never been easier. We have all
           your brunch favourites at themilkroom.<br></br>
           <br></br> Why not try our popular Breakfast Waffle!
-          <Link to="/about">
-            <button className="navButtonEnquireFiller">ENQUIRE</button>
+          <Link to="/menu">
+            <button className="navButtonMenuFiller">MENU</button>
           </Link>
         </p>
       </div>

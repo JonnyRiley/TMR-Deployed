@@ -10,7 +10,7 @@ const Parties = () => {
       <h1 className="partyTitleH1">HOSTING AN EVENT?</h1>
       <div className="about">
         <img className="partyIMG" src={party} alt="partyLayout"></img>
-        <p className="aboutUsText">
+        <p className="eventText">
           <h2 className="partyTitle">VENUE HIRE</h2>
           Are you looking to host a party?<br></br> We have the perfect venue
           for you and have specialised<br></br> packages for your event...
@@ -28,7 +28,7 @@ const Parties = () => {
         </p>
       </div>
       <p className="partyText">
-        <h2 className="brunchTitle">IT'S PARTY TIME</h2>
+        <h2 className="eventTitle">IT'S PARTY TIME</h2>
         For exclusive use from 6pm to 7.30pm any day Monday through to Thursday.{" "}
         <br></br>
         The package we can do includes:<br></br>
@@ -53,12 +53,12 @@ const Parties = () => {
         Add on design your own milkshakes for a further £2 per child <br></br>
         We might be able to accommodate different times/days depending on your
         booking.
+        <div className="navOffersDiv">
+          <Link to="/about">
+            <button className="navButtonParty">ENQUIRE</button>
+          </Link>
+        </div>
       </p>
-      <div className="navOffersDiv">
-        <Link to="/about">
-          <button className="navButtonParty">ENQUIRE</button>
-        </Link>
-      </div>
       <div className="PartyIMGDiv">
         <img className="PartyIMG" src={party1} alt="customers Partying"></img>
         <img className="PartyIMG" src={party2} alt="customers Partying"></img>

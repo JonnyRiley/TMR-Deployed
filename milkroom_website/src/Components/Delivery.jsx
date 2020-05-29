@@ -24,7 +24,7 @@ const Delivery = () => {
         </a>
       </div>
       <h2 className="DeliveryH2">DELIVERY HOURS</h2>
-      <p className="deliveryP">
+      {/* <p className="deliveryP">
         Monday: 10am - 6pm<br></br> Tuesday: 10am - 6pm<br></br> Wednesday: 10am
         - 6pm
         <br></br>
@@ -32,6 +32,18 @@ const Delivery = () => {
         - 10pm
         <br></br>
         Sunday: 10am - 2pm
+      </p> */}
+      <p className="deliveryP">
+        Monday: CLOSED<br></br> Tuesday: CLOSED<br></br> Wednesday: CLOSED
+        <br></br>
+        Thursday: CLOSED<br></br> Friday: 6pm - 10pm<br></br> Saturday: 6pm -
+        10pm
+        <br></br>
+        Sunday: 6pm - 10pm
+        <br></br>{" "}
+      </p>
+      <p className="CovidAlert">
+        *TEMPORARY HOURS DUE TO COVID-19 REGULATIONS*
       </p>
     </main>
   );

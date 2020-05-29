@@ -6,8 +6,8 @@ const Offers = () => {
     <div className="about">
       <form name="contactUs" method="post" className="aboutUsText">
         <input type="hidden" name="form-name" value="contactUs" />
-        <h2 className="aboutH4">CONTACT US</h2>
         <p>
+          <h2 className="aboutH4">CONTACT US</h2>
           <label className="formButton">
             Name:
             <input

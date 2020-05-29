@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import DesertAdder from "./DessertBox";
 import brownie from "../Components/images/brownie.png";
 import Terrys from "../Components/images/terryschoc-brownie.png";
@@ -119,31 +119,37 @@ class Orders extends React.Component {
     return (
       <main className="ordersDiv">
         <h1 className="ProductsTitle">DESSERT BOXES</h1>
-        <h2 className="ordersH2">
-          At themilkroom our passion is desserts. We decided to make it easy for
-          you to order all of our popular desserts online. Your dessert box can
-          have 4, 5 or 6 items and you choose what products you want inside. To
-          make sure your order is secure we take payment over the phone, once
-          you have selected your items a member of the team will call you at
-          your convenience. Your dessert box can be delivered to you or
-          collected in store - the choice is yours. We hope you enjoy!{" "}
-        </h2>
+
         <form onSubmit={this.handleSubmit}>
           <p>
-            <label className="ordersLabel">
-              SELECT YOUR SIZE
-              <select
-                className="formInput"
-                name="boxSetAmount"
-                onChange={(e) =>
-                  this.handleChange(e.target.value, "boxSetAmount")
-                }
-              >
-                <option value={4}>Box of 4 - £10.00</option>
-                <option value={5}>Box of 5 - £12.00</option>
-                <option value={6}>Box of 6 - £14.00</option>
-              </select>
-            </label>
+            {" "}
+            <div className="stepTwoForm">
+              <h2 className="ProductsH2">STEP ONE: SELECT YOUR BOX SIZE</h2>
+              <h3 className="ordersH2">
+                At themilkroom our passion is desserts. We decided to make it
+                easy for you to order all of our popular desserts online. Your
+                dessert box can have 4, 5 or 6 items and you choose what
+                products you want inside. To make sure your order is secure we
+                take payment over the phone, once you have selected your items a
+                member of the team will call you at your convenience. Your
+                dessert box can be delivered to you or collected in store - the
+                choice is yours. We hope you enjoy!{" "}
+              </h3>
+              <label className="ordersLabel">
+                SELECT YOUR SIZE
+                <select
+                  className="formInput"
+                  name="boxSetAmount"
+                  onChange={(e) =>
+                    this.handleChange(e.target.value, "boxSetAmount")
+                  }
+                >
+                  <option value={4}>Box of 4 - £10.00</option>
+                  <option value={5}>Box of 5 - £12.00</option>
+                  <option value={6}>Box of 6 - £14.00</option>
+                </select>
+              </label>
+            </div>
           </p>
 
           <p>
@@ -151,237 +157,239 @@ class Orders extends React.Component {
               <h2 className="ProductsH2">
                 STEP TWO: SELECT {this.state.boxSetAmount} FLAVOURS
               </h2>
+              <div className="allDesertTiles">
+                <div className="desertTiles">
+                  <div id="DesertGrid" value="brownie">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="brownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={brownie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Chocolate Brownie</p>
+                  </div>
 
-              <div className="desertTiles">
-                <div id="DesertGrid" value="brownie">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="brownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={brownie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Chocolate Brownie</p>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      handleOrderItems={this.handleOrderItems}
+                      value="terrysChocBrownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={Terrys}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">
+                      Terry’s Chocolate Orange Brownie
+                    </p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="kinderBuenoBrownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={KinderBrownie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">
+                      Kinder Bueno Chocolate Brownie
+                    </p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="fudgeBrownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={fudgeBrownie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Chocolate Fudge Brownie</p>
+                  </div>
                 </div>
-
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    handleOrderItems={this.handleOrderItems}
-                    value="terrysChocBrownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={Terrys}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">
-                    Terry’s Chocolate Orange Brownie
-                  </p>
+                <div className="desertTiles">
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="crispyMMBrownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={crispyMM}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Crispy M&M Brownie</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="lotusBiscoffBrownie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={lotusBrownie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Lotus Biscoff Brownie</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="lotusBiscoffSlice"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={lotusSlice}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Lotus Biscoff Slice</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="oreoDonut"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={oreoDonut}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Chocolate filled Oreo Donut</p>
+                  </div>
                 </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="kinderBuenoBrownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={KinderBrownie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Kinder Bueno Chocolate Brownie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="fudgeBrownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={fudgeBrownie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Chocolate Fudge Brownie</p>
-                </div>
-              </div>
-              <div className="desertTiles">
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="crispyMMBrownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={crispyMM}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Crispy M&M Brownie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="lotusBiscoffBrownie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={lotusBrownie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Lotus Biscoff Brownie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="lotusBiscoffSlice"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={lotusSlice}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Lotus Biscoff Slice</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="oreoDonut"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={oreoDonut}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Chocolate filled Oreo Donut</p>
-                </div>
-              </div>
-              <div className="desertTiles">
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="milkCookie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={milkCookie}
-                    alt="desert_Icon"
-                  ></img>
-                  <p className="desertTitle">Milk Chocolate Chip Cookie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="doubleChocCookie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={doubleChocCookie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Double Chocolate Chip Cookie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="whiteCookie"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={whiteCookie}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">White Chocolate Chip Cookie</p>
-                </div>
-                <div id="DesertGrid">
-                  <DesertAdder
-                    minusDisabled={this.state.minusDisabled}
-                    plusDisabled={this.state.plusDisabled}
-                    total={this.state.total}
-                    boxSetAmount={this.state.boxSetAmount}
-                    handleTotal={this.handleTotal}
-                    value="lotusDonut"
-                    handlePlus={this.handlePlus}
-                    handleMinus={this.handleMinus}
-                  />
-                  <img
-                    className="DesertIcons"
-                    src={lotusDonut}
-                    alt="dessert_Icon"
-                  ></img>
-                  <p className="desertTitle">Lotus Biscoff Donut</p>
+                <div className="desertTiles">
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="milkCookie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={milkCookie}
+                      alt="desert_Icon"
+                    ></img>
+                    <p className="desertTitle">Milk Chocolate Chip Cookie</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="doubleChocCookie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={doubleChocCookie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Double Chocolate Chip Cookie</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="whiteCookie"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={whiteCookie}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">White Chocolate Chip Cookie</p>
+                  </div>
+                  <div id="DesertGrid">
+                    <DesertAdder
+                      minusDisabled={this.state.minusDisabled}
+                      plusDisabled={this.state.plusDisabled}
+                      total={this.state.total}
+                      boxSetAmount={this.state.boxSetAmount}
+                      handleTotal={this.handleTotal}
+                      value="lotusDonut"
+                      handlePlus={this.handlePlus}
+                      handleMinus={this.handleMinus}
+                    />
+                    <img
+                      className="DesertIcons"
+                      src={lotusDonut}
+                      alt="dessert_Icon"
+                    ></img>
+                    <p className="desertTitle">Lotus Biscoff Donut</p>
+                  </div>
                 </div>
               </div>
-              <p className="orderTotal">{this.handleOrder()}</p>
-              <div className="orderFlex"></div>
             </div>
           </p>
+          <p className="orderTotal">{this.handleOrder()}</p>
           <p>
             <div className="stepOneForm">
               <h2 className="ProductsH2">STEP THREE: DELIVERY OPTIONS</h2>
@@ -399,7 +407,7 @@ class Orders extends React.Component {
               </label>
               <p className="centeredP">
                 PLEASE NOTE THAT ALL ORDERS MUST BE PLACED AT LEAST 24 HOURS
-                BEFORE YOU WANT TO RECEIVE YOUR ORDER THIS IS DUE TO ALL
+                BEFORE YOU WANT TO RECEIVE YOUR ORDER, THIS IS DUE TO ALL
                 PRODUCTS BEING MADE FRESH IN STORE.<br></br> YOUR ORDER WILL
                 ONLY BE CONFIRMED ONCE A MEMBER OF STAFF CONTACTS YOU TO TAKE
                 PAYMENT OVER THE PHONE

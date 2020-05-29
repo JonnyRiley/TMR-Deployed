@@ -24,9 +24,10 @@ const About = () => {
           and provide deliveries for residents in Southport. This has been an
           exciting journey, and not one without its challenges but we have been
           overwhelmed by our customers response to our store and we thank you
-          very much, your support is so appreciated. We will continue our to
-          bring you the latest desserts whether that’s in store or through take
-          aways and delivery. Best Wishes from us all, themilkroom team.
+          very much, your support is so appreciated. We will continue to bring
+          you the latest desserts whether that’s in store or through take aways
+          and delivery.
+          <br></br>Best Wishes from us all, themilkroom team.
         </p>
       </div>
       <div className="about">
@@ -51,16 +52,24 @@ const About = () => {
       <div className="about">
         <img className="aboutImg1" src={shop} alt="shop3"></img>
         <p className="aboutUsText">
-          <h4 className="aboutH4">OPENING HOURS</h4>
+          <h4 className="aboutH2">OPENING HOURS</h4>
           <br></br>
-          Monday: 10:00 - 18:00<br></br> Tuesday: 10:00 - 18:00 <br></br>
+          {/* Monday: 10:00 - 18:00<br></br> Tuesday: 10:00 - 18:00 <br></br>
           Wednesday: 10:00 - 18:00<br></br>Thursday: 10:00 - 18:00<br></br>
           Friday: 10:00 - 22:00<br></br>Saturday: 10:00 - 22:00<br></br>
-          Sunday: 10:00 - 18:00<br></br>
+          Sunday: 10:00 - 18:00<br></br> */}
+          Monday: CLOSED<br></br> Tuesday: CLOSED <br></br>
+          Wednesday: CLOSED<br></br>Thursday: CLOSED<br></br>
+          Friday: 18:00 - 22:00<br></br>Saturday: 18:00 - 22:00<br></br>
+          Sunday: 18:00 - 22:00<br></br>
           <br></br>
           <a className="aboutPhoneNo" href="tel:01704829457">
             <FontAwesomeIcon icon={faPhone} /> 01704 829457
           </a>
+          <br></br>
+          <p className="CovidAlertMsg">
+            *TEMPORARY HOURS DUE TO COVID-19 REGULATIONS*
+          </p>
         </p>
       </div>
       <ContactForm />

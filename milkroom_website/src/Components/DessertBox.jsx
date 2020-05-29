@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMinus } from "@fortawesome/free-solid-svg-icons";
+
 class DessertAdder extends Component {
   state = {
     amountDifference: 0,
@@ -24,7 +28,7 @@ class DessertAdder extends Component {
               handleTotal(-1, this.props.value);
             }}
           >
-            -
+            <FontAwesomeIcon icon={faMinus} />
           </button>
           <p className="DesertName">x{Amount + amountDifference}</p>
           <button
@@ -37,7 +41,7 @@ class DessertAdder extends Component {
               handleTotal(1, this.props.value);
             }}
           >
-            +
+            <FontAwesomeIcon icon={faPlus} />
           </button>
         </div>
       </main>

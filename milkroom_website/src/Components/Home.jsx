@@ -32,26 +32,21 @@ class Home extends Component {
         <div className="slide-container">
           <Slide {...properties}>
             <div className="each-slide">
-              <div
-                className="each-slideDiv"
-                style={{
-                  backgroundImage: `url(${slideImages[0]})`,
-                }}
-              >
-                {/* <span>Slide 1</span> */}
-              </div>
-            </div>
-            <div className="each-slide">
-              <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
+              <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
                 {/* <span>Slide 2</span> */}
               </div>
             </div>
             <div className="each-slide">
               <div
                 className="rotated"
-                style={{ backgroundImage: `url(${slideImages[2]})` }}
+                style={{ backgroundImage: `url(${slideImages[1]})` }}
               >
                 {/* <span>Slide 3</span> */}
+              </div>
+            </div>
+            <div className="each-slide">
+              <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
+                {/* <span>Slide 2</span> */}
               </div>
             </div>
           </Slide>
@@ -65,8 +60,9 @@ class Home extends Component {
           style={{ background: "black" }}
           buttonStyle={{
             background: "RGB(209,160,120)",
-            color: "white",
+            color: "black",
             fontSize: "13px",
+            font: "Poppins",
           }}
           expires={150}
         >
@@ -74,7 +70,9 @@ class Home extends Component {
           <span
             style={{
               font: "Poppins",
-              fontSize: "20px",
+              fontSize: "16px",
+              background: "black",
+              color: "white",
             }}
           >
             For more information see our{" "}

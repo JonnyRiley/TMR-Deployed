@@ -6,15 +6,15 @@ const FAQ = () => {
       <h1 className="ProductsTitle">FAQ</h1>
       <p className="FAQ">
         <p className="FAQBold">WANNA CHILL WITH US?</p>  <br></br>
-        Come on in! The Milk Room is generally a walk-in restaurant and seating
+        Come on in! The milkroom is generally a walk-in restaurant and seating
         is on a first-come, first-serve basis. However, for large parties or for
         large food order we do offer a reservation service. Please contact us to
         make your reservation! <br></br> <br></br>
         <p className="FAQBold">GLUTEN-FREE FRIENDLY?</p> <br></br>
         Yes! We have gluten free pancakes that can be topped with gluten free
         chocolate or fresh fruit. You must inform a member of staff about your
-        gluten intolerance. Although we offer gluten free alternatives, The Milk
-        Room is not a gluten-free environment. Due to our menu and our use of
+        gluten intolerance. Although we offer gluten free alternatives, The milk
+        room is not a gluten-free environment. Due to our menu and our use of
         shared cooking and prep areas, we cannot guarantee that our restaurant
         environment or any menu item will be completely free of gluten.{" "}
         <br></br> <br></br>
@@ -36,15 +36,22 @@ const FAQ = () => {
         TELEPHONE orders – 01704 829547 <br></br> <br></br>
         <p className="FAQBold">DELIVERY TIMES?</p>
         <br></br>
-        Monday 10am -2pm <br></br>
+        {/* Monday 10am -2pm <br></br>
         Tuesday 10am -2pm <br></br>
         Wednesday 10am -2pm <br></br>
         Thursday 10am -2pm <br></br>
         Friday 6pm – 10pm <br></br>
         Saturday 6pm 10pm <br></br>
-        Sunday 10am -2pm <br></br> <br></br>
+        Sunday 10am -2pm <br></br> <br></br> */}
+        Monday: CLOSED <br></br>
+        Tuesday: CLOSED <br></br>
+        Wednesday: CLOSED <br></br>
+        Thursday: CLOSED <br></br>
+        Friday: 6pm – 10pm <br></br>
+        Saturday: 6pm - 10pm <br></br>
+        Sunday: 6pm - 10pm <br></br> <br></br>
         <p className="FAQBold">WHAT AREAS DO YOU DELIVER TO?</p> <br></br>
-        We delivery to the following post codes across Southport:
+        We deliver to the following post codes across Southport:
         <br></br>PR8 3, PR8 4, PR8 5, PR8 6, PR8 9, PR9 7, PR9 9.<br></br>{" "}
         <br></br>
         <p className="FAQBold">DO YOU ACCEPT DOGS?</p> <br></br>We love all
@@ -62,7 +69,7 @@ const FAQ = () => {
         191 Liverpool Road, Southport, PR8 4NZ. <br></br>
         <div className="aboutFlex">
           <a
-            className="navButtonOffers1"
+            className="navButtonOffersFAQ"
             href="https://www.google.co.uk/maps/place/The+Milk+Room/@53.62187,-3.014419,17z/data=!3m1!4b1!4m5!3m4!1s0x487b3eae36cb798d:0x99370a02fb21d87a!8m2!3d53.6218668!4d-3.0122303"
           >
             DIRECTIONS

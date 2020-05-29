@@ -18,8 +18,8 @@ export default () => (
         <h1 className="header">Gift Voucher</h1>
         <p className="content">
           Looking for the perfect gift? We can help you out at themilkroom.
-          Order your gift card in-store or over the phone. Gift cards can be
-          collected in store or posted.
+          Order your gift card in-store, over the phone or by filling out our
+          Contact Us form. Gift cards can be collected in store or posted.
           <div className="popupDiv">
             <Link to="/about">
               <button className="navButtonContact">CONTACT US</button>
@@ -36,10 +36,9 @@ export default () => (
           can another voucher be issued for the unused amount. Gift vouchers can
           only be used in-store whilst eating in or for takeaway collections or
           delivery Gift vouchers must be produced on point of sale. Cannot be
-          used in conjunction with some offers. The Milk Room is not responsible
+          used in conjunction with some offers. The milkroom is not responsible
           if a gift voucher is lost, stolen, destroyed or used without
-          persmission and no replacement will be provided in these
-          circumstances.
+          permission and no replacement will be provided in these circumstances.
         </p>
       </div>
     )}
