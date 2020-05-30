@@ -51,7 +51,11 @@ class Orders extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "dessertBoxes", ...this.state }),
     })
-      .then(() => alert("Success!"))
+      .then(() =>
+        alert(
+          "Thank You For Your Order. We will be in touch as soon as possible!"
+        )
+      )
       .catch((error) => alert(error));
 
     e.preventDefault();

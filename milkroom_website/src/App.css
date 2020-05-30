@@ -98,7 +98,6 @@
     margin-top: 0px;
     padding-top: 50px;
     padding-bottom: 0px;
-    /* margin-bottom: 30px; */
     color: black;
     font-size: 60px;
     font-weight: bolder;
@@ -129,15 +128,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* .about .formOption {
-    display: flex;
-    justify-content: left;
-    padding-top: 1%;
-    padding-left: 27%;
 
-    font-family: "Poppins", sans-serif;
-    font-size: large;
-  } */
   .about .aboutInput {
     width: 275px;
     font-size: 0.95em;
@@ -298,11 +289,6 @@
   }
 }
 
-/* @media only screen and (max-width: 1559px) {
-  .about {
-    height: 600px;
-  }
-} */
 @media only screen and (min-width: 2560px) {
   .about .formOption {
     display: flex;
@@ -545,67 +531,7 @@ ul {
     outline: none;
   }
 }
-/* .slide-container {
-  width: 1000px;
-  margin: auto;
-  height: 700px;
-  background-color: black;
-}
-.FillerDiv {
-  display: flex;
-  justify-content: center;
-  height: 400px;
-  width: 50%;
-}
-h3 {
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.popupDiv {
-  display: flex;
-  justify-content: center;
-}
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 700px;
-  width: 1000px;
-  background-color: black;
-}
 
-.each-slide span {
-  padding: 10px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
-}
-
-.each-fade {
-  display: flex;
-}
-
-.each-fade .image-container {
-  width: 100%;
-  height: 100%;
-}
-
-.each-fade .image-container img {
-  width: 1000px;
-  height: 400px;
-}
-
-.each-fade h2 {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  background: #adceed;
-} */
 .footerBar {
   width: 100%;
   background-color: black;
@@ -650,8 +576,6 @@ h3 {
   background-color: black;
   color: white;
   font-size: medium;
-  /* padding-left: 60px;
-  padding-right: 50px; */
   font-weight: 1000;
   display: flex;
   justify-content: center;
@@ -681,7 +605,7 @@ h3 {
 .errorPageFlex {
   color: black;
   background-color: white;
-  /* display: flex; */
+
   justify-content: center;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -706,8 +630,6 @@ h3 {
   background-color: black;
   color: white;
   font-size: medium;
-  /* padding-left: 60px;
-  padding-right: 50px; */
   font-weight: 1000;
   display: flex;
   justify-content: center;
@@ -744,7 +666,7 @@ h3 {
 }
 .navButtonOffers1 {
   width: 120px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
@@ -765,13 +687,11 @@ h3 {
 }
 .navButtonMenuFiller {
   width: 120px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
   font-weight: 600;
-  /* display: flex;
-  justify-content: center; */
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   border: black;
@@ -786,7 +706,6 @@ h3 {
 }
 .navButtonNewsletter {
   width: 120px;
-  /* height: 50px; */
   background-color: black;
   color: white;
   font-size: medium;
@@ -805,7 +724,7 @@ h3 {
 }
 .navButtonParty {
   width: 120px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
@@ -830,8 +749,7 @@ h3 {
   color: white;
   font-size: small;
   font-weight: 600;
-  /* display: flex; */
-  /* justify-content: center; */
+
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   border: black;
@@ -848,13 +766,11 @@ h3 {
 }
 .navButtonOffersParty {
   width: 150px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
   font-weight: 600;
-  /* display: flex; */
-  /* justify-content: center; */
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   border: black;
@@ -871,7 +787,6 @@ h3 {
 }
 .navButtonFooter {
   width: 150px;
-  /* height: 50px; */
   background-color: black;
   color: white;
   font-size: medium;
@@ -963,7 +878,7 @@ h3 {
 }
 .navButtonOffers {
   width: 100px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
@@ -983,7 +898,6 @@ h3 {
 }
 .navButtonAbout {
   width: 100px;
-  /* height: 50px; */
   background-color: black;
   color: white;
   font-size: medium;
@@ -1003,12 +917,12 @@ h3 {
 }
 .navButtonSubmitContact {
   width: 100px;
-  /* height: 50px; */
+
   background-color: black;
   color: white;
   font-size: medium;
   font-weight: 600;
-  /* display: flex; */
+
   justify-content: center;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -1031,7 +945,7 @@ h3 {
 .Header {
   display: flex;
   justify-content: center;
-  /* background-color: black; */
+
   font-size: x-large;
   width: 100%;
   margin-top: 0px;
@@ -1062,19 +976,6 @@ h3 {
   justify-content: center;
 }
 @media only screen and (max-width: 1000px) {
-  /* .about .aboutUsText {
-    height: 420px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-left: 25px;
-    margin-right: 25px;
-    text-decoration: none;
-    font-size: 16px;
-  } */
   .about {
     height: 1000px;
   }
@@ -1239,17 +1140,9 @@ h3 {
     height: 650px;
     width: 100%;
     display: flex;
-    /* justify-content: space-around; */
+
     flex-wrap: wrap;
   }
-  /* .aboutImg1 {
-    height: 100%;
-    /* 383 */
-  /* width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }  */
 }
 @media only screen and (max-width: 380px) {
   .DeliveryAnchor .deliveryImg {
@@ -1273,13 +1166,6 @@ h3 {
     float: right;
     margin-top: 20px;
   }
-  /* .about .aboutImg1 {
-    height: 380px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  } */
 }
 .aboutFlex {
   display: flex;
@@ -1308,7 +1194,7 @@ h3 {
   }
   .navButtonOffers1 {
     width: 120px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: medium;
@@ -1385,7 +1271,7 @@ h3 {
   }
   .about .aboutImg1 {
     height: 600px;
-    /* 383 */
+
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -1478,13 +1364,6 @@ h3 {
   }
 }
 @media only screen and (max-width: 740px) {
-  /*  .about .partyIMG {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 500px;
-    padding-left: 0px;
-  } */
   .partyTitle {
     display: flex;
     justify-content: center;
@@ -1905,7 +1784,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-size: ; */
+
     height: 430px;
     width: 600px;
   }
@@ -1976,30 +1855,8 @@ h3 {
     flex-wrap: wrap;
   }
 }
-/* @media only screen and (max-width: 596px) {
-  .navBar .navButton {
-    width: 80px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
-} */
+
 @media only screen and (max-width: 620px) {
-  /* .about .aboutImg1 {
-    height: 270px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  } */
   .DeliveryAnchor {
     width: -moz-fit-content;
     width: fit-content;
@@ -2029,7 +1886,6 @@ h3 {
     float: center;
     margin-top: 20px;
     margin-right: 0px;
-    /* margin-left: auto; */
   }
   .deliveryHolder {
     display: flex;
@@ -2047,7 +1903,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-size: cover; */
+
     height: 300px;
     width: 400px;
   }
@@ -2095,7 +1951,7 @@ h3 {
     margin-left: 25px;
     margin-right: 25px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
   }
   .navButtonOffersFAQ {
     width: 120px;
@@ -2230,7 +2086,7 @@ h3 {
   }
   .navButtonOffers1 {
     width: 120px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: medium;
@@ -2436,8 +2292,6 @@ h3 {
 .eventTitle {
   display: flex;
   justify-content: center;
-  /* margin-top: 15%;
-  margin-bottom: 5%; */
 
   font-family: "Poppins", sans-serif;
   font-size: 45px;
@@ -2540,19 +2394,7 @@ h3 {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* .PartyIMGDiv .PartyIMG {
-    height: 340px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .PartyIMGDiv {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-  } */
+
   .partyText {
     width: 100%;
     display: flex;
@@ -2692,16 +2534,15 @@ h3 {
 }
 
 .aboutImg {
-  /* height: auto; */
   width: 50%;
   display: flex;
-  /* justify-content: space-around; */
+
   flex-wrap: wrap;
 }
 
 .aboutImg1 {
   height: 474px;
-  /* 383 */
+
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -3096,8 +2937,6 @@ h3 {
 .desertTiles {
   display: flex;
   justify-content: center;
-  /* flex-direction: row;
-  /* width: 100px; */
 }
 .DesertIcons {
   height: 120px;
@@ -3112,18 +2951,14 @@ h3 {
   background-color: lightgray;
   transition: transform 0.2s;
 }
-/* .DesertIcons:hover {
-  transform: scale(1.1);
-} */
+
 #DesertGrid {
   display: grid;
   grid-template-rows: 1.5fr 0.5fr 0.25fr;
   grid-template-areas: "one" "two" "three";
   width: 200px;
   background-color: white;
-  /* border: lightgray;
-  border-width: 0.15em;
-  border-style: groove; */
+
   transition: transform 0.2s;
 }
 #DesertGrid:hover .button_Amount {
@@ -3329,7 +3164,7 @@ element.style {
 
   .navButtonOffers1 {
     width: 120px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: medium;
@@ -3358,7 +3193,7 @@ element.style {
 
   .navButtonOffers1 {
     width: 120px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: medium;
@@ -3375,26 +3210,7 @@ element.style {
     padding-bottom: 15px;
   }
 }
-/* @media only screen and (max-width: 320px) {
-  .about .formOption {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    padding-left: 70px;
-    font-family: "Poppins", sans-serif;
-    font-size: small;
-  }
-  .formButtonComment {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    font-family: "Poppins", sans-serif;
-    margin-right: 40px;
-    font-size: small;
-    padding-left: 15px;
-  }
-} */
-/* HERE */
+
 @media only screen and (max-width: 375px) {
   .about .aboutImg {
     height: 50%;
@@ -3418,26 +3234,6 @@ element.style {
     font-size: 11px;
   }
 }
-
-/* @media only screen and (max-width: 375px) {
-  .about .formOption {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    padding-left: 70px;
-    font-family: "Poppins", sans-serif;
-    font-size: small;
-  }
-  .formButtonComment {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    font-family: "Poppins", sans-serif;
-    margin-right: 40px;
-    font-size: small;
-    padding-left: 15px;
-  }
-} */
 
 @media only screen and (max-width: 1115px) {
   .slide-container {
@@ -3493,21 +3289,7 @@ element.style {
     background: #adceed;
   }
 }
-/* .about .formOption {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    padding-left: 100px;
-    font-family: "Poppins", sans-serif;
-  }
-  .formButtonComment {
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    font-family: "Poppins", sans-serif;
-    padding-left: 200px;
-    font-size: large;
-  } */
+
 @media only screen and (max-width: 1024px) {
   .footerRow .navButtonPolicies {
     width: 125px;
@@ -3573,7 +3355,6 @@ element.style {
   }
 
   .about .formComment {
-    /* width: 250px; */
     text-align: top;
     padding-bottom: 0;
     padding-top: 0;
@@ -3585,7 +3366,6 @@ element.style {
   }
 }
 
-/* HERE */
 @media only screen and (max-width: 414px) {
   .about .aboutImg {
     height: 40%;
@@ -3627,7 +3407,6 @@ element.style {
     font-size: 11.5px;
     font-weight: 400;
     margin-bottom: 0px;
-    /* height: 310px; */
   }
   .about .aboutUsTextSecondP {
     height: 450px;
@@ -3663,7 +3442,7 @@ element.style {
 
   .navButtonOffers1 {
     width: 120px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: medium;
@@ -3899,7 +3678,6 @@ element.style {
     padding-left: 15%;
   }
 }
-/* HERE */
 @media only screen and (max-width: 320px) {
   .divOne .homeAlone {
     height: 450px;
@@ -3965,7 +3743,6 @@ element.style {
     padding-left: 0px;
   }
 }
-/* HERE */
 @media only screen and (max-width: 375px) {
   .divOne .homeAlone {
     height: 450px;
@@ -4032,7 +3809,6 @@ element.style {
   }
 }
 
-/* here */
 @media only screen and (max-width: 1000px) {
   .fillerMain .TitleHome {
     margin-top: 40px;
@@ -4114,44 +3890,8 @@ element.style {
     background: #adceed;
   }
 }
-/* @media only screen and (max-width: 375px) {
-  .navBar .navButton {
-    width: 8px;
-    background-color: black;
-    padding-left: 25px;
-    padding-right: 32px;
-    color: white;
-    font-size: 9px;
-    font-weight: auto;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
-} */
-/* here */
-@media only screen and (max-width: 768px) {
-  /* .navButton {
-    width: 120px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    font-weight: auto;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
 
-  .navButton:hover {
-    color: RGB(209, 160, 120);
-  } */
+@media only screen and (max-width: 768px) {
   .fillerMain .TitleHome {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -4232,7 +3972,6 @@ element.style {
     background: #adceed;
   }
 }
-/* here */
 @media only screen and (max-width: 625px) {
   .fillerMain .TitleHome {
     margin-top: 40px;
@@ -4395,7 +4134,6 @@ element.style {
     background: #adceed;
   }
 }
-/* HERE */
 @media only screen and (max-width: 414px) {
   .divOne .homeAlone {
     height: 450px;
@@ -4514,27 +4252,6 @@ element.style {
     background: #adceed;
   }
 }
-/* @media only screen and (max-width: 768px) {
-  .navBar .navButton {
-    width: 120px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    font-weight: auto;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
-
-  .navButton:hover {
-    color: RGB(209, 160, 120);
-  }
-} */
-/* here */
 @media only screen and (max-width: 375px) {
   .fillerMain .TitleHome {
     margin-top: 40px;
@@ -4617,7 +4334,6 @@ element.style {
   }
 }
 
-/* HERE */
 @media only screen and (max-width: 320px) {
   .TitleHome {
     margin-top: 40px;
@@ -4700,7 +4416,6 @@ element.style {
   }
 }
 
-/* HERE */
 @media only screen and (max-width: 320px) {
   .Fbook {
     margin-top: 0px;
@@ -4733,7 +4448,6 @@ element.style {
   }
 }
 
-/* HERE */
 @media only screen and (max-width: 375px) {
   .Fbook {
     visibility: hidden;
@@ -4753,7 +4467,7 @@ element.style {
     margin-bottom: 0px;
     flex-direction: column;
   }
-} /* HERE */
+}
 
 @media only screen and (max-width: 924px) {
   .Fbook {
@@ -4775,51 +4489,7 @@ element.style {
     flex-direction: column;
   }
 }
-/* @media only screen and (max-width: 375px) {
-  .DesertIcons {
-    height: 120px;
- 
-    grid-area: one;
-    justify-content: center;
-    display: flex;
-    margin-left: 120px;
-    margin-right: 120px;
-    border-radius: 50%;
-    margin-top: 15px;
-    background-color: lightgray;
-    transition: transform 0.2s;
-  }
-  .desertTitle {
-    grid-area: two;
-    justify-content: center;
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-  }
-  .DesertName {
-    
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: large;
-    color: black;
-    text-decoration: solid;
-    margin-top: 0px;
-    font-family: "Poppins", sans-serif;
-  }
-  .incDiv {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    justify-content: center;
-    padding-left: 100px;
-    background-color: white;
-  }
-  .desertTiles {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-} */
+
 @media only screen and (max-width: 768px) {
   .DesertIcons {
     height: 120px;
@@ -4858,19 +4528,7 @@ element.style {
     background-color: white;
     transition: transform 0.2s;
   }
-  /* .DesertIcons {
-    height: 120px;
-    /* width: 120px; */
-  /* grid-area: one;
-    justify-content: center;
-    display: flex;
-    margin-left: 140px;
-    margin-right: 130px;
-    border-radius: 50%;
-    margin-top: 15px;
-    background-color: lightgray;
-    transition: transform 0.2s;
-  } */
+
   .desertTitle {
     grid-area: two;
     justify-content: center;
@@ -4879,7 +4537,6 @@ element.style {
     text-align: center;
   }
   .DesertName {
-    /* width: 80px; */
     margin-left: 15px;
     margin-right: 15px;
     font-size: large;
@@ -5004,7 +4661,6 @@ element.style {
   }
   .DesertIcons {
     height: 120px;
-    /* width: 120px; */
     grid-area: one;
     justify-content: center;
     display: flex;
@@ -5023,7 +4679,6 @@ element.style {
     text-align: center;
   }
   .DesertName {
-    /* width: 80px; */
     margin-left: 15px;
     margin-right: 15px;
     font-size: large;
@@ -5068,7 +4723,6 @@ element.style {
     text-align: center;
   }
   .DesertName {
-    /* width: 80px; */
     margin-left: 15px;
     margin-right: 15px;
     font-size: large;
@@ -5114,7 +4768,6 @@ element.style {
     background-color: white;
   }
 }
-/* HERE */
 @media only screen and (max-width: 960px) {
   .Form {
     display: flex;
@@ -5138,7 +4791,6 @@ element.style {
     margin-top: 0px;
     padding-right: 5px;
     font-family: "Poppins", sans-serif;
-    /* height: 30px; */
     display: flex;
     flex-direction: row;
   }
@@ -5167,7 +4819,6 @@ element.style {
   }
   .navButtonNewsletter {
     width: 120px;
-    /* height: 50px; */
     background-color: black;
     color: white;
     font-size: medium;
@@ -5189,7 +4840,6 @@ element.style {
     color: black;
   }
 }
-/* HERE */
 @media only screen and (max-width: 960px) {
   .modal > .content {
     width: 100%;
@@ -5199,7 +4849,6 @@ element.style {
   }
   .navButtonContact {
     width: 100px;
-    /* height: 50px; */
     background-color: black;
     color: white;
     font-size: 9px;
@@ -5258,38 +4907,6 @@ element.style {
     outline: none;
   }
 }
-/* @media only screen and (max-width: 836px) {
-  .navBar .navButton {
-    width: 120px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    font-weight: 1000;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
-} */
-/* @media only screen and (max-width: 740px) {
-  .navBar .navButton {
-    width: 95px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    font-weight: 1000;
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
-    border: none;
-    outline: none;
-  }
-} */
 
 @media only screen and (max-width: 508px) {
   .divOne .homeAlone {
@@ -5302,47 +4919,7 @@ element.style {
     flex-direction: row;
   }
 }
-/* @media only screen and (max-width: 600px) {
-  .DesertIcons {
-    height: 100px;
-    width: 100px;
-    grid-area: one;
-    justify-content: center;
-    display: flex;
-    margin-left: 25px;
-    margin-right: 0px;
-    border-radius: 50%;
-    margin-top: 15px;
-    background-color: lightgray;
-    transition: transform 0.2s;
-  }
-  .desertTitle {
-    grid-area: two;
-    justify-content: center;
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-weight: 300;
-    font-size: small;
-  }
-  .incDiv {
-    display: flex;
-    flex-direction: row;
-    width: 112px;
-  }
-  #DesertGrid {
-    display: grid;
-    grid-template-rows: 1.5fr 0.5fr 0.25fr;
-    grid-template-areas:
-      "one"
-      "two"
-      "three";
-    width: 70%;
-    background-color: white;
-    transition: transform 0.2s;
-    padding-left: 15%;
-  }
-} */
+
 @media only screen and (max-width: 480px) {
   .footerRow {
     display: flex;
@@ -5538,8 +5115,7 @@ element.style {
     background-color: black;
     color: white;
     font-size: large;
-    /* padding-left: 60px;
-  padding-right: 50px; */
+
     font-weight: 1000;
     display: flex;
     justify-content: center;
@@ -5554,59 +5130,11 @@ element.style {
     color: RGB(209, 160, 120);
   }
 
-  /* .slide-container {
-    width: 1200px;
-    margin: auto;
-    height: 850px;
-    background-color: black;
-  }
-
-  .each-slide > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 850px;
-    width: 1200px;
-    background-color: black;
-  }
-
-  .each-slide span {
-    padding: 10px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
-  }
-
-  .each-fade {
-    display: flex;
-  }
-
-  .each-fade .image-container {
-    width: 100%;
-    height: 100%;
-  }
-
-  .each-fade .image-container img {
-    width: 1000px;
-    height: 400px;
-  }
-
-  .each-fade h2 {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background: #adceed;
-  } */
   .navFooter {
     width: 150px;
     background-color: black;
     color: white;
     font-size: large;
-    /* padding-left: 60px;
-  padding-right: 50px; */
     font-weight: 1000;
     display: flex;
     justify-content: center;
@@ -5663,17 +5191,7 @@ element.style {
     border-radius: 0%;
   }
 }
-/* @media only screen and (max-width: 440px) {
-  .PartyIMGDiv .PartyIMG {
-    height: 300px;
-    width: 80%;
-    display: flex;
-    flex-direction: COLUMN;
-    padding-left: 10%;
-    padding-right: 10%;
-    border-radius: 0%;
-  }
-} */
+
 @media only screen and (max-width: 340px) {
   .PartyIMG {
     height: 240px;
@@ -5703,7 +5221,7 @@ element.style {
     height: 700px;
     width: 50%;
     display: flex;
-    /* justify-content: space-around; */
+
     flex-wrap: wrap;
   }
   .FAQ {
@@ -5744,7 +5262,7 @@ element.style {
   }
   .navButtonParty {
     width: 200px;
-    /* height: 50px; */
+
     background-color: black;
     color: white;
     font-size: xx-large;
