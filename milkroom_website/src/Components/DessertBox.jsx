@@ -14,7 +14,7 @@ class DessertAdder extends Component {
     const { handlePlus, handleMinus, handleTotal, plusDisabled } = this.props;
     const { handleClick } = this;
     const { amountDifference, Amount, disabledMinus } = this.state;
-    // if (err) return <ErrorPage err={err} />;
+
     return (
       <main className="button_Amount">
         <div className="incDiv">

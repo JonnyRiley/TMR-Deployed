@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 import Error from "./images/Error404.jpg";
+
 const ErrorPage = (props) => {
   return (
     <main className="errorPageMain">

@@ -128,7 +128,6 @@ const Products = () => {
           </div>
         </div>
       </div>
-      {/* MILKSHAKE END */}
       <div className="stepOneForm">
         <h2 className="ProductsH2">WAFFLES</h2>
         <div className="div1">
@@ -199,7 +198,6 @@ const Products = () => {
           </div>
         </div>
       </div>
-      {/* WAFFLES END */}
       <div className="stepOneForm">
         <h2 className="ProductsH2">PANCAKES</h2>
         <div className="div1">
@@ -245,7 +243,6 @@ const Products = () => {
           </div>
         </div>
       </div>
-      {/* PANCAKES END */}
       <div className="stepOneForm">
         <h2 className="ProductsH2">FEEL-GOOD</h2>
         <div className="div1">
@@ -289,7 +286,6 @@ const Products = () => {
               <li className="ProductName">TANGO ICE BLAST</li>
             </ul>
           </div>
-          {/* SMOOTHIES END */}
         </div>{" "}
       </div>
       <div className="stepOneForm">

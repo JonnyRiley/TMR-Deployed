@@ -5,7 +5,7 @@ import shop3 from "../Components/images/shop3.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import ContactForm from "./ContactForm";
-// import { MapContainer } from "./GoogleMaps";
+
 const About = () => {
   return (
     <main>

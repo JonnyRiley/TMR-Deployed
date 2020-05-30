@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Slide } from "react-slideshow-image";
-// import slide1 from "../Components/images/IMG_1604.jpg";
 import slide2 from "../Components/images//Prods.jsx/prod111.JPG";
 import slide1 from "../Components/images/IMG_4339.jpg";
 import slide3 from "../Components/images/HPWaffle1.jpg";
@@ -32,22 +31,16 @@ class Home extends Component {
         <div className="slide-container">
           <Slide {...properties}>
             <div className="each-slide">
-              <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-                {/* <span>Slide 2</span> */}
-              </div>
+              <div style={{ backgroundImage: `url(${slideImages[0]})` }}></div>
             </div>
             <div className="each-slide">
               <div
                 className="rotated"
                 style={{ backgroundImage: `url(${slideImages[1]})` }}
-              >
-                {/* <span>Slide 3</span> */}
-              </div>
+              ></div>
             </div>
             <div className="each-slide">
-              <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
-                {/* <span>Slide 2</span> */}
-              </div>
+              <div style={{ backgroundImage: `url(${slideImages[2]})` }}></div>
             </div>
           </Slide>
         </div>

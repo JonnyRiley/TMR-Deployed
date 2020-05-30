@@ -25,13 +25,6 @@ const Filler = () => {
           </Link>
         </p>
       </div>
-      {/* <div className="about">
-        <img className="aboutImg" src={giftCard} alt="shop1"></img>
-        <p className="aboutUsText">
-          <h2 className="aboutH2">themilkroom</h2>
-          <Popup />
-        </p>
-      </div> */}
       <div className="about">
         <p className="aboutUsTextSecondP">
           <h3 className="brunchTitle">IT'S PARTY TIME</h3>
