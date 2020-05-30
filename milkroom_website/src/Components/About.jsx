@@ -60,8 +60,8 @@ const About = () => {
           Sunday: 10:00 - 18:00<br></br> */}
           Monday: CLOSED<br></br> Tuesday: CLOSED <br></br>
           Wednesday: CLOSED<br></br>Thursday: CLOSED<br></br>
-          Friday: 18:00 - 22:00<br></br>Saturday: 18:00 - 22:00<br></br>
-          Sunday: 18:00 - 22:00<br></br>
+          Friday: 17:00 - 21:00<br></br>Saturday: 17:00 - 21:00<br></br>
+          Sunday: 17:00 - 21:00<br></br>
           <br></br>
           <a className="aboutPhoneNo" href="tel:01704829457">
             <FontAwesomeIcon icon={faPhone} /> 01704 829457

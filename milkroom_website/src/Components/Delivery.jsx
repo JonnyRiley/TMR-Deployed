@@ -36,10 +36,9 @@ const Delivery = () => {
       <p className="deliveryP">
         Monday: CLOSED<br></br> Tuesday: CLOSED<br></br> Wednesday: CLOSED
         <br></br>
-        Thursday: CLOSED<br></br> Friday: 6pm - 10pm<br></br> Saturday: 6pm -
-        10pm
+        Thursday: CLOSED<br></br> Friday: 5pm - 9pm<br></br> Saturday: 5pm - 9pm
         <br></br>
-        Sunday: 6pm - 10pm
+        Sunday: 5pm - 9pm
         <br></br>{" "}
       </p>
       <p className="CovidAlert">

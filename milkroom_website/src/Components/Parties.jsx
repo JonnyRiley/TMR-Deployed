@@ -10,22 +10,24 @@ const Parties = () => {
       <h1 className="partyTitleH1">HOSTING AN EVENT?</h1>
       <div className="about">
         <img className="partyIMG" src={party} alt="partyLayout"></img>
-        <p className="eventText">
+        <div className="aboutFlexBox">
           <h2 className="partyTitle">VENUE HIRE</h2>
-          Are you looking to host a party?<br></br> We have the perfect venue
-          for you and have specialised<br></br> packages for your event...
-          <br></br>
-          <br></br>Childrens Party
-          <br></br>
-          <br></br>
-          Birthday Party<br></br>
-          <br></br>
-          Baby Shower<br></br>
-          <br></br>
-          Engagement Party<br></br>
-          <br></br>
-          Family get together<br></br>
-        </p>
+          <p className="eventText">
+            Are you looking to host a party?<br></br> We have the perfect venue
+            for you and have specialised<br></br> packages for your event...
+            <br></br>
+            <br></br>Childrens Party
+            <br></br>
+            <br></br>
+            Birthday Party<br></br>
+            <br></br>
+            Baby Shower<br></br>
+            <br></br>
+            Engagement Party<br></br>
+            <br></br>
+            Family get together<br></br>
+          </p>
+        </div>
       </div>
       <p className="partyText">
         <h2 className="eventTitle">IT'S PARTY TIME</h2>

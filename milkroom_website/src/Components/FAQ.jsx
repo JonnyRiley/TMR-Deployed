@@ -47,9 +47,9 @@ const FAQ = () => {
         Tuesday: CLOSED <br></br>
         Wednesday: CLOSED <br></br>
         Thursday: CLOSED <br></br>
-        Friday: 6pm – 10pm <br></br>
-        Saturday: 6pm - 10pm <br></br>
-        Sunday: 6pm - 10pm <br></br> <br></br>
+        Friday: 5pm – 9pm <br></br>
+        Saturday: 5pm - 9pm <br></br>
+        Sunday: 5pm - 9pm <br></br> <br></br>
         <p className="FAQBold">WHAT AREAS DO YOU DELIVER TO?</p> <br></br>
         We deliver to the following post codes across Southport:
         <br></br>PR8 3, PR8 4, PR8 5, PR8 6, PR8 9, PR9 7, PR9 9.<br></br>{" "}

@@ -12,6 +12,22 @@
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 1440px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 660px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 700px;
+  }
+}
 @media only screen and (min-width: 1560px) {
   .about {
     height: 700px;
@@ -1274,8 +1290,9 @@ h3 {
   .about .partyIMG {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 750px;
+    width: 85%;
+    padding-left: 6.5%;
+    height: 490px;
   }
   .aboutUsTextSecondP {
     height: 420px;
@@ -1461,13 +1478,13 @@ h3 {
   }
 }
 @media only screen and (max-width: 740px) {
-  .about .partyIMG {
+  /*  .about .partyIMG {
     display: flex;
     justify-content: center;
     width: 80%;
     height: 500px;
-    padding-left: 75px;
-  }
+    padding-left: 0px;
+  } */
   .partyTitle {
     display: flex;
     justify-content: center;
@@ -1485,10 +1502,45 @@ h3 {
     height: 425px;
     padding-left: 40px;
   }
-  .partyTitle {
+  .about .partyTitle {
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: black;
+  }
+}
+.aboutFlexBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+@media only screen and (max-width: 1257px) {
+  .aboutFlexBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutFlexBox .partyTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: black;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .about .partyTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
     font-size: 45px;
     color: black;
@@ -2403,7 +2455,8 @@ h3 {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 650px;
+    height: 535px;
+    padding-left: 0px;
   }
   .about .partyTitle {
     display: flex;
@@ -2436,15 +2489,7 @@ h3 {
     background-color: white;
   }
 }
-@media only screen and (max-width: 414px) {
-  .about .partyIMG {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 350px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+@media only screen and (max-width: 700px) {
   .PartyIMGDiv .PartyIMG {
     height: 340px;
     width: 100%;
@@ -2458,6 +2503,56 @@ h3 {
     flex-direction: column;
     background-color: white;
   }
+}
+@media only screen and (max-width: 740px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 196px;
+    padding-left: 12.5%;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .about .partyIMG {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* .PartyIMGDiv .PartyIMG {
+    height: 340px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .PartyIMGDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  } */
   .partyText {
     width: 100%;
     display: flex;
@@ -2472,6 +2567,7 @@ h3 {
   }
   .eventText {
     font-size: 13px;
+    padding-left: 0%;
   }
 }
 .homeAlone {
@@ -2637,7 +2733,7 @@ h3 {
 }
 .eventText {
   height: 420px;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -5567,8 +5663,8 @@ element.style {
     border-radius: 0%;
   }
 }
-@media only screen and (max-width: 440px) {
-  .PartyIMG {
+/* @media only screen and (max-width: 440px) {
+  .PartyIMGDiv .PartyIMG {
     height: 300px;
     width: 80%;
     display: flex;
@@ -5577,7 +5673,7 @@ element.style {
     padding-right: 10%;
     border-radius: 0%;
   }
-}
+} */
 @media only screen and (max-width: 340px) {
   .PartyIMG {
     height: 240px;
