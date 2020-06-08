@@ -17,16 +17,16 @@ const About = () => {
           <h2 className="aboutH2">themilkroom</h2>
           In 2017, themilkroom was founded by our family. The aim was to bring
           delicious desserts to Southport within a family friendly setting. We
-          completely redesigned our store to make it fit for purpose for our
+          completely redesigned the store to make it fit for purpose for our
           customers to enjoy. The idea was created around our kitchen table as
-          we had a passion for all things desserts!!<br></br>
-          <br></br> themilkroom has grown to employing our amazing staff team
-          and provide deliveries for residents in Southport. This has been an
-          exciting journey, and not one without its challenges but we have been
-          overwhelmed by our customers response to our store and we thank you
-          very much, your support is so appreciated. We will continue to bring
-          you the latest desserts whether that’s in store or through take aways
-          and delivery.
+          we had a passion for all things desserts!<br></br>
+          <br></br> themilkroom has grown to employ our amazing staff team and
+          provide deliveries for customers in Southport. This has been an
+          exciting journey, and not one without its challenges, but we have been
+          overwhelmed by the support given to our store and we thank you very
+          much, your custom is so appreciated. We will continue to bring you the
+          latest desserts whether that’s in store or through takeaway and
+          delivery.
           <br></br>Best Wishes from us all, themilkroom team.
         </p>
       </div>

@@ -3575,7 +3575,7 @@ element.style {
     font-size: 33px;
   }
 }
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .homeAlone {
     height: auto;
     width: 50%;
@@ -3590,7 +3590,7 @@ element.style {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-}
+} */
 
 @media only screen and (max-width: 1000px) {
   .divOne .homeAlone {
@@ -4605,6 +4605,23 @@ element.style {
     margin-top: 15px;
     background-color: lightgray;
     transition: transform 0.2s;
+  }
+  #DesertGrid:hover .button_Amount {
+    visibility: visible;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    grid-area: three;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    border: #000;
+    border-style: thin;
+    margin: 0;
   }
   .desertTitle {
     grid-area: two;

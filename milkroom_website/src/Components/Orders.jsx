@@ -130,14 +130,14 @@ class Orders extends React.Component {
             <div className="stepTwoForm">
               <h2 className="ProductsH2">STEP ONE: SELECT YOUR BOX SIZE</h2>
               <h3 className="ordersH2">
-                At themilkroom our passion is desserts. We decided to make it
+                At themilkroom our passion is desserts. We wanted to make it
                 easy for you to order all of our popular desserts online. Your
                 dessert box can have 4, 5 or 6 items and you choose what
                 products you want inside. To make sure your order is secure we
                 take payment over the phone, once you have selected your items a
                 member of the team will call you at your convenience. Your
                 dessert box can be delivered to you or collected in store - the
-                choice is yours. We hope you enjoy!{" "}
+                choice is yours. We hope you enjoy.{" "}
               </h3>
               <label className="ordersLabel">
                 SELECT YOUR SIZE

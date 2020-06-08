@@ -29,6 +29,13 @@ const Footer = () => {
           <p className="copyRightP">© themilkroom ALL RIGHTS RESERVED</p>
         </div>
         <div className="footerRow">
+          <span id="siteseal">
+            <script
+              async
+              type="text/javascript"
+              src="https://seal.godaddy.com/getSeal?sealID=j8rc99lhnQxRDgLyt9vjXpPHPFvec8cRqa7i6yZzVL1AJ5HxTBRmq93lzCJy"
+            ></script>
+          </span>
           <div className="Icons">
             <SocialIcon
               className="Icon"

@@ -33,10 +33,9 @@ const Offers = () => {
           </div>
           <li className="offersLiSmallPrint">
             <br></br>This offer does not include our standard delivery charge.
-            Available on Deliveroo and telephone orders (01704 829547) This
-            offer is only available on Friday/ Saturday 6pm -10pm and can only
-            be used on items listed from themilkroom menu. No refunds are
-            available for this offer.
+            Available on Deliveroo only. This offer is only available on Friday/
+            Saturday 6pm -10pm and can only be used on items listed from
+            themilkroom menu. No refunds are available for this offer.
           </li>
         </ul>
       </div>
@@ -65,10 +64,10 @@ const Offers = () => {
           <li className="offersLiSmallPrint">
             This offer is not available for Indulgent milkshakes and is for
             standard milkshakes only. This offer does not include our standard
-            delivery charge. Available on Deliveroo and telephone orders (01704
-            829547) This offer is only available on Friday/ Saturday 6pm -10pm
-            and can only be used on items listed from themilkroom menu. No
-            refunds are available for this offer.
+            delivery charge. Available on Deliveroo only. This offer is only
+            available on Friday/ Saturday 6pm -10pm and can only be used on
+            items listed from themilkroom menu. No refunds are available for
+            this offer.
           </li>
         </ul>
       </div>
@@ -101,7 +100,7 @@ const Offers = () => {
           <li className="offersLiSmallPrint">
             {" "}
             This offer does not include our standard delivery charge. Available
-            on Deliveroo and telephone orders (01704 829547) This offer is only
+            on telephone orders (01704 829547) only. This offer is only
             available on Wednesday – delivery is available from 10am -2pm. This
             offer can only be used on items listed from themilkroom menu. No
             refunds are available for this offer.
@@ -111,7 +110,7 @@ const Offers = () => {
       <div className="divTwo">
         <img className="homeAlone1" src={freakshake} alt="DessertsOffer"></img>
         <ul className="OffersUL">
-          <h2 className="offersH2">FREEKSHAKE FRIDAY</h2>
+          <h2 className="offersH2">FREAKSHAKE FRIDAY</h2>
           <li className="offersLi">
             - Any regular freakshake for £4.95<br></br>All day long<br></br>Get
             that Friday Feeling
