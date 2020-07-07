@@ -289,6 +289,11 @@
   }
 }
 
+@media only screen and (max-width: 1560px) {
+  .about {
+    height: 475px;
+  }
+}
 @media only screen and (min-width: 2560px) {
   .about .formOption {
     display: flex;
