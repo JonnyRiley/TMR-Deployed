@@ -5,7 +5,6 @@ export const postAnItem = (requestBody) => {
   return axios
     .post("https://tmrdb.herokuapp.com/api/users", requestBody)
     .then(({ data }) => {
-      console.log(data.user, "APIFetching");
       return data.user;
     });
 };

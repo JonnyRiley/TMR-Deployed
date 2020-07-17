@@ -45,7 +45,6 @@ class App extends Component {
           <ErrorPage default />
         </Router>
         <Footer />
-        {/* <NewsletterForm /> */}
       </main>
     );
   }
