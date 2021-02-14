@@ -11,7 +11,7 @@ import Products from "./Components/Products";
 import About from "./Components/About";
 import Delivery from "./Components/Delivery";
 import NewsletterForm from "./Components/Newsletter";
-import Orders from "./Components/Orders";
+// import Orders from "./Components/Orders";
 import TC from "./Components/TC";
 import Cookie from "./Components/Cookies";
 import Parties from "./Components/Parties";
@@ -34,7 +34,7 @@ class App extends Component {
           <Products path="/products" />
           <About path="/about" />
           <Delivery path="/delivery" />
-          <Orders path="/orders" />
+          {/* <Orders path="/orders" /> */}
           <TC path="/terms&conditions" />
           <Privacy path="/privacy" />
           <Cookie path="/cookies" />

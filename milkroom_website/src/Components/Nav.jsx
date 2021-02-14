@@ -19,9 +19,9 @@ const Nav = () => {
       <Link to="/about">
         <button className="navButton">ABOUT US</button>
       </Link>
-      <Link to="/orders">
+      {/* <Link to="/orders">
         <button className="navButton">ORDERS</button>
-      </Link>
+      </Link> */}
     </nav>
   );
 };

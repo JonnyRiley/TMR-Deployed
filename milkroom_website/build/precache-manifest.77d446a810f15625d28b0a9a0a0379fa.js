@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7467bd55c0f6d5e7826c69ccefa5e537",
+    "revision": "f379387cef9f8918df6e1e3d7564c6ec",
     "url": "/index.html"
   },
   {
-    "revision": "3533e2b1af47080eb123",
+    "revision": "77475b2c8326c402bbc7",
     "url": "/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "d8d837c30436a38e2a8b",
-    "url": "/static/css/main.9009a349.chunk.css"
+    "revision": "b8ad609452c9e1a0862a",
+    "url": "/static/css/main.de8068b1.chunk.css"
   },
   {
-    "revision": "3533e2b1af47080eb123",
-    "url": "/static/js/2.6d8059a9.chunk.js"
+    "revision": "77475b2c8326c402bbc7",
+    "url": "/static/js/2.010d235b.chunk.js"
   },
   {
     "revision": "ae006ca4528a597ac5e33d9cd2e5b468",
-    "url": "/static/js/2.6d8059a9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.010d235b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8d837c30436a38e2a8b",
-    "url": "/static/js/main.7786ffa0.chunk.js"
+    "revision": "b8ad609452c9e1a0862a",
+    "url": "/static/js/main.9e1d377c.chunk.js"
   },
   {
     "revision": "cc9a6076e700812938fa",
@@ -124,20 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/StrawPancakes.1a94ce96.jpg"
   },
   {
-    "revision": "2750ef344c1cf4b721e2a38d3e51e061",
-    "url": "/static/media/brownie.2750ef34.png"
-  },
-  {
     "revision": "bca84af2bbd58076e710b89a644c95e3",
     "url": "/static/media/brunch.bca84af2.JPG"
   },
   {
     "revision": "d8cd41e50f68d3eb078189f6c74faf86",
     "url": "/static/media/candy.d8cd41e5.jpg"
-  },
-  {
-    "revision": "27d4a13371597f3ee9057b162ab54983",
-    "url": "/static/media/choc-cookie.27d4a133.png"
   },
   {
     "revision": "19827467ec613134e38ef631ab4627af",
@@ -164,10 +156,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/freakshakeChoccy.2635e494.jpg"
   },
   {
-    "revision": "3f1e9888549c3b407bc2e1cd87529efb",
-    "url": "/static/media/fudge-bwonie.3f1e9888.png"
-  },
-  {
     "revision": "52804611caa65b1ad3f65f8ff0b1eb90",
     "url": "/static/media/funkyFreakshake.52804611.jpg"
   },
@@ -188,10 +176,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/halloweenFreaksake.a6783bc7.jpg"
   },
   {
-    "revision": "59f2c51f36a159eebf4ee319702cf336",
-    "url": "/static/media/kinderBueno-brownie.59f2c51f.png"
-  },
-  {
     "revision": "7960f0bb42de1aee1018cd98ef448bc8",
     "url": "/static/media/kinderBueno.7960f0bb.jpg"
   },
@@ -200,32 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/largeChocFreakshake.e6412cd1.jpg"
   },
   {
-    "revision": "f423fa916bff82837ef03c7d973b66ca",
-    "url": "/static/media/lotus-brownie.f423fa91.png"
-  },
-  {
-    "revision": "e896816dcefc7d75b1da36e50bd0a01f",
-    "url": "/static/media/lotus-donut.e896816d.png"
-  },
-  {
-    "revision": "4542e439a19848f0defdcb8303645b24",
-    "url": "/static/media/lotus-slice.4542e439.png"
-  },
-  {
     "revision": "af4ca807a8125c0c9133aadb2618cd3a",
     "url": "/static/media/lotusBrownie.af4ca807.jpg"
-  },
-  {
-    "revision": "98fe8efdc7827ca88ec6fa94b2ad544a",
-    "url": "/static/media/m&m brownie.98fe8efd.png"
-  },
-  {
-    "revision": "8ff86be6be63da5c8685223dacea6281",
-    "url": "/static/media/milkcookie.8ff86be6.png"
-  },
-  {
-    "revision": "2138c0c511dc5373857744f142cc2371",
-    "url": "/static/media/oreo-donut.2138c0c5.png"
   },
   {
     "revision": "63bf89bd036293adc3cc546386624a6d",
@@ -378,14 +338,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71e970cdff5445b3d260af5ed4b3bad4",
     "url": "/static/media/tango-Ice.71e970cd.jpg"
-  },
-  {
-    "revision": "9017bf23cf212730b7d1b80c561f31ae",
-    "url": "/static/media/terryschoc-brownie.9017bf23.png"
-  },
-  {
-    "revision": "5552e24fa06a3266812f90a42f8cab3e",
-    "url": "/static/media/white-cookie.5552e24f.png"
   },
   {
     "revision": "9f866e553c0461d1e806d381473de554",

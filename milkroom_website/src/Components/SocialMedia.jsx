@@ -10,8 +10,8 @@ const SocialMedia = () => {
           width="300"
           height="464"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
         <iframe
@@ -20,8 +20,8 @@ const SocialMedia = () => {
           width="300"
           height="464"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
         <iframe
@@ -30,8 +30,8 @@ const SocialMedia = () => {
           width="300"
           height="400"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
       </div>
@@ -42,8 +42,8 @@ const SocialMedia = () => {
           width="300"
           height="398"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
         <iframe
@@ -52,8 +52,8 @@ const SocialMedia = () => {
           width="300"
           height="398"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
         <iframe
@@ -62,8 +62,8 @@ const SocialMedia = () => {
           width="300"
           height="398"
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          // allowTransparency="true"
           allow="encrypted-media"
         ></iframe>
       </div>

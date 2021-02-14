@@ -15,8 +15,7 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: true,
-  pauseOnHover: true,
-  isLoading: true,
+  pauseOnHover: true
 };
 
 class Home extends Component {

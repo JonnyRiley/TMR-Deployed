@@ -7,7 +7,12 @@
   display: flex;
   justify-content: center;
 }
-
+.halfWidth {
+  width: 50%;
+}
+.fullWidth {
+  width: 100%;
+}
 .allDesertTiles {
   display: flex;
   flex-direction: column;
@@ -1263,6 +1268,7 @@ ul {
     background-color: white;
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .about .aboutImg {
     height: 615px;
@@ -2418,7 +2424,7 @@ ul {
   }
 }
 .homeAlone {
-  height: 700px;
+  /* height: 700px; */
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -2546,7 +2552,7 @@ ul {
 }
 
 .aboutImg1 {
-  height: 474px;
+  /* height: 474px; */
 
   width: 50%;
   display: flex;
