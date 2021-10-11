@@ -10,7 +10,7 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "@wicked_query/react-sticky": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "email-validator": "^2.0.4",
     "netlify-cli": "^2.71.0",
     "react": "^16.12.0",
