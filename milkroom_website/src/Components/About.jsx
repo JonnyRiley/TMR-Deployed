@@ -54,17 +54,17 @@ const About = () => {
         <p className="aboutUsText">
           <h4 className="aboutH2">OPENING HOURS</h4>
           <br></br>
-          {/* Monday: 10:00 - 18:00<br></br> Tuesday: 10:00 - 18:00 <br></br>
-          Wednesday: 10:00 - 18:00<br></br>Thursday: 10:00 - 18:00<br></br>
-          Friday: 10:00 - 22:00<br></br>Saturday: 10:00 - 22:00<br></br>
-          Sunday: 10:00 - 18:00<br></br> */}
-          Monday: CLOSED<br></br> Tuesday: CLOSED <br></br>
+          Monday: 12:00 - 20:00<br></br> Tuesday: 12:00 - 20:00 <br></br>
+          Wednesday: 12:00 - 20:00<br></br>Thursday: 12:00 - 20:00<br></br>
+          Friday: 12:00 - 22:00<br></br>Saturday: 12:00 - 22:00<br></br>
+          Sunday: 12:00 - 22:00<br></br>
+          {/* Monday: CLOSED<br></br> Tuesday: CLOSED <br></br>
           Wednesday: CLOSED<br></br>Thursday: CLOSED<br></br>
           Friday: 18:00 - 22:00<br></br>Saturday: 18:00 - 22:00<br></br>
-          Sunday: 18:00 - 22:00<br></br>
+          Sunday: 18:00 - 22:00<br></br> */}
           <br></br>
-          <a className="aboutPhoneNo" href="tel:01704829457">
-            <FontAwesomeIcon icon={faPhone} /> 01704 829457
+          <a className="aboutPhoneNo" href="tel:01704829547">
+            <FontAwesomeIcon icon={faPhone} /> 01704 829547
           </a>
           <br></br>
           <p className="CovidAlertMsg">

@@ -19,7 +19,7 @@ const Delivery = () => {
             alt="Deliveroo Logo"
           ></img>
         </a>
-        <a className="DeliveryAnchor" href="tel:01704829457">
+        <a className="DeliveryAnchor" href="tel:01704829547">
           <img className="PhoneImg" src={Telephone} alt="Telephone Logo"></img>
         </a>
       </div>

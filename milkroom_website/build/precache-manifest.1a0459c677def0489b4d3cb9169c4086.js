@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f379387cef9f8918df6e1e3d7564c6ec",
+    "revision": "3d862d84cb33dde586e5fad9e69d3488",
     "url": "/index.html"
   },
   {
-    "revision": "77475b2c8326c402bbc7",
-    "url": "/static/css/2.5ffa1744.chunk.css"
+    "revision": "986233896c5172399b1f",
+    "url": "/static/css/2.677b3d0f.chunk.css"
   },
   {
-    "revision": "b8ad609452c9e1a0862a",
-    "url": "/static/css/main.de8068b1.chunk.css"
+    "revision": "9a20bc015b52c614d9e8",
+    "url": "/static/css/main.d9e2bd79.chunk.css"
   },
   {
-    "revision": "77475b2c8326c402bbc7",
-    "url": "/static/js/2.010d235b.chunk.js"
+    "revision": "986233896c5172399b1f",
+    "url": "/static/js/2.a77a9974.chunk.js"
   },
   {
-    "revision": "ae006ca4528a597ac5e33d9cd2e5b468",
-    "url": "/static/js/2.010d235b.chunk.js.LICENSE.txt"
+    "revision": "d6985de7b7a070afc8bacd0f5eed349d",
+    "url": "/static/js/2.a77a9974.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8ad609452c9e1a0862a",
-    "url": "/static/js/main.9e1d377c.chunk.js"
+    "revision": "9a20bc015b52c614d9e8",
+    "url": "/static/js/main.7456b61b.chunk.js"
   },
   {
-    "revision": "cc9a6076e700812938fa",
-    "url": "/static/js/runtime-main.d002d84a.js"
+    "revision": "da4147d3ffc7b9c64ac7",
+    "url": "/static/js/runtime-main.c891aeb2.js"
   },
   {
     "revision": "53e7f8170d0b2537617ce5c55aa30a05",
@@ -108,16 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Milk-Room-Final-logo.d7e3041b.png"
   },
   {
-    "revision": "f66175b4e63eb4ea488619e5503e7dba",
-    "url": "/static/media/Screenshot.f66175b4.png"
+    "revision": "8f8f54a5bd440bd12440bba87f49edc6",
+    "url": "/static/media/NewMenu-1.8f8f54a5.jpg"
   },
   {
-    "revision": "54107ba0ebc5871c234412778aac8dfd",
-    "url": "/static/media/Screenshot1.54107ba0.png"
+    "revision": "6dde8a9e407c1e6a2be22eb95e990c9f",
+    "url": "/static/media/NewMenu-2.6dde8a9e.jpg"
   },
   {
-    "revision": "7fd37ee9d4faabbfde3316a61519d323",
-    "url": "/static/media/Screenshot2.7fd37ee9.png"
+    "revision": "646206cd7adb343d81dbb3cf55f8908d",
+    "url": "/static/media/NewMenu-3.646206cd.jpg"
+  },
+  {
+    "revision": "3da0a4f1c0e8aacc4d52cbd0e1e8b548",
+    "url": "/static/media/NewMenu-4.3da0a4f1.jpg"
   },
   {
     "revision": "1a94ce96bb7b79c56aa32cf94f05f645",

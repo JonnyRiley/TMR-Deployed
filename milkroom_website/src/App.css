@@ -561,8 +561,12 @@ ul {
   border-width: 0.1em;
   border-style: solid;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 .navBar {
-  width: 99.99%;
+  width: 99.5%;
   background-color: black;
   color: white;
   font-size: medium;

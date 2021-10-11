@@ -1,5 +1,5 @@
 {
-  "name": "fe-nc-news",
+  "name": "themilkroom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,12 +12,13 @@
     "@wicked_query/react-sticky": "^1.0.1",
     "axios": "^0.19.2",
     "email-validator": "^2.0.4",
-    "netlify-cli": "^2.40.0",
+    "netlify-cli": "^2.71.0",
     "react": "^16.12.0",
     "react-alert": "^7.0.0",
     "react-cookie-consent": "^4.0.0",
     "react-dom": "^16.12.0",
     "react-loader-spinner": "^3.1.14",
+    "react-responsive-carousel": "^3.2.21",
     "react-scripts": "3.4.0",
     "react-slideshow-image": "^1.4.0",
     "react-spinners": "^0.8.3",
